@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Projects | Boğaziçi University Text Analytics and BIoInformatics Lab</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="static/css/bootstrap.css" rel="stylesheet">
+      <link href="static/css/flat-ui.css" rel="stylesheet">
+      <link href="static/css/lab.css" rel="stylesheet">
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+      <!--[if lt IE 9]>
+      <script src="static/js/html5shiv.js"></script>
+      <script src="static/js/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body data-spy="scroll" data-target="#affix-nav">
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+               <span class="sr-only">Toggle navigation</span>
+               </button>
+               <a class="navbar-brand" href="/" title="Text Analytics and BIoInformatics Lab">TABI</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+               <ul class="nav navbar-nav">
+                  <li >
+                     <a href="/">Home</a>
+                  </li>
+                  <li >
+                     <a href="people.html">People</a>
+                  </li>
+                  <li>
+                     <a href="projects.html">Projects</a>
+                  </li>
+                  <li >
+                     <a href="publications.html">Publications</a>
+                  </li>
+                  <li >
+                     <a href="theses.html">Theses</a>
+                  </li>
+                  <li >
+                     <a href="courses.html">Courses</a>
+                  </li>
+                  <li class="active">
+                     <a href="resources.html">Resources</a>
+                  </li>
+               </ul>
+               <ul class="nav navbar-nav navbar-right visible-lg">
+                  <li><a href="http://www.boun.edu.tr/" title="Boğaziçi University">BU</a></li>
+                  <li>
+                     <a href="http://www.cmpe.boun.edu.tr/" title="Boğaziçi University Computer Engineering Department">
+                     CmpE
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+               <h1 class="lab-section-title">Resources</h1>
+               <div class="row" id="accordion">
+                  <div class="col-xs-12">
+                     <div class="panel panel-default lab-panel">
+                        <div class="panel-body">
+                           <a href="https://github.com/onurgu/ner-tagger-dynet" target="_blank">
+                              <div class="small-title">Neural NER Tagger for Morphologically Rich Languages</div>
+                           </a>
+                           <div>
+                              <p>This repository is basically a Bi-LSTM based sequence tagger in both Tensorflow and Dynet which can utilize several sources of information about each word unit like word embeddings, character based embeddings and morphological tags from an FST to obtain the representation for that specific word unit. The details of the methods is explained in (Gungor et al., 2017).
+                              </p>
+                              <p>Gungor, O., Yildiz, E., Uskudarli, S., & Gungor, T. (2017). Morphological Embeddings for Named Entity Recognition in Morphologically Rich Languages. arXiv preprint
+                                 <a href="https://arxiv.org/abs/1706.00506" target="_blank">
+                                 arXiv:1706.00506
+                                 </a>.
+                              <p></p>
+                              <a href="https://github.com/onurgu/ner-tagger-dynet" target="_blank">
+                                 <div>https://github.com/onurgu/ner-tagger-dynet</div>
+                              </a>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xs-12">
+                     <div class="panel panel-default lab-panel">
+                        <div class="panel-body">
+                           <a href="https://github.com/onurgu/neural-turkish-morphological-disambiguator" target="_blank">
+                              <div class="small-title">Neural Turkish morphological disambiguator</div>
+                           </a>
+                           <div>
+                              <p>This tool disambiguates the potential morphological analyses of a Turkish word given its context. It employs word representations that are composed of character based embeddings which are based on the surface form and word embeddings. It models each potential morphological analysis as a composition of two embeddings: embeddings based on character sequences of its root and embeddings based on morpheme sequence in the analysis. This is a re-implementation of (Shen et al., 2016).
+                              </p>
+                              <p>Gungor, O., Yildiz, E., Uskudarli, S., & Gungor, T. (2017). Morphological Embeddings for Named Entity Recognition in Morphologically Rich Languages. arXiv preprint
+                                 <a href="https://arxiv.org/abs/1706.00506" target="_blank">
+                                 arXiv:1706.00506
+                                 </a>.
+                              </p>
+                              <p>Shen, Q., Clothiaux, D., Tagtow, E., Littell, P., & Dyer, C. (2016). The Role of Context in Neural Morphological Disambiguation. In COLING (pp. 181-191).
+                              </p>
+                              <p></p>
+                              <a href="https://github.com/onurgu/neural-turkish-morphological-disambiguator" target="_blank">
+                                 <div>https://github.com/onurgu/neural-turkish-morphological-disambiguator</div>
+                              </a>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <footer>
+            <hr>
+            <p class="text-center">
+               &copy; 
+               <a href="http://www.boun.edu.tr/">Boğaziçi University</a> 
+               <a href="http://www.cmpe.boun.edu.tr/">Computer Engineering Department</a> 
+               2020
+            </p>
+         </footer>
+      </div>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+      <script>
+         window.jQuery || document.write('<script src="static/js/jquery-2.0.3.min.js"><\/script>')
+      </script>
+      <script src="static/js/bootstrap.min.js"></script>
+      <script type="text/javascript">
+         var _gaq = _gaq || [];
+         _gaq.push(['_setAccount', 'UA-124225373-1']);
+         _gaq.push(['_trackPageview']);
+         
+         (function() {
+         	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+      </script>
+   </body>
+</html>

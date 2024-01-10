@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+
+<meta charset="utf-8"/>
+
+
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Bio-SSES Online Demo</title>
+<link href="style.css" rel="stylesheet" media="all" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="Container">
+  <div id="Header">
+            	<div id="logo">
+                </div>
+                <div id="text1">
+                	<h1> BIOSSES : Biomedical Semantic Similarity Estimation System</h1>
+                </div>
+            </div>
+        	<!-- InstanceBeginEditable name="EditRegion3" -->
+        	<div id="Content1">
+        	  <p style="text-decoration:underline">Method:</p>
+        	  <select id="method">
+                  <option value="4"> Qgram Similarity (Lexical Similarity) </option>
+                  <option value="1" > WordNet Similarity (WS4J-Path)</option>
+                  <option value="2"> UMLS Similarity (Path) </option>
+		  <option value="5"> Paragraph Vector </option>
+        	  <option value="3" > Combined Ontology Method (WordNet-UMLS) </option>
+        	  <option value="6"> Supervised Approach </option>
+      	    </select>
+        	  <textarea name="sentence1" cols="20" rows="15" id="s1"  dir="ltr" placeholder="#Enter your first sentence"></textarea>
+        	  <textarea name="sentence2" cols="20" rows="15" id="s2"  dir="ltr" placeholder="#Enter your second sentence"></textarea>
+        	  <input name="Button" type="button" value="Calculate" onclick="sendCustomerSentencesToServerSide()"/>
+        	  <textarea name="result" cols="10" rows="1" id="result" dir="ltr"></textarea>
+      	  </div>
+    <div id="Content2">
+        <div id="navigation">
+            <ul >
+                <li><a class="active" href="About.html">About</a></li>
+                <li><a class="active" href="DataSet.html">Data Set</a></li>
+                <li><a class="active" href="SourceCode.html">Source Code</a></li>
+            </ul>
+
+        </div>
+        <style> .indented { padding-left: 10pt; padding-right: 5pt; }  .indented2 {padding-left: 40pt; }</style>
+	<p class="indented" style="color:#6E6E6E">This web site is best viewed in Google Chrome and Internet Explorer. </p>
+        <p class="indented">BioSSES computes similarity of biomedical sentences by utilizing WordNet as the general domain &emsp;ontology and UMLS as the biomedical domain specific ontology. </p>
+        <p class="indented">We allow you to compute sentence similarity with the following methods:</p>
+        <dl class="indented2">
+	    <dt>Qgram [0-1]</dt>
+	    <dt>Wordnet [0-1]</dt>
+            <dt>UMLS [0-1]</dt>
+	    <dt>Paragraph Vector [0-1]</dt>
+            <dt>Combined Ontology (Wordnet and UMLS) [0-1]</dt>
+            <dt>Supervised Approach [0-4]</dt>
+        </dl>
+              <p class="indented">For citing this study, please use:</p>
+               <p class="indented"> Gizem Soğancıoğlu, Hakime Öztürk, Arzucan Özgür; BIOSSES: a semantic sentence similarity
+		 estimation system for the biomedical domain. Bioinformatics 2017; 33 (14): i49-i58. doi: <a href="https://doi.org/10.1093/bioinformatics/btx238" target="_blank">10.1093/bioinformatics/btx238 </a> </p>
+			  <br />
+       
+	     <p class="indented">BioSSES is a set of Java codes for computing semantic sentence similarity,
+	   developed by <a href="mailto:gizemsogancioglu@gmail.com">Gizem Sogancioglu</a>, 
+                        <a href="mailto:hakime.ozturk@boun.edu.tr">Hakime Ozturk </a> and 
+                        <a href="https://www.cmpe.boun.edu.tr/~ozgur/">Arzucan Ozgur</a>, 
+	    in the Department of <a href="https://www.cmpe.boun.edu.tr/"> Computer Engineering</a>,
+			Bogazici University.</p>
+				 
+	     <p class="indented"> BioSSES is open-source software made available under the terms of the 
+	     <a href="https://www.gnu.org/licenses/gpl-3.0.en.html"> The GNU Common Public License v.3.0.</a>
+	     You are free to use the code under those terms.   </p>
+		 <br />
+		 <br />
+		
+
+ <div style="position: absolute; bottom: -220px; color:#D8D8D8">
+    </div>
+    </div>
+
+    <!-- InstanceEndEditable --></div>
+
+
+</body>
+
+
+<script language="JavaScript" type="text/javascript" >
+    var invocation = new XMLHttpRequest();
+    var url = "http://79.123.177.134:8080/sses-1.0-SNAPSHOT/services/SSESService";
+
+
+    function sendStringRequest(){
+        var sentence1 = document.getElementById("s1").value;
+        var sentence2 = document.getElementById("s2").value;
+        var methodType = document.getElementById("method").value;
+
+//        console.log(sentence1);
+//        console.log(sentence2);
+        console.log(methodType);
+        var requestBodyForStringFunction = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" "
+                + "xmlns:ser=\"http://services/\">" + "<soapenv:Header/> <soapenv:Body> <ser:calculateSimilarityScoreForGivenPair> " +
+                "<arg0>"+ sentence1+"</arg0> " + "<arg1>"+ sentence2 + "</arg1> <arg2>" + methodType +"</arg2> " +
+                "</ser:calculateSimilarityScoreForGivenPair> </soapenv:Body> </soapenv:Envelope>";
+
+
+        return requestBodyForStringFunction;
+    }
+    function sendCustomerSentencesToServerSide() {
+
+        var requestBody = sendStringRequest();
+        if(invocation){
+            invocation.open("POST", url, true);
+            invocation.setRequestHeader("Content-type", "text/xml");
+            invocation.send(requestBody);
+            console.log("--------------");
+            console.log(requestBody);
+            console.log("--------------");
+
+            invocation.onreadystatechange = function(){
+                console.log(invocation.readyState);
+                console.log(invocation.status);
+                if(invocation.readyState == 4){
+                    if(invocation.status == 200){
+                        outputComingMsg();
+                    }
+                }
+            };
+        }
+
+        else{
+            console.log("requestler uygun değil..")
+        }
+    }
+
+
+    function outputComingMsg(){
+        var response = invocation.responseXML.documentElement;
+        console.log(response);
+        var result = response.getElementsByTagName("return")[0].childNodes[0].nodeValue;
+
+        console.log(result);
+        document.getElementById("result").value = result;
+
+
+    }
+
+
+</script>
+<!-- InstanceEnd -->
+</html>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      template="resources/template.xhtml">
+    
+    <ui:define name="content">
+        <h:head>
+            <title>PLITOOL Description</title>
+            <style>
+                #content {padding-bottom: 20px;}
+            </style>
+        </h:head>
+        
+        <h:body>
+            <h1 align="center">PLITOOL</h1>
+            <h2>What is PLITOOL?</h2>
+            <p>
+                PLITOOL (Protein-Ligand Interaction TOOL) provides a multi-purpose platform to obtain
+                and analyze protein-ligand interactions. It combines three different functionalities:
+                <ul class="description">
+                    <li>Extraction of protein-ligand interactions from CHEMBL databases.</li>
+                    <li>Visualization of protein-protein interactions on different network models based on their ligands.</li>
+                    <li>Computation of compound similarity with three different methods.</li>
+                </ul>
+            </p>
+            <h2>What is Protein-Protein Network?</h2>
+            <p>
+                A protein-protein network is a representation where proteins are shown as the nodes
+                of a network and connected through a feature.
+
+		Protein-protein networks enables better investigation of protein interactions with
+                the help of network analysis metrics. Clustering is one of the most powerful approaches
+                in network models to investigate densely connected sub-groups.
+
+		PLITOOL provides a ligand-centric network model [cite] for a set of proteins which is
+                previously proposed by our team.
+            </p>
+            <h2>User Inputs</h2>
+            <p>
+                PLITOOL requires from user to decide (1)  protein name/protein family name/UniProt ID/Gene Ontology ID 
+		and (2) organism name.
+            </p>
+            <h2>Project Team</h2>
+            <p>
+                <ul>
+                    <lh>Developers</lh><br/>
+                    <li>Hakime Öztürk, Department of Computer Eng, Boğaziçi University</li>
+                    <li>Mehmet Aziz Yirik, Department of Computational Sci, Boğaziçi University</li>
+                    <li>Efe Erçetin, Department of Computer Eng, Boğaziçi University</li><br/>
+                    <lh>Advisors</lh><br/>
+                    <li>Arzucan Özgür, Department of Computer Eng, Boğaziçi University</li>
+                    <li>Elif Özkırımlı, Department of Chemical Eng, Boğaziçi University</li>
+                    <li>Kutlu Ülgen,  Department of Chemical Eng, Boğaziçi University</li>
+                </ul>
+            </p>		
+        </h:body>
+    </ui:define> 
+</ui:composition>

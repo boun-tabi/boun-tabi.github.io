@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Exploiting Pretrained Biochemical Language Models for Targeted Drug Design">
+  <meta name="keywords" content="Exploiting Pretrained Biochemical Language Models for Targeted Drug Design">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exploiting Pretrained Biochemical Language Models for Targeted Drug Design</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./static/css/js/brands.min.css">
+
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script defer src="./static/js/brands.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://tabilab.cmpe.boun.edu.tr">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Exploiting Pretrained Biochemical Language Models for Targeted Drug Design</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://gokceuludogan.github.io">Gökçe Uludoğan</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com.tr/citations?user=uyz9d2UAAAAJ&hl=en">Elif Ozkirimli</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://che.boun.edu.tr/tr/kutlu-ulgen">Kutlu O. Ulgen</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://avesis.istanbul.edu.tr/karalin/">Nilgün Lütfiye Karalı</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.cmpe.boun.edu.tr/~ozgur/">Arzucan Özgür</a><sup>1</sup>,
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Bogazici University,</span>
+            <span class="author-block"><sup>2</sup>La Roche AG,</span>
+            <span class="author-block"><sup>3</sup>Istanbul University</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://doi.org/10.1093/bioinformatics/btac482"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2209.00981"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+<!--               <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/boun-tabi/biochemical-lms-for-drug-design/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Materials Link. -->
+              <span class="link-block">
+                <a href="https://doi.org/10.5281/zenodo.6832145"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fa fa-database"></i>
+                  </span>
+                  <span>Materials</span>
+                  </a>
+              </span>
+              <span class="link-block">
+                <a href="https://huggingface.co/spaces/gokceuludogan/WarmMolGen"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fa fa-laptop"></i>
+                  </span>
+                  <span>Demo</span>
+                  </a>
+              </span>
+              <span class="link-block">
+                <a href="./static/ECCB22.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fa-brands fa-slideshare"></i>
+                  </span>
+                  <span>Slides</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/strategies.jpg" >
+      <h2 class="subtitle has-text-centered">
+        An overview of proposed warm start strategies. 
+
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p><strong>Motivation:</strong> The development of novel compounds targeting proteins of interest is one of the most important tasks in the pharmaceutical industry. Deep generative models have been applied to targeted molecular design and have shown promising results. Recently, target-specific molecule generation has been viewed as a translation between the protein language and the chemical language. However, such a model is limited by the availability of interacting protein–ligand pairs. On the other hand, large amounts of unlabelled protein sequences and chemical compounds are available and have been used to train language models that learn useful representations. In this study, we propose exploiting pretrained biochemical language models to initialize (i.e. warm start) targeted molecule generation models. We investigate two warm start strategies: (i) a one-stage strategy where the initialized model is trained on targeted molecule generation and (ii) a two-stage strategy containing a pre-finetuning on molecular generation followed by target-specific training. We also compare two decoding strategies to generate compounds: beamsearch and sampling.</p>
+          <p>
+            <strong>Results:</strong> The results show that the warm-started models perform better than a baseline model trained from scratch. The two proposed warm-start strategies achieve similar results to each other with respect to widely used metrics from benchmarks. However, docking evaluation of the generated compounds for a number of novel proteins suggests that the one-stage strategy generalizes better than the two-stage strategy. Additionally, we observe that beam search outperforms sampling in both docking evaluation and benchmark metrics for assessing compound quality.
+          </p>
+          <p>
+            <strong>Availability and implementation:</strong> The source code is available at <a href="https://github.com/boun-tabi/biochemical-lms-for-drug-design">https://github.com/boun-tabi/biochemical-lms-for-drug-design</a> and the materials (i.e., data, models, and outputs) are archived in Zenodo at <a href="https://doi.org/10.5281/zenodo.6832145">https://doi.org/10.5281/zenodo.6832145</a>. 
+          </p>
+          
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Acknowledgements</h2>
+    This work was supported by the Scientific and Technological Research Council of Turkey [Grant Numbers 119E133 and 2210-A to G.U.]. TUBA-GEBIP Award of the Turkish Science Academy (to A.O.) is gratefully acknowledged. 
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{uludogan2022exploiting,
+  author    = {Uludo{\u{g}}an, G{\"{o}}k{\c{c}}e and Ozkirimli, Elif and Ulgen, Kutlu O. and Karal{{\i}}, Nilg{\"{u}}n and {\"{O}}zg{\"{u}}r, Arzucan},
+  title     = {Exploiting Pretrained Biochemical Language Models for Targeted Drug Design},
+  journal   = {Bioinformatics},
+  year      = {2022},
+}</code></pre>
+  </div>
+</section>
+
+
+    
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link" 
+          href="https://tabilab.cmpe.boun.edu.tr">
+          <i class="fas fa-home"></i>
+      </a>
+      <a class="icon-link"
+         href="https://doi.org/10.1093/bioinformatics/btac482">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" 
+        href="https://github.com/boun-tabi/biochemical-lms-for-drug-design" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+      <a class="icon-link" 
+        href="https://doi.org/10.5281/zenodo.6832145"
+                   class="external-link button is-normal is-rounded is-dark">
+        <i class="fa fa-database"></i>
+      </a>
+      <a class="icon-link" 
+        href="https://huggingface.co/spaces/gokceuludogan/WarmMolGen"
+                   class="external-link button is-normal is-rounded is-dark">
+        <i class="fa fa-laptop"></i>
+      </a>
+      <a  class="icon-link" 
+        href="./static/ECCB22.pdf"
+        class="external-link button is-normal is-rounded is-dark">
+        <i class="fa-brands fa-slideshare"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is adapted from <a
+              href="https://github.com/nerfies/nerfies.github.io">https://github.com/nerfies/nerfies.github.io</a> and licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

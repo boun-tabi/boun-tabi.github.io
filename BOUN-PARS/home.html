@@ -1,0 +1,38 @@
+<div class="page-header">
+    <h1>BOUN-Pars: A Linguistically Enhanced Hybrid Deep Dependency Parser</h1>
+</div>
+
+
+<p class="lead">BOUN-Pars is a deep learning-based dependency parser developed for Turkish. It is based on Stanford's graph-based neural dependency parser 
+                and uses linguistically oriented rules and benefits from morphological information of words.</p>
+<br><br>
+
+
+<script type="text/javascript">
+function do_submit(){  
+   document.getElementById("wait_msg").style.display = "block";  
+   return true; 
+}
+</script>
+
+
+<form action="demo.php" method="POST" charset="utf-8" onsubmit="return do_submit();">
+  <label for="sentence_label">SENTENCE:</label>
+  <input type="text" name="sentence" id="sentence" size="135">
+  <input type="submit" name="submit" id="submit" value="Submit" onsubmit="return do_submit();"/>
+
+</form>
+
+<div id="wait_msg" style="display: none;">
+<font color="green">Please wait while the necessary modules are being loaded. Parsing will be completed in 30 sec.
+</div>
+
+
+<font color="black">
+
+Output:
+<div class="output">
+  <textarea name="output" style="font-size: 8pt" rows="15" cols="150" readonly></textarea>
+</div>
+
+

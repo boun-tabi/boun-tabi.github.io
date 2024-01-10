@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      template="resources/template.xhtml">
+    
+    <ui:define name="content">
+        <h:head>
+            <title>Prot-Lig Project</title>
+        </h:head>
+        
+        <h:body>
+            <h1 align="center">Prot-Lig Project</h1>
+            <h:form class="form">
+                <br/>
+                <table align="center" style="text-align: left; border-spacing: 6px;">
+                    <tr>
+                        <th>
+                            <h:outputText value="Protein: "/>
+                        
+                            <h:graphicImage library="images" name="question_mark_icon.png" width="12%" style="vertical-align: bottom;"
+                                            title="Eg.  insulin, P06213, GO:1901142"/>                            
+                        </th>
+                        <td><h:inputText value="#{dataBean.proteinName}"/></td>
+                    </tr>
+                    <tr>
+                        <th><h:outputText value="Organism Number: " style="font-weight:bold"/></th>
+                        <td>
+                            <h:selectOneMenu style="width: 200px;" value="#{dataBean.organismNumber}">
+                                <f:selectItems value="#{serverBean.taxIDs}"/>
+                            </h:selectOneMenu>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th style="vertical-align: top; padding-top: 6px;">
+                            <h:outputText value="Threshold Value: "/>
+                        
+                            <h:graphicImage library="images" name="question_mark_icon.png" width="12%" style="vertical-align: bottom;"
+                                            title="Protein-ligand interactions with binding affinity values equal or less than the threshold are considered."/>
+                        </th>
+                        <td>
+                            <h:selectOneRadio value="#{dataBean.threshold}" layout="pageDirection">
+                                <f:selectItem itemValue="Default" itemLabel="Default (1000nM)"/>
+                                <f:selectItem itemValue="Custom" itemLabel="Custom"/>
+                                <f:ajax render="threshold"/>
+                            </h:selectOneRadio>
+                            <h:panelGroup id="threshold">
+                                <h:inputText value="#{dataBean.thresholdValue}" disabled="#{dataBean.threshold != 'Custom'}"/>
+                                <h:outputText value="nM"/>
+                            </h:panelGroup>
+                        </td>                            
+                    </tr>
+                    <tr>
+                        <th style="vertical-align: top; padding-top: 4px;">
+                            <h:outputText value="Algorithm: " />
+                        
+                            <h:graphicImage library="images" name="question_mark_icon.png" width="12%" style="vertical-align: bottom;"
+                                            title="These algorithms are used to compute compound similarity metrics for Ligand-Centric network models."/>
+                        </th>
+                        <td>
+                            <h:selectOneRadio value="#{dataBean.method}" layout="pageDirection" >
+                                <f:selectItem itemValue="CDK Fingerprint" itemLabel="CDK Fingerprint"/>
+                                <f:selectItem itemValue="LINGO" itemLabel="LINGO"/>
+                                <f:selectItem itemValue="Smiles2vec (average)" itemLabel="Smiles2vec (average)"/>
+                                <f:selectItem itemValue="Smiles2vec (min-max)" itemLabel="Smiles2vec (min-max)"/>
+                            </h:selectOneRadio>
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <th><h:outputText value="E-mail: " style="font-weight:bold"/></th>
+                        <td><h:inputText value="#{dataBean.email}"/></td>                    
+                    </tr>
+                    <tr>                        
+                        <th></th>
+                        <td><h:commandButton action="#{dataBean.returnFinalData()}" value="GO!"/></td>
+                    </tr>
+                </table>
+            </h:form>
+        </h:body>
+    </ui:define>
+</ui:composition>

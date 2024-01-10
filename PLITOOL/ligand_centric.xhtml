@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      template="resources/template.xhtml">
+    
+    <ui:define name="content">
+        <h:head>
+            <title>Ligand-Centric Model</title>
+        </h:head>
+        
+        <h:body>
+            <h1 align="center">LIGAND-CENTRIC MODEL</h1>
+            <p>
+                Ligand-centric network model is a novel approach to connect proteins based
+                on the ligands that they bind to. Unlike most previous studies that use
+                sequence similarity to classify proteins, our approach is based on creating
+                ligand-based networks of proteins. We introduce two types of networks, where
+                the nodes are proteins, and the edges represent the sharing of identical or
+                chemically similar ligands. Then we apply three different edge weight methods
+                on these models: unweighted, weighted, and normalized weighted.
+            </p>   
+            <h2>Identity Network</h2>
+            <p>
+                The identity network model is based on sharing of common ligands. In this model
+                two proteins are connected with an edge if they share at least one identical ligand. 
+            </p>
+            <div align="center">
+                <figure class="figure">
+                    <h:graphicImage library="images" name="identity_network.png"/>
+                    <figcaption class="caption">
+                        <b>Fig 1. Example illustrating the creation of the identity network models.</b><br/>
+                        A sample data set consisting of four proteins (A, B, C, D) shaped as circles and
+                        five ligands (lg1, lg2, lg3, lg4, lg5) shaped as diamonds. For each protein, the
+                        ligands that it binds to are given together. A sample Tanimoto coefficient (Tc)
+                        matrix is also provided for the ligand pairs. (The same example is used in the
+                        next figure.) In the identity networks, A and B are connected since they have two
+                        common ligands, lg1 and lg5. Only the weight of the edge between A and B changes
+                        depending on the weighting method used.
+                    </figcaption>
+                </figure>
+            </div>
+            <h2>Similarity Network</h2>
+            <p>
+                This model enables us to link two nodes that do not have any common ligands,
+                but bind to ligands whose chemical similarity is above some pre-determined
+                threshold. It was previously shown that compounds with Tanimoto coefficient (Tc)
+                of chemical similarity higher than 0.7 had similar biological activity [19, 28].
+                Therefore, in this study, the similarity threshold was selected as Tc of 0.7.
+                In other words, if two nodes shared two ligands with more than 0.7 Tc, they were
+                connected in the similarity network. The similarity based model aims to discover
+                some hidden relationships or emphasize the existing ones using the ligand chemical
+                similarity feature. 
+            </p>
+            <div align="center">
+                <figure class="figure">
+                    <h:graphicImage library="images" name="similarity_network.png"/>
+                    <figcaption class="caption">
+                        <b>Fig 2. Example illustrating the creation of the similarity network models.</b><br/>
+                        In the similarity networks, the proteins that bind to ligands whose pairwise
+                        similarities exceed the Tc 0.7 cut-off value are connected. Therefore, we have
+                        two new connections in the similarity network: C and D are connected due to the
+                        similarity between lg2 and lg4, and A and C are connected due to the similarity
+                        between lg2 and lg3. The edge weights between nodes change depending on the
+                        weighting method used.
+                    </figcaption>
+                </figure>
+            </div>
+            <p class="citation">
+                <h3>Citation</h3>
+                <ul>
+                    <li>
+                        Hakime Öztürk, Elif Ozkirimli, and Arzucan Özgür. "Classification
+                        of Beta-lactamases and penicillin binding proteins using ligand-centric network models."
+                        PloS one 10.2 (2015): e0117874.
+                    </li><br/>
+                    <li>
+                        Plos One 
+                        (<h:outputLink style="text-decoration: none;" value="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117874">
+                            <h:outputText value="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117874"/>
+                        </h:outputLink>)
+                    </li>
+                </ul>
+            </p>		
+        </h:body>
+    </ui:define>
+</ui:composition>

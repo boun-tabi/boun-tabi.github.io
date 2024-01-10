@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      template="resources/template.xhtml">
+    
+    <ui:define name="content">
+        <h:head>
+            <title>Smiles2Vec</title>           
+        </h:head>
+        
+        <h:body>
+            <h1 align="center">SMILES2VEC</h1>
+            <p>
+                SMILES2vec is based on the distributed word representations models that
+                have been widely used in the recent studies of natural language processing
+                (NLP) tasks, especially with the introduction of Word2Vec (Mikolov et al. 2013).
+            </p>    
+            <p>
+                In the chemical space , we can utilize the string representation of
+		ligands (i.e., SMILES )  and define words as sub-sequences of these
+		representations. Figure is a sample ligand SMILES and its corresponding
+		sub-sequences.
+            </p>
+            <div align="center">
+                <h:graphicImage library="images" name="SMILES2Vec.png"/>
+            </div>
+            <p>
+                The SMILES words were created as 8-character length overlapping substrings.
+                Word2Vec model produces a real-valued vector for each SMILES word and the
+                corresponding ligand vector is constructed as the average of the summation
+                of these SMILES word vectors as described in Equation. Vector(x) represents
+                the Word2Vec outputs for 8-character SMILES sub-sequences and m indicates the
+                total number of these SMILES words. We refer to ligand vectors as SMILES2Vec.
+            </p>
+            <div align="center">
+                <h:graphicImage library="images" name="SMILES2Vec2.png"/>
+            </div>
+            <p class="citation">
+                <h3>Citation</h3>
+                <ul>
+                    <li>
+                        Mikolov, T. et al., 2013. Distributed Representations of Words and
+                        Phrases and their Compositionality. Nips, pp.19.
+                    </li>
+                </ul>
+            </p>		
+        </h:body>
+    </ui:define> 
+</ui:composition>
