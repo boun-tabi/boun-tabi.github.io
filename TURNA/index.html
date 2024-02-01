@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="TURNA: A Turkish Encoder-Decoder Language Model for Enhanced Understanding and Generation">
+  <meta name="keywords" content="TURNA: A Turkish Encoder-Decoder Language Model for Enhanced Understanding and Generation
+  ">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TURNA</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./static/css/js/brands.min.css">
+
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script defer src="./static/js/brands.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://tabilab.cmpe.boun.edu.tr">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">TURNA: A Turkish Encoder-Decoder Language Model for Enhanced Understanding and Generation
+          </h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://gokceuludogan.github.io">Gökçe Uludoğan</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.cmpe.boun.edu.tr/tr/people/zeynep.yirmibesoglu">Zeynep Yirmibeşoğlu Balal</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://furkanakkurt1335.github.io/">Furkan Akkurt</a><sup>1</sup>,</span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://tr.linkedin.com/in/meliksahturker">Melikşah Türker</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.cmpe.boun.edu.tr/~onurgu/">Onur Güngör</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://uskudarli.gitlab.io/uskudarli-academic/">Susan Üsküdarlı</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Bogazici University,</span>
+            <span class="author-block"><sup>2</sup>VGNRS AI</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <!--
+              <span class="link-block">
+                <a href="https://doi.org/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              -->
+
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2401.14373"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+<!--               <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/boun-tabi-LMG/TURNA/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Materials Link. -->
+              <span class="link-block">
+                <a href="https://huggingface.co/boun-tabi-LMG/TURNA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fa fa-database"></i>
+                  </span>
+                  <span>Model</span>
+                  </a>
+              </span>
+              <span class="link-block">
+                <a href="https://huggingface.co/spaces/boun-tabi-LMG/TURNA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fa fa-laptop"></i>
+                  </span>
+                  <span>Demo</span>
+                  </a>
+              </span>
+          
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>The recent advances in natural language processing have predominantly favored well-resourced English-centric models, resulting in a significant gap with low-resource languages. In this work, we introduce the language model TURNA, which is developed for the low-resource language Turkish and is capable of both natural language understanding and generation tasks. TURNA is pretrained with an encoder-decoder architecture based on the unified framework UL2 with a diverse corpus that we specifically curated for this purpose. We evaluated TURNA with three generation tasks and five understanding tasks for Turkish. The results show that TURNA outperforms several multilingual models in both understanding and generation tasks, and competes with monolingual Turkish models in understanding tasks. TURNA is made available at <a href="https://huggingface.co/boun-tabi-LMG/TURNA">this link</a>.</p>
+          
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3 has-text-centered">Demo</h2>
+      <h2 class="subtitle has-text-centered">
+
+        <br/>
+        <a href="https://huggingface.co/spaces/boun-tabi-LMG/TURNA">Try it out!</a>
+        <img src="./static/images/demo.jfif">
+
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Acknowledgements</h2>
+    We thank the Google TPU Research Cloud program for providing us with credits to pretrain our model on TPU v3-8 machines. We are grateful to TETAM and BOUN CMPE for providing access to the GPU cluster used in fine-tuning and evaluation experiments. We also thank VNGRS-AI team for providing the tokenizer and the cleaned web corpus.  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{uludoğan2024turna,
+      title={TURNA: A Turkish Encoder-Decoder Language Model for Enhanced Understanding and Generation}, 
+      author={Gökçe Uludoğan and Zeynep Yirmibeşoğlu Balal and Furkan Akkurt and Melikşah Türker and Onur Güngör and Susan Üsküdarlı},
+      year={2024},
+      eprint={2401.14373},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}</code></pre>
+  </div>
+</section>
+
+
+    
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link" 
+          href="https://tabilab.cmpe.bogazici.edu.tr">
+          <i class="fas fa-home"></i>
+      </a>
+      <!--
+      <a class="icon-link"
+         href="https://doi.org/">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+       -->
+      <a class="icon-link" 
+        href="https://github.com/boun-tabi-LMG/TURNA" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+      <a class="icon-link" 
+        href="https://huggingface.co/boun-tabi-LMG/TURNA"
+                   class="external-link button is-normal is-rounded is-dark">
+        <i class="fa fa-database"></i>
+      </a>
+      <a class="icon-link" 
+        href="https://huggingface.co/spaces/boun-tabi-LMG/TURNA"
+                   class="external-link button is-normal is-rounded is-dark">
+        <i class="fa fa-laptop"></i>
+      </a> 
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is adapted from <a
+              href="https://github.com/nerfies/nerfies.github.io">https://github.com/nerfies/nerfies.github.io</a> and licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
