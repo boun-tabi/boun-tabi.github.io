@@ -25,7 +25,7 @@ mv BOUN-PARS/* .
 
 * Download and unpack the pre-trained morphology-based parser model :
 ```
-wget http://tabilab.cmpe.boun.edu.tr/BOUN-PARS/model_tr_imst_ruled_morphed.tgz
+wget http://pilab.cmpe.boun.edu.tr/BOUN-PARS/model_tr_imst_ruled_morphed.tgz
 tar -xvf model_tr_imst_ruled_morphed.tgz
 ```
 
