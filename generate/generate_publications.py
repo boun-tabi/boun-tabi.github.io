@@ -1,3 +1,69 @@
+import requests 
+from lxml import html
+
+def get_papers(HTML_LINK):
+    HTML = requests.get(HTML_LINK)
+    HTML = HTML.text
+    tree = html.fromstring(HTML)
+    entries = tree.xpath("//ul[@class='publ-list']/li")
+
+    papers = []
+
+    doi = lambda x: f"//li[@id='{x.get('id')}']/nav/ul/li[1]/div[1]/a"
+    author_list = lambda x: f"//li[@id='{x.get('id')}']/cite/span[@itemprop='author']"
+    title = lambda x: f"//li[@id='{x.get('id')}']/cite/span[@class='title']"
+    conference = lambda x: f"//li[@id='{x.get('id')}']/cite"
+
+    get_authors = lambda x: [ author.text_content()
+                                for author in tree.xpath(
+                                    author_list(x)
+                                )
+                            ]
+    get_doi = lambda x: tree.xpath(
+        doi(x)
+    )[0].get("href")
+
+    get_title = lambda x: tree.xpath(
+        title(x)
+    )[0].text_content()
+
+    get_conference = lambda x: x.xpath(conference(x))[0].text_content()
+
+    year = "2024"
+    for idx, entry in enumerate(entries):
+
+        tags = entry.values()[0].split(" ")
+        if tags[0] == "year":
+            year = entry.text_content()
+
+        else:
+            
+            AUTHORS = get_authors(entry)
+
+            try:
+                DOI = get_doi(entry)
+            except:
+                DOI = ""
+
+            TITLE = get_title(entry).strip('.')
+
+            CONFERENCE = get_conference(entry)
+            CONFERENCE = CONFERENCE[CONFERENCE.find(TITLE)+len(TITLE):].strip()
+
+            papers.append({
+                "title": TITLE,
+                "authors": AUTHORS,
+                "conference": CONFERENCE,
+                "doi": DOI,
+                "year": year,
+                "type": tags[1],
+            })
+
+    return papers
+
+
+papers = get_papers("https://dblp.org/pid/12/5784.html")
+papers += get_papers("https://dblp.org/pid/46/4922.html")
 
 
 def get_publication_html(publication): return f"""
@@ -5,11 +71,11 @@ def get_publication_html(publication): return f"""
                         <div class="col-xs-12">
                             <div class="panel panel-default lab-panel">
                                 <div class="panel-body">
-                                    <a href="{publication['link']}">
+                                    <a href="{publication['doi']}">
                                         <div class="small-title">{publication['title']}</div>
                                     </a>
-                                    <div>by {publication['authors']}</div>
-                                    <div>in {publication['conference']}</div>
+                                    <div>by {', '.join(publication['authors'])}</div>
+                                    <div>in {publication['conference'].lstrip('. ')}</div>
                                 </div>
                             </div>
                         </div>
@@ -37,17 +103,20 @@ def generate_publications_html(publications):
     for year in years:
         for p in publications:
             if p['year'] == year:
+                print(p)
                 yearly_publications[year].append(get_publication_html(p))
 
     all_publications = []
     for year in years:
         all_publications.append(get_yearly_publications_html(year, '\n'.join(yearly_publications[year])))
+
+    # print('\n'.join(all_publications))
     # HTML = HTML.replace("{PUBLICATIONS}", '\n'.join(yearly_publications))
 
-    return '\n'.join(yearly_publications)
+    return '\n'.join(all_publications)
 
 
-HTML = """
+HTML_0 = """
 <!DOCTYPE html>
 <html class="gr__tabilab_cmpe_boun_edu_tr" lang="en">
 <head>
@@ -137,136 +206,9 @@ HTML = """
                 <div class="col-md-10">
                     <h1 class="lab-section-title">Publications</h1>
 
-""" + generate_publications_html(
-    [	
-    {
-        "title": "Title 1",
-        "authors": "Author 1, Author 2",
-        "conference": "Conference 1",
-        "year": "2020",
-        "link": "http://www.google.com"
-    },
-    {
-        "title": "Title 2",
-        "authors": "Author 3, Author 4",
-        "conference": "Conference 2",
-        "year": "2019",
-        "link": "http://www.google.com"
-    },
-    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2018",
-        "link": "http://www.google.com"
-    },
-    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2018",
-        "link": "http://www.google.com"
-    },    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2018",
-        "link": "http://www.google.com"
-    },    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2018",
-        "link": "http://www.google.com"
-    },    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2018",
-        "link": "http://www.google.com"
-    },    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2018",
-        "link": "http://www.google.com"
-    },    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2018",
-        "link": "http://www.google.com"
-    },    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2018",
-        "link": "http://www.google.com"
-    },    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2018",
-        "link": "http://www.google.com"
-    },    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2018",
-        "link": "http://www.google.com"
-    },    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2018",
-        "link": "http://www.google.com"
-    },    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2018",
-        "link": "http://www.google.com"
-    },    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2018",
-        "link": "http://www.google.com"
-    },    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2018",
-        "link": "http://www.google.com"
-    },    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2018",
-        "link": "http://www.google.com"
-    },    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2018",
-        "link": "http://www.google.com"
-    },    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2018",
-        "link": "http://www.google.com"
-    },    {
-        "title": "Title 3",
-        "authors": "Author 5, Author 6",
-        "conference": "Conference 3",
-        "year": "2017",
-        "link": "http://www.google.com"
-    },
-
-
-
-]) + """
+"""
+PUBLICATIONS = generate_publications_html(papers)
+HTML_1 = """
                 
 
                 </div>
@@ -275,7 +217,7 @@ HTML = """
                     <nav class="sidebar" id="affix-nav">
                         <ul class="nav sidenav affix" data-offset-top="0" data-spy="affix">
                             <li class="active"><a href="#2020">2020</a></li>
-                            <li class=""><a href="#2019">2019</a></li
+                            <li class=""><a href="#2019">2019</a></li>
                             <li class=""><a href="#2018">2018</a></li>
                             <li class=""><a href="#2017">2017</a></li>
                             <li class=""><a href="#2016">2016</a></li>
@@ -338,5 +280,7 @@ HTML = """
 </html>
 """
 
-with open('new_publications.html', 'w', encoding='utf-8') as f:
-    f.write(HTML)
+# with open('p.html', 'w', encoding='utf-8') as f:
+#     f.write(PUBLICATIONS )
+with open('../publications.html', 'w', encoding='utf-8') as f:
+    f.write(HTML_0 + PUBLICATIONS + HTML_1)
