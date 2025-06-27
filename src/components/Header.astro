@@ -1,0 +1,29 @@
+<header class="bg-white shadow-md">
+  <div class="container mx-auto px-4 py-4">
+    <div class="flex flex-col md:flex-row justify-between items-center">
+      <div class="flex items-center mb-4 md:mb-0">
+        <a href={import.meta.env.BASE_URL || "/"} class="flex items-center">
+          <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="TABILAB Logo" class="h-10 w-auto mr-3" />
+          <div>
+            <span class="text-2xl font-bold text-primary">TABILAB</span>
+            <span class="block text-sm text-gray-600">Text Analytics and BioInformatics Lab</span>
+          </div>
+        </a>
+      </div>
+      
+      <nav>
+        <ul class="flex flex-wrap justify-center space-x-1 md:space-x-6">
+          <li><a href={import.meta.env.BASE_URL || "/"} class="px-3 py-2 text-gray-800 hover:text-primary transition-colors">Home</a></li>
+          <li><a href={`${import.meta.env.BASE_URL}people`} class="px-3 py-2 text-gray-800 hover:text-primary transition-colors">People</a></li>
+          <li><a href={`${import.meta.env.BASE_URL}papers`} class="px-3 py-2 text-gray-800 hover:text-primary transition-colors">Papers</a></li>
+          <li><a href={`${import.meta.env.BASE_URL}projects`} class="px-3 py-2 text-gray-800 hover:text-primary transition-colors">Projects</a></li>
+          <li><a href={`${import.meta.env.BASE_URL}theses`} class="px-3 py-2 text-gray-800 hover:text-primary transition-colors">Theses</a></li>
+          <li><a href={`${import.meta.env.BASE_URL}courses`} class="px-3 py-2 text-gray-800 hover:text-primary transition-colors">Courses</a></li>
+          <li><a href={`${import.meta.env.BASE_URL}news`} class="px-3 py-2 text-gray-800 hover:text-primary transition-colors">News</a></li>
+          <li><a href={`${import.meta.env.BASE_URL}contact`} class="px-3 py-2 text-gray-800 hover:text-primary transition-colors">Contact</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header> 

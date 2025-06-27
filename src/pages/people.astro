@@ -1,0 +1,138 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { getCollection } from 'astro:content';
+import { marked } from 'marked';
+
+// Get all people entries and sort them by order
+const allPeople = await getCollection('people');
+
+// Group people by category
+const principalInvestigators = allPeople
+  .filter(person => person.data.category === 'pi')
+  .sort((a, b) => a.data.order - b.data.order);
+
+const currentStudents = allPeople
+  .filter(person => person.data.category === 'student')
+  .sort((a, b) => a.data.order - b.data.order);
+
+const alumni = allPeople
+  .filter(person => person.data.category === 'alumni')
+  .sort((a, b) => {
+    // Sort alumni by graduation year (most recent first)
+    if (a.data.graduationYear && b.data.graduationYear) {
+      return b.data.graduationYear - a.data.graduationYear;
+    }
+    return a.data.order - b.data.order;
+  });
+
+// Function to render markdown content
+function renderMarkdown(content) {
+  return marked.parse(content);
+}
+---
+
+<MainLayout title="People - TABILAB">
+  <div class="container mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold text-primary mb-12 text-center">Our Team</h1>
+    
+    <!-- Principal Investigators -->
+    <section class="mb-16">
+      <h2 class="text-3xl font-bold text-primary mb-8">Principal Investigators</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {principalInvestigators.map(pi => (
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img 
+              src={pi.data.photo} 
+              alt={pi.data.name} 
+              class="w-full h-64 object-cover"
+              onerror="this.src='/images/placeholder-person.jpg'; this.onerror=null;"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-1">{pi.data.name}</h3>
+              <p class="text-gray-600 mb-4">{pi.data.title}</p>
+              <p class="text-gray-700 mb-4">{pi.data.bio}</p>
+              <div class="flex flex-wrap gap-3">
+                {pi.data.website && (
+                  <a href={pi.data.website} target="_blank" rel="noopener noreferrer" class="text-primary-light hover:underline">
+                    Website
+                  </a>
+                )}
+                {pi.data.email && (
+                  <a href={`mailto:${pi.data.email}`} class="text-primary-light hover:underline">
+                    Email
+                  </a>
+                )}
+                {pi.data.googleScholar && (
+                  <a href={pi.data.googleScholar} target="_blank" rel="noopener noreferrer" class="text-primary-light hover:underline">
+                    Google Scholar
+                  </a>
+                )}
+                {pi.data.github && (
+                  <a href={pi.data.github} target="_blank" rel="noopener noreferrer" class="text-primary-light hover:underline">
+                    GitHub
+                  </a>
+                )}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+    
+    <!-- Current Students -->
+    <section class="mb-16">
+      <h2 class="text-3xl font-bold text-primary mb-8">Current Students</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {currentStudents.map(student => (
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img 
+              src={student.data.photo} 
+              alt={student.data.name} 
+              class="w-full h-48 object-cover"
+              onerror="this.src='/images/placeholder-person.jpg'; this.onerror=null;"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-1">{student.data.name}</h3>
+              <p class="text-gray-600 mb-2">{student.data.title}</p>
+              <p class="text-gray-700 mb-4">Research: {student.data.research}</p>
+              <div class="flex flex-wrap gap-3">
+                {student.data.email && (
+                  <a href={`mailto:${student.data.email}`} class="text-primary-light hover:underline">
+                    Email
+                  </a>
+                )}
+                {student.data.github && (
+                  <a href={student.data.github} target="_blank" rel="noopener noreferrer" class="text-primary-light hover:underline">
+                    GitHub
+                  </a>
+                )}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+    
+    <!-- Alumni -->
+    <section>
+      <h2 class="text-3xl font-bold text-primary mb-8">Alumni</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {alumni.map(alum => (
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img 
+              src={alum.data.photo} 
+              alt={alum.data.name} 
+              class="w-full h-40 object-cover"
+              onerror="this.src='/images/placeholder-person.jpg'; this.onerror=null;"
+            />
+            <div class="p-4">
+              <h3 class="text-lg font-bold mb-1">{alum.data.name}</h3>
+              <p class="text-gray-600 mb-1">{alum.data.degree}</p>
+              <p class="text-gray-700 text-sm">{alum.data.currentPosition}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+</MainLayout> 

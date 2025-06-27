@@ -1,0 +1,95 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import { getCollection } from 'astro:content';
+import { marked } from 'marked';
+
+// Get the slug from the URL
+export async function getStaticPaths() {
+  const courses = await getCollection('courses');
+  return courses.map(course => ({
+    params: { slug: course.slug },
+    props: { course },
+  }));
+}
+
+const { course } = Astro.props;
+const { Content } = await course.render();
+
+// Function to render markdown
+function renderMarkdown(content) {
+  return marked.parse(content);
+}
+---
+
+<MainLayout title={`${course.data.title} - TABILAB Courses`}>
+  <div class="container mx-auto px-4 py-12">
+    <div class="max-w-4xl mx-auto">
+      <div class="mb-8">
+        <a href="/courses" class="text-primary-light hover:underline inline-flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M9.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L7.414 9H15a1 1 0 110 2H7.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+          </svg>
+          Back to All Courses
+        </a>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <div class="p-8">
+          <div class="flex flex-wrap justify-between items-start mb-6">
+            <h1 class="text-3xl font-bold text-primary mb-2 flex-grow">{course.data.title}</h1>
+            <span class="bg-primary text-white px-3 py-1 rounded-md text-sm">
+              {course.data.code}
+            </span>
+          </div>
+
+          <div class="mb-8">
+            <p class="text-gray-600 mb-1"><span class="font-semibold">Instructor:</span> {course.data.instructor}</p>
+            <p class="text-gray-600 mb-1"><span class="font-semibold">Semester:</span> {course.data.semester}</p>
+            <p class="text-gray-600 mb-1"><span class="font-semibold">Credits:</span> {course.data.credits}</p>
+          </div>
+
+          {course.data.description && (
+            <div class="mb-8">
+              <h2 class="text-xl font-semibold text-primary mb-3">Course Description</h2>
+              <p class="text-gray-700">{course.data.description}</p>
+            </div>
+          )}
+
+          <div class="prose max-w-none mb-8">
+            <Content />
+          </div>
+
+          <div class="flex flex-wrap gap-4 mt-8">
+            {course.data.syllabus && (
+              <a 
+                href={course.data.syllabus} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="inline-flex items-center bg-primary text-white px-4 py-2 rounded-md hover:bg-primary-dark transition-colors"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd" />
+                </svg>
+                Download Syllabus
+              </a>
+            )}
+            
+            {course.data.materials && (
+              <a 
+                href={course.data.materials} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="inline-flex items-center bg-primary-light text-white px-4 py-2 rounded-md hover:bg-primary transition-colors"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z" />
+                </svg>
+                Course Materials
+              </a>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</MainLayout> 

@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional custom styles */
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-serif;
+}
+
+body {
+  @apply font-sans text-gray-800;
+}
+
+/* Prose styles for content areas */
+.prose {
+  @apply max-w-none;
+}
+
+.prose p {
+  @apply mb-4;
+}
+
+.prose a {
+  @apply text-primary-light hover:underline;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4 {
+  @apply text-primary font-bold mb-4;
+}
+
+.prose h1 {
+  @apply text-3xl;
+}
+
+.prose h2 {
+  @apply text-2xl;
+}
+
+.prose h3 {
+  @apply text-xl;
+}
+
+.prose ul, .prose ol {
+  @apply mb-4 pl-6;
+}
+
+.prose ul {
+  @apply list-disc;
+}
+
+.prose ol {
+  @apply list-decimal;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Custom components */
+.btn {
+  @apply inline-block px-6 py-3 rounded-md transition-colors;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-primary-dark;
+}
+
+.btn-secondary {
+  @apply bg-white border border-primary text-primary hover:bg-gray-50;
+}
+
+/* Card styles */
+.card {
+  @apply bg-white rounded-lg shadow-md overflow-hidden;
+}
+
+.card-body {
+  @apply p-6;
+}
+
+.card-title {
+  @apply text-xl font-bold mb-2;
+}
+
+/* Form styles */
+.form-input {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent;
+}
+
+.form-label {
+  @apply block text-gray-700 font-medium mb-2;
+}
+
+/* Responsive container for embedded content */
+.responsive-container {
+  @apply relative w-full overflow-hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-container iframe,
+.responsive-container object,
+.responsive-container embed {
+  @apply absolute top-0 left-0 w-full h-full;
+} 

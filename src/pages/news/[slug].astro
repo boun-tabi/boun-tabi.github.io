@@ -1,0 +1,64 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import { getCollection } from 'astro:content';
+import { marked } from 'marked';
+import { format } from 'date-fns';
+
+// Generate static paths for all news entries
+export async function getStaticPaths() {
+  const newsEntries = await getCollection('news');
+  return newsEntries.map(entry => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+// Get the news entry data from props
+const { entry } = Astro.props;
+
+// Format the date
+function formatDate(date) {
+  return format(new Date(date), 'MMMM d, yyyy');
+}
+
+// Render the markdown content
+const content = marked.parse(entry.body);
+---
+
+<MainLayout title={`${entry.data.title} - TABILAB`}>
+  <div class="container mx-auto px-4 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href="/news" class="text-primary-light hover:underline mb-6 inline-block">
+        &larr; Back to News
+      </a>
+      
+      <article class="bg-white p-8 rounded-lg shadow-md">
+        <div class="mb-8">
+          {entry.data.image && (
+            <img 
+              src={entry.data.image} 
+              alt={entry.data.title}
+              class="w-full h-auto rounded-lg shadow-md mb-6"
+              onerror="this.src='/images/placeholder.jpg'; this.onerror=null;"
+            />
+          )}
+          
+          <h1 class="text-3xl font-bold text-primary mb-2">{entry.data.title}</h1>
+          <p class="text-gray-600 mb-4">{formatDate(entry.data.date)}</p>
+          
+          {entry.data.tags && entry.data.tags.length > 0 && (
+            <div class="flex flex-wrap gap-2 mb-6">
+              {entry.data.tags.map((tag: string) => (
+                <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
+        
+        <div class="prose max-w-none" set:html={content} />
+      </article>
+    </div>
+  </div>
+</MainLayout> 

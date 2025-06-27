@@ -1,0 +1,123 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { getCollection } from 'astro:content';
+import { format } from 'date-fns';
+
+// Get all news entries and sort by date (newest first)
+const news = await getCollection('news');
+news.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
+
+// Extract all unique tags
+const allTags = [...new Set(news.flatMap(item => item.data.tags || []))];
+
+// Format date function
+function formatDate(date) {
+  return format(new Date(date), 'MMMM d, yyyy');
+}
+---
+
+<MainLayout title="News - TABILAB">
+  <div class="container mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold text-primary mb-12 text-center">News & Updates</h1>
+    
+    <!-- Filter by tags -->
+    <div class="mb-8">
+      <h2 class="text-xl font-semibold mb-4">Filter by tags:</h2>
+      <div class="flex flex-wrap gap-2">
+        <button 
+          class="tag-filter active bg-primary text-white px-4 py-2 rounded-full text-sm" 
+          data-tag="all"
+        >
+          All
+        </button>
+        {allTags.map(tag => (
+          <button 
+            class="tag-filter bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded-full text-sm" 
+            data-tag={tag}
+          >
+            {tag}
+          </button>
+        ))}
+      </div>
+    </div>
+    
+    <!-- News items -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {news.map(item => (
+        <div class="news-item bg-white rounded-lg shadow-md overflow-hidden" data-tags={JSON.stringify(item.data.tags || [])}>
+          <div class="relative h-48 overflow-hidden">
+            {item.data.image ? (
+              <img 
+                src={item.data.image} 
+                alt={item.data.title}
+                class="w-full h-full object-cover"
+                onerror="this.src='/images/placeholder.jpg'; this.onerror=null;"
+              />
+            ) : (
+              <div class="w-full h-full bg-gray-200 flex items-center justify-center">
+                <span class="text-gray-400">No image available</span>
+              </div>
+            )}
+          </div>
+          
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-primary mb-2">
+              <a href={`/news/${item.slug}`} class="hover:underline">
+                {item.data.title}
+              </a>
+            </h3>
+            <p class="text-gray-600 mb-4">{formatDate(item.data.date)}</p>
+            
+            {item.data.tags && item.data.tags.length > 0 && (
+              <div class="flex flex-wrap gap-2 mb-4">
+                {item.data.tags.map(tag => (
+                  <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
+            
+            <a 
+              href={`/news/${item.slug}`}
+              class="inline-block mt-2 text-primary-light hover:underline"
+            >
+              Read more →
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</MainLayout>
+
+<script>
+  // Filter news items by tag
+  document.addEventListener('DOMContentLoaded', () => {
+    const filterButtons = document.querySelectorAll('.tag-filter');
+    const newsItems = document.querySelectorAll('.news-item');
+    
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Update active button
+        filterButtons.forEach(btn => btn.classList.remove('active', 'bg-primary', 'text-white'));
+        filterButtons.forEach(btn => btn.classList.add('bg-gray-200', 'hover:bg-gray-300'));
+        button.classList.add('active', 'bg-primary', 'text-white');
+        button.classList.remove('bg-gray-200', 'hover:bg-gray-300');
+        
+        const selectedTag = button.getAttribute('data-tag');
+        
+        // Show/hide news items based on selected tag
+        newsItems.forEach(item => {
+          const itemTags = JSON.parse(item.getAttribute('data-tags'));
+          
+          if (selectedTag === 'all' || itemTags.includes(selectedTag)) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+  });
+</script> 

@@ -1,0 +1,58 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import { getCollection } from 'astro:content';
+import { marked } from 'marked';
+
+// Generate static paths for all people entries
+export async function getStaticPaths() {
+  const peopleEntries = await getCollection('people');
+  return peopleEntries.map(entry => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+// Get the person entry data from props
+const { entry } = Astro.props;
+
+// Render the markdown content
+const content = marked.parse(entry.body);
+---
+
+<MainLayout title={`${entry.data.name} - TABILAB`}>
+  <div class="container mx-auto px-4 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href="/people" class="text-primary-light hover:underline mb-6 inline-block">
+        &larr; Back to People
+      </a>
+      
+      <article class="bg-white p-8 rounded-lg shadow-md">
+        <div class="mb-8">
+          {entry.data.image && (
+            <img 
+              src={entry.data.image} 
+              alt={entry.data.name}
+              class="w-full h-auto rounded-lg shadow-md mb-6"
+              onerror="this.src='/images/placeholder.jpg'; this.onerror=null;"
+            />
+          )}
+          
+          <h1 class="text-3xl font-bold text-primary mb-2">{entry.data.name}</h1>
+          <p class="text-gray-600 mb-4">{entry.data.position}</p>
+          
+          {entry.data.tags && entry.data.tags.length > 0 && (
+            <div class="flex flex-wrap gap-2 mb-6">
+              {entry.data.tags.map((tag) => (
+                <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm" key={tag}>
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
+        
+        <div class="prose max-w-none" set:html={content} />
+      </article>
+    </div>
+  </div>
+</MainLayout>

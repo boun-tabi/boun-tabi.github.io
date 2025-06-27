@@ -1,0 +1,28 @@
+{
+  "name": "tabilab-website",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "preview-gh": "astro preview --base=/boun-tabi-dev",
+    "deploy": "gh-pages -d dist",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^2.3.1",
+    "@astrojs/sitemap": "^3.0.3",
+    "@astrojs/tailwind": "^5.0.2",
+    "astro": "^4.16.18",
+    "date-fns": "^2.30.0",
+    "marked": "^9.1.6",
+    "remark-gfm": "^3.0.1",
+    "tailwindcss": "^3.3.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

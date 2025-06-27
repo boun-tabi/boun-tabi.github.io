@@ -1,0 +1,51 @@
+---
+// This would typically fetch from a CMS or data file
+const latestNews = [
+  {
+    id: 1,
+    title: "New Paper Accepted at ACL 2023",
+    date: "2023-05-15",
+    summary: "Our paper on 'Improving Cross-lingual Transfer Learning for Turkish NLP' has been accepted at ACL 2023.",
+    url: "/news/acl-2023-paper"
+  },
+  {
+    id: 2,
+    title: "TABILAB Receives Research Grant",
+    date: "2023-04-10",
+    summary: "TABILAB has been awarded a significant research grant to develop advanced NLP tools for Turkish language processing.",
+    url: "/news/research-grant-2023"
+  },
+  {
+    id: 3,
+    title: "Workshop on Low-resource Languages",
+    date: "2023-03-22",
+    summary: "TABILAB is organizing a workshop on NLP for low-resource languages, to be held at Boğaziçi University on June 15-16, 2023.",
+    url: "/news/low-resource-workshop-2023"
+  }
+];
+
+// Format date function
+function formatDate(dateString) {
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  return new Date(dateString).toLocaleDateString('en-US', options);
+}
+---
+
+<div class="space-y-6">
+  {latestNews.map(news => (
+    <div class="bg-white p-6 rounded-lg shadow-md">
+      <div class="flex justify-between items-start mb-2">
+        <h3 class="text-xl font-semibold">{news.title}</h3>
+        <span class="text-sm text-gray-500">{formatDate(news.date)}</span>
+      </div>
+      <p class="text-gray-700 mb-4">{news.summary}</p>
+      <a href={news.url} class="text-primary-light hover:underline">Read more →</a>
+    </div>
+  ))}
+  
+  <div class="text-center mt-8">
+    <a href="/news" class="inline-block bg-white border border-primary text-primary hover:bg-gray-50 px-6 py-2 rounded-md transition-colors">
+      View All News
+    </a>
+  </div>
+</div> 
