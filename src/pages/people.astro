@@ -29,6 +29,16 @@ const alumni = allPeople
 function renderMarkdown(content) {
   return marked.parse(content);
 }
+
+// Helper function to get proper image path with base URL
+function getImagePath(path) {
+  if (path.startsWith('/')) {
+    return import.meta.env.BASE_URL + path.substring(1);
+  }
+  return path;
+}
+
+const placeholderImage = import.meta.env.BASE_URL + 'images/placeholder-person.jpg';
 ---
 
 <MainLayout title="People - TABILAB">
@@ -42,10 +52,10 @@ function renderMarkdown(content) {
         {principalInvestigators.map(pi => (
           <div class="bg-white rounded-lg shadow-md overflow-hidden">
             <img 
-              src={pi.data.photo} 
+              src={getImagePath(pi.data.photo)} 
               alt={pi.data.name} 
               class="w-full h-64 object-cover"
-              onerror="this.src='/images/placeholder-person.jpg'; this.onerror=null;"
+              onerror={`this.src='${placeholderImage}'; this.onerror=null;`}
             />
             <div class="p-6">
               <h3 class="text-xl font-bold mb-1">{pi.data.name}</h3>
@@ -86,15 +96,15 @@ function renderMarkdown(content) {
         {currentStudents.map(student => (
           <div class="bg-white rounded-lg shadow-md overflow-hidden">
             <img 
-              src={student.data.photo} 
+              src={getImagePath(student.data.photo)} 
               alt={student.data.name} 
               class="w-full h-48 object-cover"
-              onerror="this.src='/images/placeholder-person.jpg'; this.onerror=null;"
+              onerror={`this.src='${placeholderImage}'; this.onerror=null;`}
             />
             <div class="p-6">
               <h3 class="text-xl font-bold mb-1">{student.data.name}</h3>
               <p class="text-gray-600 mb-2">{student.data.title}</p>
-              <p class="text-gray-700 mb-4">Research: {student.data.research}</p>
+              <p class="text-gray-700 mb-4">{student.data.bio}</p>
               <div class="flex flex-wrap gap-3">
                 {student.data.email && (
                   <a href={`mailto:${student.data.email}`} class="text-primary-light hover:underline">
@@ -120,10 +130,10 @@ function renderMarkdown(content) {
         {alumni.map(alum => (
           <div class="bg-white rounded-lg shadow-md overflow-hidden">
             <img 
-              src={alum.data.photo} 
+              src={getImagePath(alum.data.photo)} 
               alt={alum.data.name} 
               class="w-full h-40 object-cover"
-              onerror="this.src='/images/placeholder-person.jpg'; this.onerror=null;"
+              onerror={`this.src='${placeholderImage}'; this.onerror=null;`}
             />
             <div class="p-4">
               <h3 class="text-lg font-bold mb-1">{alum.data.name}</h3>

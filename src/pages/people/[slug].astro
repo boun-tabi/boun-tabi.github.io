@@ -2,6 +2,7 @@
 import MainLayout from '../../layouts/MainLayout.astro';
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
+import type { CollectionEntry } from 'astro:content';
 
 // Generate static paths for all people entries
 export async function getStaticPaths() {
@@ -13,37 +14,48 @@ export async function getStaticPaths() {
 }
 
 // Get the person entry data from props
-const { entry } = Astro.props;
+const { entry }: { entry: CollectionEntry<'people'> } = Astro.props;
 
 // Render the markdown content
 const content = marked.parse(entry.body);
+
+// Helper function to get proper image path with base URL
+function getImagePath(path: string | undefined) {
+  if (path && path.startsWith('/')) {
+    return import.meta.env.BASE_URL + path.substring(1);
+  }
+  return path;
+}
+
+const placeholderImage = import.meta.env.BASE_URL + 'images/placeholder.jpg';
+const peoplePageUrl = import.meta.env.BASE_URL + 'people';
 ---
 
 <MainLayout title={`${entry.data.name} - TABILAB`}>
   <div class="container mx-auto px-4 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href="/people" class="text-primary-light hover:underline mb-6 inline-block">
+      <a href={peoplePageUrl} class="text-primary-light hover:underline mb-6 inline-block">
         &larr; Back to People
       </a>
       
       <article class="bg-white p-8 rounded-lg shadow-md">
         <div class="mb-8">
-          {entry.data.image && (
+          {entry.data.photo && (
             <img 
-              src={entry.data.image} 
+              src={getImagePath(entry.data.photo)} 
               alt={entry.data.name}
               class="w-full h-auto rounded-lg shadow-md mb-6"
-              onerror="this.src='/images/placeholder.jpg'; this.onerror=null;"
+              onerror={`this.src='${placeholderImage}'; this.onerror=null;`}
             />
           )}
           
           <h1 class="text-3xl font-bold text-primary mb-2">{entry.data.name}</h1>
-          <p class="text-gray-600 mb-4">{entry.data.position}</p>
+          <p class="text-gray-600 mb-4">{entry.data.title}</p>
           
           {entry.data.tags && entry.data.tags.length > 0 && (
             <div class="flex flex-wrap gap-2 mb-6">
-              {entry.data.tags.map((tag) => (
-                <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm" key={tag}>
+              {entry.data.tags.map((tag: string) => (
+                <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">
                   {tag}
                 </span>
               ))}
