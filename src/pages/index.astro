@@ -15,7 +15,7 @@ const featuredProjects = projects.slice(0, 3);
 
 // Get latest news
 const news = await getCollection('news');
-news.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
+news.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 const latestNews = news.slice(0, 3);
 
 // Format date function
@@ -58,7 +58,7 @@ function formatDate(date) {
                   src={project.data.image} 
                   alt={project.data.title}
                   class="w-full h-full object-cover"
-                  onerror="this.src='/images/placeholder.jpg'; this.onerror=null;"
+                  onerror="this.src='/boun-tabi-dev/images/placeholder.jpg'"
                 />
               ) : (
                 <div class="w-full h-full bg-gray-200 flex items-center justify-center">
@@ -104,7 +104,7 @@ function formatDate(date) {
                   src={item.data.image} 
                   alt={item.data.title}
                   class="w-full h-full object-cover"
-                  onerror="this.src='/images/placeholder.jpg'; this.onerror=null;"
+                  onerror="this.src='/boun-tabi-dev/images/placeholder.jpg'"
                 />
               ) : (
                 <div class="w-full h-full bg-gray-200 flex items-center justify-center">

@@ -27,7 +27,7 @@ function getImagePath(path: string | undefined) {
   return path;
 }
 
-const placeholderImage = import.meta.env.BASE_URL + 'images/placeholder.jpg';
+const placeholderImage = import.meta.env.BASE_URL + 'images/placeholder-person.jpg';
 const peoplePageUrl = import.meta.env.BASE_URL + 'people';
 ---
 
@@ -45,7 +45,7 @@ const peoplePageUrl = import.meta.env.BASE_URL + 'people';
               src={getImagePath(entry.data.photo)} 
               alt={entry.data.name}
               class="w-full h-auto rounded-lg shadow-md mb-6"
-              onerror={`this.src='${placeholderImage}'; this.onerror=null;`}
+              onerror={`this.src='${import.meta.env.BASE_URL}images/placeholder-person.jpg'; this.onerror=null;`}
             />
           )}
           

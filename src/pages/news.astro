@@ -5,7 +5,7 @@ import { format } from 'date-fns';
 
 // Get all news entries and sort by date (newest first)
 const news = await getCollection('news');
-news.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
+news.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 
 // Extract all unique tags
 const allTags = [...new Set(news.flatMap(item => item.data.tags || []))];
@@ -13,6 +13,15 @@ const allTags = [...new Set(news.flatMap(item => item.data.tags || []))];
 // Format date function
 function formatDate(date) {
   return format(new Date(date), 'MMMM d, yyyy');
+}
+
+// Helper function to get proper image path with base URL
+function getImagePath(path) {
+  if (!path) return import.meta.env.BASE_URL + 'images/placeholder.jpg';
+  if (path.startsWith('/')) {
+    return import.meta.env.BASE_URL + path.substring(1);
+  }
+  return path;
 }
 ---
 
@@ -48,10 +57,9 @@ function formatDate(date) {
           <div class="relative h-48 overflow-hidden">
             {item.data.image ? (
               <img 
-                src={item.data.image} 
+                src={getImagePath(item.data.image)} 
                 alt={item.data.title}
                 class="w-full h-full object-cover"
-                onerror="this.src='/images/placeholder.jpg'; this.onerror=null;"
               />
             ) : (
               <div class="w-full h-full bg-gray-200 flex items-center justify-center">
