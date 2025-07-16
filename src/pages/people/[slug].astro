@@ -55,7 +55,7 @@ const peoplePageUrl = import.meta.env.BASE_URL + 'people';
           {entry.data.tags && entry.data.tags.length > 0 && (
             <div class="flex flex-wrap gap-2 mb-6">
               {entry.data.tags.map((tag: string) => (
-                <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">
+                <span key={tag} class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">
                   {tag}
                 </span>
               ))}
