@@ -1,0 +1,103 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import { getCollection } from 'astro:content';
+import { marked } from 'marked';
+
+// Generate static paths for all papers
+export async function getStaticPaths() {
+  const papers = await getCollection('papers');
+  return papers.map(paper => ({
+    params: { slug: paper.slug },
+    props: { paper },
+  }));
+}
+
+// Get the paper data from props
+const { paper } = Astro.props;
+
+// Render the markdown content
+const content = marked.parse(paper.body);
+---
+
+<MainLayout title={`${paper.data.title} - TABILAB`}>
+  <div class="container mx-auto px-4 py-12">
+    <div class="max-w-4xl mx-auto">
+      <a href="/papers" class="text-primary-light hover:underline mb-6 inline-block">
+        &larr; Back to Papers
+      </a>
+      
+      <article class="bg-white p-8 rounded-lg shadow-md">
+        <h1 class="text-3xl font-bold text-primary mb-4">{paper.data.title}</h1>
+        <p class="text-gray-700 mb-2">{paper.data.authors}</p>
+        <p class="text-gray-600 italic mb-6">{paper.data.venue}</p>
+        
+        <div class="mb-6">
+          <h2 class="text-xl font-semibold mb-2">Abstract</h2>
+          <p class="text-gray-700">{paper.data.abstract}</p>
+        </div>
+        
+        <div class="flex flex-wrap gap-4 mb-8">
+          {paper.data.pdf && (
+            <a 
+              href={paper.data.pdf} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="inline-flex items-center text-primary-light hover:underline"
+            >
+              <span>PDF</span>
+            </a>
+          )}
+          
+          {paper.data.code && (
+            <a 
+              href={paper.data.code} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="inline-flex items-center text-primary-light hover:underline"
+            >
+              <span>Code</span>
+            </a>
+          )}
+          
+          {paper.data.bibtex && (
+            <button 
+              class="inline-flex items-center text-primary-light hover:underline bibtex-toggle"
+              id="bibtex-toggle"
+            >
+              Show BibTeX
+            </button>
+          )}
+        </div>
+        
+        {paper.data.bibtex && (
+          <div id="bibtex-container" class="hidden mb-8">
+            <h2 class="text-xl font-semibold mb-2">BibTeX</h2>
+            <pre class="bg-gray-100 p-4 rounded-md overflow-x-auto text-sm">{paper.data.bibtex}</pre>
+          </div>
+        )}
+        
+        <div class="prose max-w-none" set:html={content} />
+      </article>
+    </div>
+  </div>
+</MainLayout>
+
+<script>
+  // Toggle BibTeX visibility
+  document.addEventListener('DOMContentLoaded', () => {
+    const bibtexToggle = document.getElementById('bibtex-toggle');
+    const bibtexContainer = document.getElementById('bibtex-container');
+    
+    if (bibtexToggle && bibtexContainer) {
+      bibtexToggle.addEventListener('click', () => {
+        if (bibtexContainer.classList.contains('hidden')) {
+          bibtexContainer.classList.remove('hidden');
+          bibtexToggle.textContent = 'Hide BibTeX';
+        } else {
+          bibtexContainer.classList.add('hidden');
+          bibtexToggle.textContent = 'Show BibTeX';
+        }
+      });
+    }
+  });
+</script> 

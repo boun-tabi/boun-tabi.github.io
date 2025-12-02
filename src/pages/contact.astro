@@ -1,0 +1,164 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout title="Contact - TABILAB">
+  <div class="container mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold text-primary mb-12 text-center">Contact Us</h1>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+      <!-- Contact Information -->
+      <div>
+        <h2 class="text-2xl font-bold text-primary mb-6">Get in Touch</h2>
+        
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Address</h3>
+            <p class="text-gray-700">
+              TABILAB<br />
+              Computer Engineering Department<br />
+              Boğaziçi University<br />
+              34342 Bebek, Istanbul<br />
+              Turkey
+            </p>
+          </div>
+          
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Email</h3>
+            <p class="text-gray-700">
+              <a href="mailto:tabilab@boun.edu.tr" class="text-primary-light hover:underline">tabilab@boun.edu.tr</a>
+            </p>
+          </div>
+          
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Social Media</h3>
+            <div class="flex space-x-4">
+              <a href="https://twitter.com/bountabilab" target="_blank" rel="noopener noreferrer" class="text-primary-light hover:text-primary-dark">
+                Twitter
+              </a>
+              <a href="https://github.com/boun-tabi" target="_blank" rel="noopener noreferrer" class="text-primary-light hover:text-primary-dark">
+                GitHub
+              </a>
+              <a href="https://linkedin.com/company/bountabilab" target="_blank" rel="noopener noreferrer" class="text-primary-light hover:text-primary-dark">
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mt-8">
+          <h3 class="text-xl font-semibold mb-4">Location</h3>
+          <div class="bg-gray-200 rounded-lg overflow-hidden h-64">
+            <!-- Replace with an actual map embed -->
+            <div class="w-full h-full flex items-center justify-center bg-gray-300">
+              <p class="text-gray-600">Map will be embedded here</p>
+              <!-- Example of Google Maps embed:
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.331679854733!2d29.0511!3d41.0857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDA1JzA4LjUiTiAyOcKwMDMnMDQuMCJF!5e0!3m2!1sen!2str!4v1620000000000!5m2!1sen!2str" 
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy"
+              ></iframe>
+              -->
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Contact Form -->
+      <div>
+        <h2 class="text-2xl font-bold text-primary mb-6">Send Us a Message</h2>
+        
+        <form id="contact-form" class="space-y-6">
+          <div>
+            <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
+            <input 
+              type="text" 
+              id="name" 
+              name="name" 
+              required
+              class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+            />
+          </div>
+          
+          <div>
+            <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+            <input 
+              type="email" 
+              id="email" 
+              name="email" 
+              required
+              class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+            />
+          </div>
+          
+          <div>
+            <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+            <input 
+              type="text" 
+              id="subject" 
+              name="subject" 
+              required
+              class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+            />
+          </div>
+          
+          <div>
+            <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+            <textarea 
+              id="message" 
+              name="message" 
+              rows="6" 
+              required
+              class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+            ></textarea>
+          </div>
+          
+          <div>
+            <button 
+              type="submit"
+              class="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-md transition-colors"
+            >
+              Send Message
+            </button>
+          </div>
+        </form>
+        
+        <div id="form-success" class="mt-6 p-4 bg-green-100 text-green-700 rounded-md hidden">
+          Thank you for your message! We will get back to you soon.
+        </div>
+        
+        <div id="form-error" class="mt-6 p-4 bg-red-100 text-red-700 rounded-md hidden">
+          There was an error sending your message. Please try again later.
+        </div>
+      </div>
+    </div>
+  </div>
+</MainLayout>
+
+<script>
+  // Simple form handling (in a real project, this would submit to a backend)
+  document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('contact-form');
+    const successMessage = document.getElementById('form-success');
+    const errorMessage = document.getElementById('form-error');
+    
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      
+      // In a real project, you would send the form data to a backend
+      // For this example, we'll just show the success message
+      
+      // Simulate form submission
+      setTimeout(() => {
+        // Hide the form
+        form.style.display = 'none';
+        
+        // Show success message
+        successMessage.classList.remove('hidden');
+      }, 1000);
+    });
+  });
+</script> 

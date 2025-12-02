@@ -1,0 +1,39 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-primary text-white py-8 mt-12">
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <h3 class="text-xl font-bold mb-4">TABILAB</h3>
+        <p class="mb-2">Text Analytics and BioInformatics Lab</p>
+        <p class="mb-2">Boğaziçi University</p>
+        <p>Computer Engineering Department</p>
+      </div>
+      
+      <div>
+        <h3 class="text-xl font-bold mb-4">Contact</h3>
+        <p class="mb-2">
+          <span class="block">Boğaziçi University</span>
+          <span class="block">Computer Engineering Department</span>
+          <span class="block">34342 Bebek, Istanbul, Turkey</span>
+        </p>
+        
+      </div>
+      
+      <div>
+        <h3 class="text-xl font-bold mb-4">Links</h3>
+        <ul class="space-y-2">
+          <li><a href="https://www.cmpe.boun.edu.tr/" class="hover:underline" target="_blank" rel="noopener noreferrer">BOUN CMPE</a></li>
+          <li><a href="https://www.boun.edu.tr/en-US" class="hover:underline" target="_blank" rel="noopener noreferrer">Boğaziçi University</a></li>
+          <li><a href="https://github.com/boun-tabi" class="hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="border-t border-white/20 mt-8 pt-6 text-center">
+      <p>&copy; {currentYear} TABILAB. All rights reserved.</p>
+    </div>
+  </div>
+</footer> 

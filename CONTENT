@@ -1,0 +1,15 @@
+# People
+
+## Initial stage
+
+- Go to https://tabilab.cmpe.bogazici.edu.tr/people.html
+- Parse the page for people
+- We want each person widget to include email, office no, phone, and webpage if available.
+  - Faculty members
+  - PhD Students
+    - add advisor and MS Degree information if possible
+  - MS Students
+    - add advisor if possible
+  - Alumni
+    - include the current information
+- Create pages under content/people for each person
