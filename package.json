@@ -10,7 +10,8 @@
     "preview": "astro preview",
     "preview-gh": "astro preview --base=/boun-tabi-dev",
     "deploy": "gh-pages -d dist",
-    "astro": "astro"
+    "astro": "astro",
+    "generate:content": "node scripts/generate-content-from-bib.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -25,6 +26,7 @@
     "typescript": "^5.8.3"
   },
   "devDependencies": {
+    "bibtex-parse-js": "^0.0.24",
     "gh-pages": "^6.3.0"
   }
 }
