@@ -14,7 +14,6 @@ const rootDir = path.resolve(__dirname, '..');
 // Configuration
 const DATA_DIR = path.join(rootDir, 'data');
 const PAPERS_DIR = path.join(rootDir, 'src', 'content', 'papers');
-const PEOPLE_DIR = path.join(rootDir, 'src', 'content', 'people');
 
 /**
  * Recursively find all .bib files in a directory
@@ -92,7 +91,6 @@ function formatAuthors(authorString) {
     author = author.replace(/\{\\"\{u\}\}/g, 'ü');
     author = author.replace(/\\"\{u\}/g, 'ü');
     author = author.replace(/\\"u/g, 'ü');
-    author = author.replace(/T\\"\{u\}rk/g, 'Türk');  // Special case for Türk
     
     author = author.replace(/\{\\"\{o\}\}/g, 'ö');
     author = author.replace(/\\"\{o\}/g, 'ö');
@@ -136,11 +134,20 @@ function extractTags(keywords) {
 }
 
 /**
+ * Escape special regex characters in a string
+ */
+function escapeRegex(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/**
  * Get the original BibTeX entry as a string
  */
 function formatBibtex(entry, originalContent) {
   // Try to extract the original entry from the file content
-  const entryRegex = new RegExp(`@${entry.entryType}\\{${entry.citationKey}[^@]*`, 'i');
+  const escapedType = escapeRegex(entry.entryType);
+  const escapedKey = escapeRegex(entry.citationKey);
+  const entryRegex = new RegExp(`@${escapedType}\\{${escapedKey}[^@]*`, 'i');
   const match = originalContent.match(entryRegex);
   
   if (match) {
@@ -174,7 +181,7 @@ function generatePaperFrontmatter(entry, originalContent) {
   const frontmatter = {
     title: tags.title || '',
     authors: formatAuthors(tags.author || ''),
-    year: parseInt(tags.year) || new Date().getFullYear(),
+    year: parseInt(tags.year) || 0,
     venue: tags.journal || tags.booktitle || tags.publisher || '',
     abstract: tags.abstract || '',
     featured: tags.featured === 'true' || tags.featured === '{true}' || false,
@@ -186,21 +193,41 @@ function generatePaperFrontmatter(entry, originalContent) {
 }
 
 /**
+ * Escape a string for use in YAML
+ */
+function escapeYamlString(str) {
+  if (!str) return '';
+  
+  // Escape backslashes first
+  str = str.replace(/\\/g, '\\\\');
+  // Escape double quotes
+  str = str.replace(/"/g, '\\"');
+  // Escape newlines
+  str = str.replace(/\n/g, '\\n');
+  // Escape carriage returns
+  str = str.replace(/\r/g, '\\r');
+  // Escape tabs
+  str = str.replace(/\t/g, '\\t');
+  
+  return str;
+}
+
+/**
  * Write frontmatter and content to a Markdown file
  */
 function writePaperMarkdown(filePath, frontmatter) {
   let content = '---\n';
   
   // Write string fields with quotes
-  content += `title: "${frontmatter.title.replace(/"/g, '\\"')}"\n`;
-  content += `authors: "${frontmatter.authors.replace(/"/g, '\\"')}"\n`;
-  content += `venue: "${frontmatter.venue.replace(/"/g, '\\"')}"\n`;
+  content += `title: "${escapeYamlString(frontmatter.title)}"\n`;
+  content += `authors: "${escapeYamlString(frontmatter.authors)}"\n`;
+  content += `venue: "${escapeYamlString(frontmatter.venue)}"\n`;
   content += `year: ${frontmatter.year}\n`;
-  content += `abstract: "${frontmatter.abstract.replace(/"/g, '\\"')}"\n`;
+  content += `abstract: "${escapeYamlString(frontmatter.abstract)}"\n`;
   
   // Write tags array
   if (frontmatter.tags && frontmatter.tags.length > 0) {
-    content += `tags: [${frontmatter.tags.map(t => `"${t}"`).join(', ')}]\n`;
+    content += `tags: [${frontmatter.tags.map(t => `"${escapeYamlString(t)}"`).join(', ')}]\n`;
   }
   
   // Write featured boolean
