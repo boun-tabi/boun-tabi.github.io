@@ -198,6 +198,14 @@ The generator supports standard publication types:
 - LaTeX special characters (e.g., `\"u`, `\c{c}`, `\i`) are automatically converted to Unicode
 - File names are based on the BibTeX citation key (e.g., `doe2024example.md`)
 
+### Future Enhancements
+
+The current implementation focuses on generating publication content from BibTeX files. Future versions may include:
+
+- **People content generation**: Support for generating `src/content/people/*.md` from BibTeX entries with custom fields for team member information
+- **Custom field mapping**: More flexible field mapping configuration
+- **Incremental updates**: Smart detection to only regenerate changed entries
+
 ## Contributing
 
 1. Fork the repository
