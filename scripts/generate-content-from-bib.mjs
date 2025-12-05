@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 
 // Configuration
-const DATA_DIR = path.join(rootDir, 'data');
+const DATA_DIR = path.join(rootDir, 'data', 'bib');
 const PAPERS_DIR = path.join(rootDir, 'src', 'content', 'papers');
 
 /**
