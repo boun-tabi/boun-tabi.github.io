@@ -312,7 +312,9 @@ def export_json(people: Dict[str, Dict], output_path: str) -> None:
         people: People map dictionary
         output_path: Path to output JSON file
     """
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    output_dir = os.path.dirname(output_path)
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
     
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(people, f, indent=2, ensure_ascii=False)
@@ -342,21 +344,22 @@ def export_markdown_files(people: Dict[str, Dict], output_dir: str) -> None:
             skipped_count += 1
             continue
         
-        # Build frontmatter
+        # Build frontmatter - only include required fields and advisor
         frontmatter = [
             "---",
             f'name: "{info["name"]}"',
-            'title: ""',
-            'photo: ""',
-            'bio: ""',
-            'email: ""',
             f'category: "{info["category"]}"',
-            'order: ',
-            f'advisor: "{info["advisor"]}"',
-            'degree: ""',
+            'photo: ""',  # Empty photo to avoid undefined errors in Astro pages
+        ]
+        
+        # Add advisor if present
+        if info["advisor"]:
+            frontmatter.append(f'advisor: "{info["advisor"]}"')
+        
+        frontmatter.extend([
             "---",
             "",  # Empty body
-        ]
+        ])
         
         with open(md_path, 'w', encoding='utf-8') as f:
             f.write('\n'.join(frontmatter))

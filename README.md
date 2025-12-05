@@ -104,11 +104,52 @@ This will build the site and push the contents of the `dist` directory to the `g
 └── package.json        # Project dependencies
 ```
 
-## Content Generation from BibTeX
+## Content Generation
 
-The website content for publications and people can be automatically generated from BibTeX (`.bib`) files.
+The website supports automatic generation of content from various sources.
 
-### BibTeX Files Location
+### People Generation from BibTeX
+
+You can automatically generate people information from BibTeX files using a GitHub Actions workflow.
+
+#### Workflow: Generate People from BibTeX
+
+This workflow extracts unique authors from all publications in `data/bib/*.bib` and generates:
+- `data/people.generated.json` - Machine-readable JSON with people information
+- `src/content/people/*.md` - Astro markdown files for new people (existing files are not overwritten)
+
+**To run the workflow:**
+
+1. Go to the "Actions" tab in the GitHub repository
+2. Select "Generate People from BibTeX" workflow
+3. Click "Run workflow"
+4. The workflow will create a pull request with the generated files
+
+**What it does:**
+
+- Parses all `.bib` files in `data/bib/` directory
+- Extracts unique authors across all publications
+- Identifies PIs based on filename (e.g., `arzucan-ozgur.bib`)
+- Infers advisors based on co-authorship frequency with PIs
+- Generates minimal markdown files with `name`, `category`, `photo`, and `advisor` fields
+- Only creates new files; existing people files are preserved
+
+**Running locally:**
+
+```bash
+python3 scripts/generate_people_from_bib.py
+```
+
+Options:
+- `--bib-dir` - Directory containing .bib files (default: `data/bib`)
+- `--json-output` - Output path for JSON file (default: `data/people.generated.json`)
+- `--md-output-dir` - Output directory for markdown files (default: `src/content/people`)
+
+### Publications Generation from BibTeX
+
+The website content for publications can be automatically generated from BibTeX (`.bib`) files.
+
+#### BibTeX Files Location
 
 Place your `.bib` files in the `data/` directory. The generator will recursively scan all subdirectories for `.bib` files.
 
