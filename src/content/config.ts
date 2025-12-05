@@ -51,7 +51,7 @@ const peopleCollection = defineCollection({
   type: 'content',
   schema: z.object({
     name: z.string(),
-    title: z.string(),
+    title: z.string().optional(),
     photo: z.string().optional(),
     bio: z.string().optional(),
     research: z.string().optional(),
@@ -61,6 +61,7 @@ const peopleCollection = defineCollection({
     github: z.string().url().optional(),
     category: z.enum(['pi', 'student', 'alumni']),
     order: z.number().optional(),
+    advisor: z.string().optional(),
     degree: z.string().optional(),
     graduationYear: z.number().optional(),
     currentPosition: z.string().optional(),
