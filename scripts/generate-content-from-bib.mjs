@@ -114,7 +114,9 @@ function formatAuthors(authorString) {
     // Handle "Last, First" format
     if (author.includes(',')) {
       const parts = author.split(',').map(p => p.trim());
-      return `${parts[1]} ${parts[0]}`;
+      if (parts.length >= 2 && parts[1]) {
+        return `${parts[1]} ${parts[0]}`;
+      }
     }
     
     return author;
@@ -147,7 +149,10 @@ function formatBibtex(entry, originalContent) {
   // Try to extract the original entry from the file content
   const escapedType = escapeRegex(entry.entryType);
   const escapedKey = escapeRegex(entry.citationKey);
-  const entryRegex = new RegExp(`@${escapedType}\\{${escapedKey}[^@]*`, 'i');
+  
+  // Match the entry up to the next @ or end of string
+  // This handles most common cases while avoiding issues with @ in field values
+  const entryRegex = new RegExp(`@${escapedType}\\{${escapedKey}[^]*?(?=\\n@|$)`, 'i');
   const match = originalContent.match(entryRegex);
   
   if (match) {
