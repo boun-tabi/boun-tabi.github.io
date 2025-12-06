@@ -1,0 +1,4092 @@
+{
+  "hakime-ozturk": {
+    "name": "Hakime Öztürk",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "arzucan-ozgur": {
+    "name": "Arzucan Özgür",
+    "advisor": "",
+    "category": "pi"
+  },
+  "elif-ozkirimli": {
+    "name": "Elif Özkirimli",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "thuy-vu": {
+    "name": "Thuy Vu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "gunes-erkan": {
+    "name": "Güneş Erkan",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "dragomir-r-radev": {
+    "name": "Dragomir R Radev",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "gizem-sogancioglu": {
+    "name": "Gizem Soğancıoğlu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "levent-ozgur": {
+    "name": "Levent Özgür",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "tunga-gungor": {
+    "name": "Tunga Güngör",
+    "advisor": "",
+    "category": "pi"
+  },
+  "philippe-schwaller": {
+    "name": "Philippe Schwaller",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "teodoro-laino": {
+    "name": "Teodoro Laino",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "saliha-durmus-tekir": {
+    "name": "Saliha Durmuş Tekir",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "tunahan-cakir": {
+    "name": "Tunahan Çakır",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "emre-ardic": {
+    "name": "Emre Ardıç",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "ali-semih-sayilirbas": {
+    "name": "Ali Semih Sayılırbaş",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "gokhan-konuk": {
+    "name": "Gökhan Konuk",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "mithat-konuk": {
+    "name": "Mithat Konuk",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "hasret-sariyer": {
+    "name": "Hasret Sarıyer",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "azat-ugurlu": {
+    "name": "Azat Uğurlu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "ilknur-karadeniz": {
+    "name": "İlknur Karadeniz",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "fatih-erdogan-sevilgen": {
+    "name": "Fatih Erdoğan Sevilgen",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "kutlu-o-ulgen": {
+    "name": "Kutlu Ö Ülgen",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "dragomir-radev": {
+    "name": "Dragomir Radev",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "wallace-kb-chan": {
+    "name": "Wallace KB Chan",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "hongjiu-zhang": {
+    "name": "Hongjiu Zhang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jianyi-yang": {
+    "name": "Jianyi Yang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jeffrey-r-brender": {
+    "name": "Jeffrey R Brender",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "junguk-hur": {
+    "name": "Junguk Hur",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yang-zhang": {
+    "name": "Yang Zhang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "vahed-qazvinian": {
+    "name": "Vahed Qazvinian",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "saliha-durmus": {
+    "name": "Saliha Durmuş",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "reinhard-guthke": {
+    "name": "Reinhard Guthke",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yi-huang": {
+    "name": "Yi Huang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "buse-giledereli": {
+    "name": "Buse Giledereli",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "abdullatif-koksal": {
+    "name": "Abdullatif Köksal",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "v-glenn-tarcea": {
+    "name": "V Glenn Tarcea",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "terry-weymouth": {
+    "name": "Terry Weymouth",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "alex-ade": {
+    "name": "Alex Ade",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "aaron-bookvich": {
+    "name": "Aaron Bookvich",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jing-gao": {
+    "name": "Jing Gao",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "vasudeva-mahavisno": {
+    "name": "Vasudeva Mahavisno",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "zach-wright": {
+    "name": "Zach Wright",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "adriane-chapman": {
+    "name": "Adriane Chapman",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "magesh-jayapandian": {
+    "name": "Magesh Jayapandian",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yuanyuan-tian": {
+    "name": "Yuanyuan Tian",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jim-cavalcoli": {
+    "name": "Jim Cavalcoli",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "barbara-mirel": {
+    "name": "Barbara Mirel",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jignesh-patel": {
+    "name": "Jignesh Patel",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "brian-athey": {
+    "name": "Brian Athey",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "david-states": {
+    "name": "David States",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "hv-jagadish": {
+    "name": "HV Jagadish",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "hakan-demir": {
+    "name": "Hakan Demir",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "florian-leitner": {
+    "name": "Florian Leitner",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "martin-krallinger": {
+    "name": "Martin Krallinger",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "carlos-rodriguez-penagos": {
+    "name": "Carlos Rodriguez-Penagos",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jorg-hakenberg": {
+    "name": "Jörg Hakenberg",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "conrad-plake": {
+    "name": "Conrad Plake",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "cheng-ju-kuo": {
+    "name": "Cheng-Ju Kuo",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "chun-nan-hsu": {
+    "name": "Chun-Nan Hsu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "richard-tzong-han-tsai": {
+    "name": "Richard Tzong-Han Tsai",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "hsi-chuan-hung": {
+    "name": "Hsi-Chuan Hung",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "william-w-lau": {
+    "name": "William W Lau",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "calvin-a-johnson": {
+    "name": "Calvin A Johnson",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "rune-saetre": {
+    "name": "Rune Saetre",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "kazuhiro-yoshida": {
+    "name": "Kazuhiro Yoshida",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yan-hua-chen": {
+    "name": "Yan Hua Chen",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "sun-kim": {
+    "name": "Sun Kim",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "soo-yong-shin": {
+    "name": "Soo-Yong Shin",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "byoung-tak-zhang": {
+    "name": "Byoung-Tak Zhang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "william-a-baumgartner-jr": {
+    "name": "William A Baumgartner Jr",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "lawrence-hunter": {
+    "name": "Lawrence Hunter",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "barry-haddow": {
+    "name": "Barry Haddow",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "michael-matthews": {
+    "name": "Michael Matthews",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "xinglong-wang": {
+    "name": "Xinglong Wang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "patrick-ruch": {
+    "name": "Patrick Ruch",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "frederic-ehrler": {
+    "name": "Frédéric Ehrler",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "michael-krauthammer": {
+    "name": "Michael Krauthammer",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "thaibinh-luong": {
+    "name": "ThaiBinh Luong",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "robert-hoffmann": {
+    "name": "Robert Hoffmann",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "chris-sander": {
+    "name": "Chris Sander",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "alfonso-valencia": {
+    "name": "Alfonso Valencia",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "anna-cichoska": {
+    "name": "Anna Cichońska",
+    "advisor": "",
+    "category": "student"
+  },
+  "balaguru-ravikumar": {
+    "name": "Balaguru Ravikumar",
+    "advisor": "",
+    "category": "student"
+  },
+  "robert-j-allaway": {
+    "name": "Robert J Allaway",
+    "advisor": "",
+    "category": "student"
+  },
+  "fangping-wan": {
+    "name": "Fangping Wan",
+    "advisor": "",
+    "category": "student"
+  },
+  "sungjoon-park": {
+    "name": "Sungjoon Park",
+    "advisor": "",
+    "category": "student"
+  },
+  "olexandr-isayev": {
+    "name": "Olexandr Isayev",
+    "advisor": "",
+    "category": "student"
+  },
+  "shuya-li": {
+    "name": "Shuya Li",
+    "advisor": "",
+    "category": "student"
+  },
+  "michael-mason": {
+    "name": "Michael Mason",
+    "advisor": "",
+    "category": "student"
+  },
+  "andrew-lamb": {
+    "name": "Andrew Lamb",
+    "advisor": "",
+    "category": "student"
+  },
+  "ziaurrehman-tanoli": {
+    "name": "Ziaurrehman Tanoli",
+    "advisor": "",
+    "category": "student"
+  },
+  "minji-jeon": {
+    "name": "Minji Jeon",
+    "advisor": "",
+    "category": "student"
+  },
+  "sunkyu-kim": {
+    "name": "Sunkyu Kim",
+    "advisor": "",
+    "category": "student"
+  },
+  "mariya-popova": {
+    "name": "Mariya Popova",
+    "advisor": "",
+    "category": "student"
+  },
+  "stephen-capuzzi": {
+    "name": "Stephen Capuzzi",
+    "advisor": "",
+    "category": "student"
+  },
+  "jianyang-zeng": {
+    "name": "Jianyang Zeng",
+    "advisor": "",
+    "category": "student"
+  },
+  "kristen-dang": {
+    "name": "Kristen Dang",
+    "advisor": "",
+    "category": "student"
+  },
+  "gregory-koytiger": {
+    "name": "Gregory Koytiger",
+    "advisor": "",
+    "category": "student"
+  },
+  "jaewoo-kang": {
+    "name": "Jaewoo Kang",
+    "advisor": "",
+    "category": "student"
+  },
+  "carrow-i-wells": {
+    "name": "Carrow I Wells",
+    "advisor": "",
+    "category": "student"
+  },
+  "timothy-m-willson": {
+    "name": "Timothy M Willson",
+    "advisor": "",
+    "category": "student"
+  },
+  "idg-dream-drug-kinase-binding-prediction-challenge-consortium-user-oselot-tan-mehmet-18": {
+    "name": "IDG-DREAM Drug-Kinase Binding Prediction Challenge Consortium User oselot Tan Mehmet 18",
+    "advisor": "",
+    "category": "student"
+  },
+  "team-n121-huang-chih-han-19-shih-edward-sc-19-chen-tsai-min-19-wu-chih-hsun-19-fang-wei-quan-19-chen-jhih-yu-19-hwang-ming-jing-19": {
+    "name": "Team N121 Huang Chih-Han 19 Shih Edward SC 19 Chen Tsai-Min 19 Wu Chih-Hsun 19 Fang Wei-Quan 19 Chen Jhih-Yu 19 Hwang Ming-Jing 19",
+    "advisor": "",
+    "category": "student"
+  },
+  "team-letdatatalk-wang-xiaokang-20-ben-guebila-marouen-21-shamsaei-behrouz-22-singh-sourav-23": {
+    "name": "Team Let_Data_Talk Wang Xiaokang 20 Ben Guebila Marouen 21 Shamsaei Behrouz 22 Singh Sourav 23",
+    "advisor": "",
+    "category": "student"
+  },
+  "user-thinng-nguyen-thin-24": {
+    "name": "User thinng Nguyen Thin 24",
+    "advisor": "",
+    "category": "student"
+  },
+  "team-kkt-karimi-mostafa-25-26-wu-di-25-27-wang-zhangyang-28-29-shen-yang-25": {
+    "name": "Team KKT Karimi Mostafa 25 26 Wu Di 25 27 Wang Zhangyang 28 29 Shen Yang 25",
+    "advisor": "",
+    "category": "student"
+  },
+  "team-boun-ozturk-hakime-30-ozkirimli-elif-31-ozgur-arzucan-30": {
+    "name": "Team Boun Öztürk Hakime 30 Ozkirimli Elif 31 Özgür Arzucan 30",
+    "advisor": "",
+    "category": "student"
+  },
+  "team-kinasehunter-lim-hansaim-32-xie-lei-33": {
+    "name": "Team KinaseHunter Lim Hansaim 32 Xie Lei 33",
+    "advisor": "",
+    "category": "student"
+  },
+  "team-amsterdamumc-ku-team-kanev-georgi-k-34-kooistra-albert-j-35-westerman-bart-a-34": {
+    "name": "Team AmsterdamUMC-KU-team Kanev Georgi K. 34 Kooistra Albert J. 35 Westerman Bart A. 34",
+    "advisor": "",
+    "category": "student"
+  },
+  "team-druginaselearning-terzopoulos-panagiotis-36-ntagiantas-konstantinos-36-fotis-christos-36-alexopoulos-leonidas-36": {
+    "name": "Team DruginaseLearning Terzopoulos Panagiotis 36 Ntagiantas Konstantinos 36 Fotis Christos 36 Alexopoulos Leonidas 36",
+    "advisor": "",
+    "category": "student"
+  },
+  "team-kermit-lab-ghent-university-boeckaerts-dimitri-37-stock-michiel-38-de-baets-bernard-38-briers-yves-37": {
+    "name": "Team KERMIT-LAB-Ghent University Boeckaerts Dimitri 37 Stock Michiel 38 De Baets Bernard 38 Briers Yves 37",
+    "advisor": "",
+    "category": "student"
+  },
+  "team-qed-luo-yunan-39-hu-hailin-40-peng-jian-39": {
+    "name": "Team QED Luo Yunan 39 Hu Hailin 40 Peng Jian 39",
+    "advisor": "",
+    "category": "student"
+  },
+  "team-metuemblebicrossbar-dogan-tunca-41-rifaioglu-ahmet-s-42-atas-heval-43-atalay-rengul-cetin-43-atalay-volkan-42-martin-maria-j-44": {
+    "name": "Team METU_EMBLEBI_CROssBAR Dogan Tunca 41 Rifaioglu Ahmet S. 42 Atas Heval 43 Atalay Rengul Cetin 43 Atalay Volkan 42 Martin Maria J. 44",
+    "advisor": "",
+    "category": "student"
+  },
+  "team-dmisdk-jeon-minji-6-lee-junhyun-6-yun-seongjun-6-kim-bumsoo-6-chang-buru-6": {
+    "name": "Team DMIS_DK Jeon Minji 6 Lee Junhyun 6 Yun Seongjun 6 Kim Bumsoo 6 Chang Buru 6",
+    "advisor": "",
+    "category": "student"
+  },
+  "team-ai-winter-is-coming": {
+    "name": "Team AI Winter is Coming",
+    "advisor": "",
+    "category": "student"
+  },
+  "team-hulab-turu-gabor-45-misak-adam-45-szalai-bence-45-hunyady-laszlo-45": {
+    "name": "Team hulab Turu Gábor 45 Misák Ádám 45 Szalai Bence 45 Hunyady László 45",
+    "advisor": "",
+    "category": "student"
+  },
+  "team-ml-med-lienhard-matthias-46-prasse-paul-47-bachmann-ivo-48-ganzlin-julia-47-barel-gal-46-herwig-ralf-46": {
+    "name": "Team ML-Med Lienhard Matthias 46 Prasse Paul 47 Bachmann Ivo 48 Ganzlin Julia 47 Barel Gal 46 Herwig Ralf 46",
+    "advisor": "",
+    "category": "student"
+  },
+  "team-prospectors-oroli-davor-49-lui-bono-50-stepani-vinja-49-muc-tomislav-49": {
+    "name": "Team Prospectors Oršolić Davor 49 Lučić Bono 50 Stepanić Višnja 49 Šmuc Tomislav 49",
+    "advisor": "",
+    "category": "student"
+  },
+  "challenge-organizers": {
+    "name": "Challenge organizers",
+    "advisor": "",
+    "category": "student"
+  },
+  "berfu-buyukoz": {
+    "name": "Berfu Büyüköz",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "ali-hurriyetoglu": {
+    "name": "Ali Hürriyetoğlu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "zuoshuang-xiang": {
+    "name": "Zuoshuang Xiang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yongqun-he": {
+    "name": "Yongqun He",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "hasin-rehana": {
+    "name": "Hasin Rehana",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "nur-bengisu-cam": {
+    "name": "Nur Bengisu Çam",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "mert-basmaci": {
+    "name": "Mert Basmaci",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jie-zheng": {
+    "name": "Jie Zheng",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "christianah-jemiyo": {
+    "name": "Christianah Jemiyo",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "rezarta-islamaj-dogan": {
+    "name": "Rezarta Islamaj Doğan",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "andrew-chatr-aryamontri": {
+    "name": "Andrew Chatr-Aryamontri",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "chih-hsuan-wei": {
+    "name": "Chih-Hsuan Wei",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "donald-c-comeau": {
+    "name": "Donald C Comeau",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "rui-antunes": {
+    "name": "Rui Antunes",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "sergio-matos": {
+    "name": "Sérgio Matos",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "qingyu-chen": {
+    "name": "Qingyu Chen",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "aparna-elangovan": {
+    "name": "Aparna Elangovan",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "nagesh-c-panyam": {
+    "name": "Nagesh C Panyam",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "karin-verspoor": {
+    "name": "Karin Verspoor",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "hongfang-liu": {
+    "name": "Hongfang Liu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yanshan-wang": {
+    "name": "Yanshan Wang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "zhuang-liu": {
+    "name": "Zhuang Liu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "berna-altinel": {
+    "name": "Berna Altınel",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "zehra-melce-husunbeyi": {
+    "name": "Zehra Melce Hüsünbeyi",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "aris-fergadis": {
+    "name": "Aris Fergadis",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "chen-kai-wang": {
+    "name": "Chen-Kai Wang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "hong-jie-dai": {
+    "name": "Hong-Jie Dai",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "tung-tran": {
+    "name": "Tung Tran",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "ramakanth-kavuluru": {
+    "name": "Ramakanth Kavuluru",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "ling-luo": {
+    "name": "Ling Luo",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "albert-steppi": {
+    "name": "Albert Steppi",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jinfeng-zhang": {
+    "name": "Jinfeng Zhang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jinchan-qu": {
+    "name": "Jinchan Qu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "zhiyong-lu": {
+    "name": "Zhiyong Lu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "burak-cetin": {
+    "name": "Burak Cetin",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "haluk-bingol": {
+    "name": "Haluk Bingol",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "utku-turk": {
+    "name": "Utku Türk",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "furkan-atmaca": {
+    "name": "Furkan Atmaca",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "saziye-betul-ozates": {
+    "name": "Şaziye Betül Özateş",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "gozde-berk": {
+    "name": "Gözde Berk",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "seyyit-talha-bedir": {
+    "name": "Seyyit Talha Bedir",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "balkiz-ozturk-basaran": {
+    "name": "Balkız Öztürk Başaran",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "deger-ayata": {
+    "name": "Değer Ayata",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "murat-saraclar": {
+    "name": "Murat Saraçlar",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "riza-ozcelik": {
+    "name": "Rıza Özçelik",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "ahmet-yildirim": {
+    "name": "Ahmet Yıldırım",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "suzan-uskudarli": {
+    "name": "Suzan Üsküdarlı",
+    "advisor": "",
+    "category": "pi"
+  },
+  "atif-emre-yuksel": {
+    "name": "Atıf Emre Yüksel",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yasar-alim-turkmen": {
+    "name": "Yaşar Alim Türkmen",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "christie-s-chang": {
+    "name": "Christie S Chang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "rose-oughtred": {
+    "name": "Rose Oughtred",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jennifer-rust": {
+    "name": "Jennifer Rust",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "riza-batista-navarro": {
+    "name": "Riza Batista-Navarro",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jacob-carter": {
+    "name": "Jacob Carter",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "sophia-ananiadou": {
+    "name": "Sophia Ananiadou",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "andre-santos": {
+    "name": "Andre Santos",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "david-campos": {
+    "name": "David Campos",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jose-lus-oliveira": {
+    "name": "José Luís Oliveira",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "onkar-singh": {
+    "name": "Onkar Singh",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jitendra-jonnagaddala": {
+    "name": "Jitendra Jonnagaddala",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "emily-chia-yu-su": {
+    "name": "Emily Chia-Yu Su",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yung-chun-chang": {
+    "name": "Yung-Chun Chang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yu-chen-su": {
+    "name": "Yu-Chen Su",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "chun-han-chu": {
+    "name": "Chun-Han Chu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "chien-chin-chen": {
+    "name": "Chien Chin Chen",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "wen-lian-hsu": {
+    "name": "Wen-Lian Hsu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yifan-peng": {
+    "name": "Yifan Peng",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "cecilia-arighi": {
+    "name": "Cecilia Arighi",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "cathy-h-wu": {
+    "name": "Cathy H Wu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "k-vijay-shanker": {
+    "name": "K Vijay-Shanker",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "ferhat-aydin": {
+    "name": "Ferhat Aydın",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "dongseop-kwon": {
+    "name": "Dongseop Kwon",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "kara-dolinski": {
+    "name": "Kara Dolinski",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "mike-tyers": {
+    "name": "Mike Tyers",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "w-john-wilbur": {
+    "name": "W John Wilbur",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "cagil-sonmez": {
+    "name": "Cagil Sönmez",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "gokce-uludogan": {
+    "name": "Gökçe Uludoğan",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "nilgun-karali": {
+    "name": "Nilgün Karalı",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "mert-tiftikci": {
+    "name": "Mert Tiftikci",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "caner-derici": {
+    "name": "Caner Derici",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "kerem-celik": {
+    "name": "Kerem Çelik",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ekrem-kutbay": {
+    "name": "Ekrem Kutbay",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "yigit-aydin": {
+    "name": "Yiğit Aydın",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "gunizi-kartal": {
+    "name": "Günizi Kartal",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "melike-korucuoglu": {
+    "name": "Melike Korucuoglu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "senol-isci": {
+    "name": "Senol Isci",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "hasan-h-otu": {
+    "name": "Hasan H Otu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yoshinobu-kano": {
+    "name": "Yoshinobu Kano",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jari-bjorne": {
+    "name": "Jari Björne",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "filip-ginter": {
+    "name": "Filip Ginter",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "tapio-salakoski": {
+    "name": "Tapio Salakoski",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "ekaterina-buyko": {
+    "name": "Ekaterina Buyko",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "udo-hahn": {
+    "name": "Udo Hahn",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "k-bretonnel-cohen": {
+    "name": "K Bretonnel Cohen",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "christophe-roeder": {
+    "name": "Christophe Roeder",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "lawrence-e-hunter": {
+    "name": "Lawrence E Hunter",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "halil-kilicoglu": {
+    "name": "Halil Kilicoglu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "sabine-bergler": {
+    "name": "Sabine Bergler",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "sofie-van-landeghem": {
+    "name": "Sofie Van Landeghem",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "thomas-van-parys": {
+    "name": "Thomas Van Parys",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yves-van-de-peer": {
+    "name": "Yves Van de Peer",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "makoto-miwa": {
+    "name": "Makoto Miwa",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "mariana-neves": {
+    "name": "Mariana Neves",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "alberto-pascual-montano": {
+    "name": "Alberto Pascual-Montano",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "sebastian-riedel": {
+    "name": "Sebastian Riedel",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "hong-woo-chun": {
+    "name": "Hong-Woo Chun",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jin-dong-kim": {
+    "name": "Jin-Dong Kim",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "sampo-pyysalo": {
+    "name": "Sampo Pyysalo",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "tomoko-ohta": {
+    "name": "Tomoko Ohta",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "junichi-tsujii": {
+    "name": "Jun'ichi Tsujii",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "cuneyd-murad-ozsert": {
+    "name": "Cüneyd Murad Özsert",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "nadin-kokciyan": {
+    "name": "Nadin Kökciyan",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "arda-celebi": {
+    "name": "Arda Çelebi",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "gonul-ayci": {
+    "name": "Gönül Aycı",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "murat-sensoy": {
+    "name": "Murat Şensoy",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "pinar-yolum": {
+    "name": "Pınar Yolum",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "m-melih-mutlu": {
+    "name": "M Melih Mutlu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jiayuan-he": {
+    "name": "Jiayuan He",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "dat-quoc-nguyen": {
+    "name": "Dat Quoc Nguyen",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "saber-a-akhondi": {
+    "name": "Saber A Akhondi",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "christian-druckenbrodt": {
+    "name": "Christian Druckenbrodt",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "camilo-thorne": {
+    "name": "Camilo Thorne",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "ralph-hoessel": {
+    "name": "Ralph Hoessel",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "zubair-afzal": {
+    "name": "Zubair Afzal",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "zenan-zhai": {
+    "name": "Zenan Zhai",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "biaoyan-fang": {
+    "name": "Biaoyan Fang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "hiyori-yoshikawa": {
+    "name": "Hiyori Yoshikawa",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "ameer-albahem": {
+    "name": "Ameer Albahem",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jingqi-wang": {
+    "name": "Jingqi Wang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yuankai-ren": {
+    "name": "Yuankai Ren",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "zhi-zhang": {
+    "name": "Zhi Zhang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yaoyun-zhang": {
+    "name": "Yaoyun Zhang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "mai-hoang-dao": {
+    "name": "Mai Hoang Dao",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "pedro-ruas": {
+    "name": "Pedro Ruas",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "andre-lamurias": {
+    "name": "Andre Lamurias",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "francisco-m-couto": {
+    "name": "Francisco M Couto",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jenny-copara": {
+    "name": "Jenny Copara",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "nona-naderi": {
+    "name": "Nona Naderi",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "julien-knafou": {
+    "name": "Julien Knafou",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "douglas-teodoro": {
+    "name": "Douglas Teodoro",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "daniel-lowe": {
+    "name": "Daniel Lowe",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "john-mayfield": {
+    "name": "John Mayfield",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "hilal-donmez": {
+    "name": "Hilal Dönmez",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "darshini-mahendran": {
+    "name": "Darshini Mahendran",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "gabrielle-gurdin": {
+    "name": "Gabrielle Gurdin",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "nastassja-lewinski": {
+    "name": "Nastassja Lewinski",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "christina-tang": {
+    "name": "Christina Tang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "bridget-t-mcinness": {
+    "name": "Bridget T McInness",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "cs-malarkodi": {
+    "name": "CS Malarkodi",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "pattabhi-rk-rao": {
+    "name": "Pattabhi Rk Rao",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "sobha-lalitha-devi": {
+    "name": "Sobha Lalitha Devi",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "lawrence-cavedon": {
+    "name": "Lawrence Cavedon",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "trevor-cohn": {
+    "name": "Trevor Cohn",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "timothy-baldwin": {
+    "name": "Timothy Baldwin",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "cigdem-yenialaca": {
+    "name": "Çiğdem Yenialaca",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "nihal-yagmur-aydin": {
+    "name": "Nihal Yağmur Aydin",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "melik-masarifoglu": {
+    "name": "Melik Masarifoglu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "umit-tigrak": {
+    "name": "Umit Tigrak",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "sefa-hakyemez": {
+    "name": "Sefa Hakyemez",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "guven-gul": {
+    "name": "Guven Gul",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "erdal-bozan": {
+    "name": "Erdal Bozan",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "ali-hakan-buyuklu": {
+    "name": "Ali Hakan Buyuklu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "eda-okur": {
+    "name": "Eda Okur",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "muhammed-yavuz-nuzumlali": {
+    "name": "Muhammed Yavuz Nuzumlalı",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "balkiz-ozturk": {
+    "name": "Balkız Öztürk",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "somaiyeh-dehghan": {
+    "name": "Somaiyeh Dehghan",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "inanc-arin": {
+    "name": "Inanç Arın",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "elif-erol": {
+    "name": "Elif Erol",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "berrin-yanikoglu": {
+    "name": "Berrin Yanıkoğlu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "busra-marsan": {
+    "name": "Büşra Marşan",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "salih-furkan-akkurt": {
+    "name": "Salih Furkan Akkurt",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "muhammet-sen": {
+    "name": "Muhammet Şen",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "merve-gurbuz": {
+    "name": "Merve Gürbüz",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "onur-gungor": {
+    "name": "Onur Güngör",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "n-ozlem-ozcan-simsek": {
+    "name": "N Özlem ÖZCAN ŞİMŞEK",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "fikret-gurgen": {
+    "name": "Fikret GÜrgen",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "atakan-yuksel": {
+    "name": "Atakan Yüksel",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "zeynep-isik": {
+    "name": "Zeynep Işık",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "secilay-kutal": {
+    "name": "Seçilay Kutal",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "didar-akar": {
+    "name": "Didar Akar",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "erdem-yoruk": {
+    "name": "Erdem Yörük",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "hakan-sahin": {
+    "name": "Hakan Şahin",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "alper-yayikci": {
+    "name": "Alper Yayıkçı",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "benu-bansal": {
+    "name": "Benu Bansal",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "erinc-gokdeniz": {
+    "name": "Erinç Gökdeniz",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "resit-canbeyli": {
+    "name": "Reşit Canbeyli",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "nailcan-kara": {
+    "name": "Nailcan Kara",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yagiz-levent-gume": {
+    "name": "Yagiz Levent Gume",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "gokce-ezeroglu": {
+    "name": "Gokce Ezeroglu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "serdar-mola": {
+    "name": "Serdar Mola",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "omer-burak-akgun": {
+    "name": "Omer Burak Akgun",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "merve-unlu-menevse": {
+    "name": "Merve Ünlü Menevşe",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yusufcan-manav": {
+    "name": "Yusufcan Manav",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "ebru-arisoy": {
+    "name": "Ebru Arısoy",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "taflan-i-gundem": {
+    "name": "Taflan İ Gündem",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "burak-suyunu": {
+    "name": "Burak Suyunu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "enes-taylan": {
+    "name": "Enes Taylan",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "furkan-akkurt": {
+    "name": "Furkan Akkurt",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "susan-uskudarli": {
+    "name": "Susan Üsküdarlı",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ozlem-cetinoglu": {
+    "name": "Özlem Çetinoğlu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "talha-bedir": {
+    "name": "Talha BediR",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "karahan-sahin": {
+    "name": "Karahan Şahin",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "omer-faruk-tuna": {
+    "name": "Ömer Faruk Tuna",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "george-erhart": {
+    "name": "George Erhart",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "valentine-matula": {
+    "name": "Valentine Matula",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "david-skiba": {
+    "name": "David Skiba",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "umit-tuncer": {
+    "name": "Ümit Tunçer",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "burak-isik": {
+    "name": "Burak Işık",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yasemin-korkmaz": {
+    "name": "Yasemin Korkmaz",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "musa-ihtiyar": {
+    "name": "Musa Ihtiyar",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "omer-ozdemir": {
+    "name": "Ömer Özdemir",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "mustafa-erengul": {
+    "name": "Mustafa Erengül",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "alperen-bag": {
+    "name": "Alperen Bağ",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "berk-atil": {
+    "name": "Berk Atil",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "melih-barsbey": {
+    "name": "Melih Barsbey",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "burak-aydin": {
+    "name": "Burak Aydın",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "musa-nuri-ihtiyar": {
+    "name": "Musa Nuri Ihtiyar",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "asu-busra-temizer": {
+    "name": "Asu Busra Temizer",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "taha-koulani": {
+    "name": "Taha Koulani",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "kazim-kivanc-eren": {
+    "name": "Kazım Kıvanç Eren",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "esra-cinar": {
+    "name": "Esra Çınar",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "hamza-u-karakurt": {
+    "name": "Hamza U Karakurt",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "inci-m-baytas": {
+    "name": "İnci M Baytaş",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "b-altinel": {
+    "name": "B Altinel",
+    "advisor": "",
+    "category": "student"
+  },
+  "zm-husunbeyi": {
+    "name": "ZM Husunbeyi",
+    "advisor": "",
+    "category": "student"
+  },
+  "a-ozgur": {
+    "name": "A Özgür",
+    "advisor": "",
+    "category": "student"
+  },
+  "melike-esma-ilter": {
+    "name": "Melike Esma İlter",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "lale-akarun": {
+    "name": "Lale Akarun",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "s-sarntivijai": {
+    "name": "S Sarntivijai",
+    "advisor": "",
+    "category": "student"
+  },
+  "j-hur": {
+    "name": "J Hur",
+    "advisor": "",
+    "category": "student"
+  },
+  "k-burkhart": {
+    "name": "K Burkhart",
+    "advisor": "",
+    "category": "student"
+  },
+  "y-he": {
+    "name": "Y He",
+    "advisor": "",
+    "category": "student"
+  },
+  "gs-omenn": {
+    "name": "GS Omenn",
+    "advisor": "",
+    "category": "student"
+  },
+  "bd-athey": {
+    "name": "BD Athey",
+    "advisor": "",
+    "category": "student"
+  },
+  "dr-abernethy": {
+    "name": "DR Abernethy",
+    "advisor": "",
+    "category": "student"
+  },
+  "ethem-alpaydin": {
+    "name": "Ethem Alpaydin",
+    "advisor": "",
+    "category": "student"
+  },
+  "ozdeniz-dolu": {
+    "name": "Özdeniz Dolu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "artur-yakimovich": {
+    "name": "Artur Yakimovich",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "tunca-dogan": {
+    "name": "Tunca Doğan",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yusuf-yuksel": {
+    "name": "Yusuf Yüksel",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "bekir-yildirim": {
+    "name": "Bekir Yıldırım",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "hasan-kerem-seker": {
+    "name": "Hasan Kerem Seker",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "pelin-onal": {
+    "name": "Pelin Önal",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "asiyah-yu-lin": {
+    "name": "Asiyah Yu Lin",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "anthony-huffman": {
+    "name": "Anthony Huffman",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "anna-maria-masci": {
+    "name": "Anna Maria Masci",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "rebecca-racz": {
+    "name": "Rebecca Racz",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "guanming-wu": {
+    "name": "Guanming Wu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "kallan-roan": {
+    "name": "Kallan Roan",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "edison-ong": {
+    "name": "Edison Ong",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "sirarat-sarntivijai": {
+    "name": "Sirarat Sarntivijai",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "joy-hu": {
+    "name": "Joy Hu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "eliyas-asfaw": {
+    "name": "Eliyas Asfaw",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "hayleigh-kahn": {
+    "name": "Hayleigh Kahn",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "xingxian-li": {
+    "name": "Xingxian Li",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "xumeng-zhang": {
+    "name": "Xumeng Zhang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "nilufer-kosar": {
+    "name": "Nilufer Kosar",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jianfu-li": {
+    "name": "Jianfu Li",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "warren-manuel": {
+    "name": "Warren Manuel",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "rashmie-abeysinghe": {
+    "name": "Rashmie Abeysinghe",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yuanyi-pan": {
+    "name": "Yuanyi Pan",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "jinjing-guo": {
+    "name": "Jinjing Guo",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "virginia-he": {
+    "name": "Virginia He",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "justin-song": {
+    "name": "Justin Song",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "andrey-i-seleznev": {
+    "name": "Andrey I Seleznev",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "katelyn-hur": {
+    "name": "Katelyn Hur",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "anna-he": {
+    "name": "Anna He",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "alexander-davydov": {
+    "name": "Alexander Davydov",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "qi-yang": {
+    "name": "Qi Yang",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "randi-vita": {
+    "name": "Randi Vita",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "bjoern-peters": {
+    "name": "Bjoern Peters",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "alan-ruttenberg": {
+    "name": "Alan Ruttenberg",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "alexander-d-diehl": {
+    "name": "Alexander D Diehl",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "charles-tapley-hoyt": {
+    "name": "Charles Tapley Hoyt",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "paola-roncaglia": {
+    "name": "Paola Roncaglia",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "rachael-p-huntley": {
+    "name": "Rachael P Huntley",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "richard-h-scheuermann": {
+    "name": "Richard H Scheuermann",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "melanie-courtot": {
+    "name": "Melanie Courtot",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "thomas-todd": {
+    "name": "Thomas Todd",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "samantha-sayers": {
+    "name": "Samantha Sayers",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "fang-chen": {
+    "name": "Fang Chen",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "xinna-li": {
+    "name": "Xinna Li",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "feng-yu-yeh": {
+    "name": "Feng-Yu Yeh",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "patricia-l-whetzel": {
+    "name": "Patricia L Whetzel",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "mark-a-musen": {
+    "name": "Mark A Musen",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "christopher-j-mungall": {
+    "name": "Christopher J Mungall",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "wolfgang-w-leitner": {
+    "name": "Wolfgang W Leitner",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "licong-cui": {
+    "name": "Licong Cui",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "lesley-a-colby": {
+    "name": "Lesley A Colby",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "harry-lt-mobley": {
+    "name": "Harry LT Mobley",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "brian-d-athey": {
+    "name": "Brian D Athey",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "gilbert-s-omenn": {
+    "name": "Gilbert S Omenn",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "lindsay-g-cowell": {
+    "name": "Lindsay G Cowell",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "cui-tao": {
+    "name": "Cui Tao",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "barry-smith": {
+    "name": "Barry Smith",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "atacan-deniz-oncu": {
+    "name": "Atacan Deniz Oncu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "nuriye-ozlem-ozcan-simsek": {
+    "name": "Nuriye Özlem Özcan Şimşek",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "leo-yeh": {
+    "name": "Leo Yeh",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "brett-mcgregor": {
+    "name": "Brett McGregor",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "mustafa-melih-mutlu": {
+    "name": "Mustafa Melih Mutlu",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "keith-burkhart": {
+    "name": "Keith Burkhart",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "gilbert-omenn": {
+    "name": "Gilbert Omenn",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "darrell-abernethy": {
+    "name": "Darrell Abernethy",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "yongqun-oliver-he": {
+    "name": "Yongqun Oliver He",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "saziye-betul": {
+    "name": "Saziye Betül",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ozge-dincsoy": {
+    "name": "Özge Dinçsoy",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "ahmet-okay-caglayan": {
+    "name": "Ahmet Okay Çağlayan",
+    "advisor": "Arzucan Özgür",
+    "category": "student"
+  },
+  "hasim-sak": {
+    "name": "Haşim Sak",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "hasan-mesut-meral": {
+    "name": "Hasan Mesut Meral",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "bulent-sankur": {
+    "name": "Bülent Sankur",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "a-sumru-ozsoy": {
+    "name": "A Sumru Özsoy",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "emre-sevinc": {
+    "name": "Emre Sevinç",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "carlos-ramisch": {
+    "name": "Carlos Ramisch",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "silvio-cordeiro": {
+    "name": "Silvio Cordeiro",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "agata-savary": {
+    "name": "Agata Savary",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "veronika-vincze": {
+    "name": "Veronika Vincze",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "verginica-barbu-mititelu": {
+    "name": "Verginica Barbu Mititelu",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "archna-bhatia": {
+    "name": "Archna Bhatia",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "maja-buljan": {
+    "name": "Maja Buljan",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "marie-candito": {
+    "name": "Marie Candito",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "polona-gantar": {
+    "name": "Polona Gantar",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "voula-giouli": {
+    "name": "Voula Giouli",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "abdelati-hawwari": {
+    "name": "Abdelati Hawwari",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "uxoa-iurrieta": {
+    "name": "Uxoa Iñurrieta",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "jolanta-kovalevskait": {
+    "name": "Jolanta Kovalevskaitė",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "simon-krek": {
+    "name": "Simon Krek",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "timm-lichte": {
+    "name": "Timm Lichte",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "chaya-liebeskind": {
+    "name": "Chaya Liebeskind",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "johanna-monti": {
+    "name": "Johanna Monti",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "carla-parra-escartn": {
+    "name": "Carla Parra Escartín",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "behrang-qasemizadeh": {
+    "name": "Behrang QasemiZadeh",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "renata-ramisch": {
+    "name": "Renata Ramisch",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "nathan-schneider": {
+    "name": "Nathan Schneider",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ivelina-stoyanova": {
+    "name": "Ivelina Stoyanova",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ashwini-vaidya": {
+    "name": "Ashwini Vaidya",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "abigail-walsh": {
+    "name": "Abigail Walsh",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "cem-rifki-aydin": {
+    "name": "Cem Rıfkı Aydın",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "can-ozturan": {
+    "name": "Can Özturan",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "can-alkan": {
+    "name": "Can Alkan",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "pinar-kavak": {
+    "name": "Pınar Kavak",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "mehmet-somel": {
+    "name": "Mehmet Somel",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "omer-gokcumen": {
+    "name": "Omer Gokcumen",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "serkan-ugurlu": {
+    "name": "Serkan Ugurlu",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ceren-saygi": {
+    "name": "Ceren Saygi",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "elif-dal": {
+    "name": "Elif Dal",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "kuyas-bugra": {
+    "name": "Kuyas Bugra",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "s-cenk-sahinalp": {
+    "name": "S Cenk Şahinalp",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "nesrin-ozoren": {
+    "name": "Nesrin Özören",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "cemalettin-bekpen": {
+    "name": "Cemalettin Bekpen",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "serafettin-tasci": {
+    "name": "Şerafettin Taşcı",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "hasan-m-meral": {
+    "name": "Hasan M Meral",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "hidayet-takci": {
+    "name": "Hidayet Takçı",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ali-ciltik": {
+    "name": "Ali Çıltık",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "bruno-guillaume": {
+    "name": "Bruno Guillaume",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "jakub-waszczuk": {
+    "name": "Jakub Waszczuk",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "menghan-jiang": {
+    "name": "Menghan Jiang",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "sara-stymne": {
+    "name": "Sara Stymne",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "hongzhi-xu": {
+    "name": "Hongzhi Xu",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "emrah-budur": {
+    "name": "Emrah Budur",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "christopher-potts": {
+    "name": "Christopher Potts",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "batuhan-baykara": {
+    "name": "Batuhan Baykara",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "yen-yi-lin": {
+    "name": "Yen-Yi Lin",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ibrahim-numanagi": {
+    "name": "Ibrahim Numanagić",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "hossein-asghari": {
+    "name": "Hossein Asghari",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "faraz-hach": {
+    "name": "Faraz Hach",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "yasar-safkan": {
+    "name": "Yaşar Safkan",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "f-canan-pembe": {
+    "name": "F Canan Pembe",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "p-pons": {
+    "name": "P Pons",
+    "advisor": "",
+    "category": "student"
+  },
+  "m-latapy": {
+    "name": "M Latapy",
+    "advisor": "",
+    "category": "student"
+  },
+  "p-yolum": {
+    "name": "P Yolum",
+    "advisor": "",
+    "category": "student"
+  },
+  "t-gungor": {
+    "name": "T Güngör",
+    "advisor": "",
+    "category": "student"
+  },
+  "f-gurgen": {
+    "name": "F Gürgen",
+    "advisor": "",
+    "category": "student"
+  },
+  "dilek-kayahan": {
+    "name": "Dilek Kayahan",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "mine-berker": {
+    "name": "Mine Berker",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ali-erkan": {
+    "name": "Ali Erkan",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "berna-erden": {
+    "name": "Berna Erden",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "levent-altunyurt": {
+    "name": "Levent Altunyurt",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "zihni-orhan": {
+    "name": "Zihni Orhan",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "eray-yildiz": {
+    "name": "Eray Yildiz",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "cherifa-ben-khelil": {
+    "name": "Cherifa Ben Khelil",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "najet-hadj-mohamed": {
+    "name": "Najet Hadj Mohamed",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "cvetana-krstev": {
+    "name": "Cvetana Krstev",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "thomas-pickard": {
+    "name": "Thomas Pickard",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "eduard-bejek": {
+    "name": "Eduard Bejček",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "albert-gatt": {
+    "name": "Albert Gatt",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "nikola-ljubei": {
+    "name": "Nikola Ljubešić",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "mehrnoush-shamsfard": {
+    "name": "Mehrnoush Shamsfard",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "zeynep-yirmibesoglu": {
+    "name": "Zeynep Yirmibeşoğlu",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "a-mustafa-gungor": {
+    "name": "A Mustafa Güngör",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "selahattin-kuru": {
+    "name": "Selahattin Kuru",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "karahan-saritas": {
+    "name": "Karahan Sarıtaş",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "cahid-arda-oz": {
+    "name": "Cahid Arda Öz",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "secil-ozturk": {
+    "name": "Seçil Özturk",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "mustafa-berkay-yilmaz": {
+    "name": "Mustafa Berkay Yılmaz",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "bilge-korolu": {
+    "name": "Bilge Köroǧlu",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "onur-ain": {
+    "name": "Onur Aǧin",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "mustafa-isbilen": {
+    "name": "Mustafa İşbilen",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "cadas-ulas": {
+    "name": "Çaǧdaş Ulaş",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "mehmet-ahat": {
+    "name": "Mehmet Ahat",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "murat-saraslar": {
+    "name": "Murat Saraşlar",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "dilara-soylu": {
+    "name": "Dilara Soylu",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "omar-khattab": {
+    "name": "Omar Khattab",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "olgun-dursun": {
+    "name": "Olgun Dursun",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "harun-dalli": {
+    "name": "Harun Dallı",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "mehmet-sahin": {
+    "name": "Mehmet Şahin",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ena-hodzik": {
+    "name": "Ena Hodzik",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "sabri-gurses": {
+    "name": "Sabri Gürses",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "cagla-aksoy": {
+    "name": "Çağla Aksoy",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "alper-ahmetoglu": {
+    "name": "Alper Ahmetoğlu",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "mehmet-selman-baysan": {
+    "name": "Mehmet Selman Baysan",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "serkan-uysal": {
+    "name": "Serkan Uysal",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "irem-islek": {
+    "name": "İrem İşlek",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "cagla-cig-karaman": {
+    "name": "Çağla Çığ Karaman",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "apdullah-yayik": {
+    "name": "Apdullah Yayik",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "vedat-aybar": {
+    "name": "Vedat Aybar",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "hasan-huseyin-apik": {
+    "name": "HASAN HÜSEYİN APIK",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "sevcan-icoz": {
+    "name": "Sevcan Içöz",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "bekir-bakar": {
+    "name": "Bekir Bakar",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "arda-akdemir": {
+    "name": "Arda Akdemir",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "tetsuo-shibuya": {
+    "name": "Tetsuo Shibuya",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "buse-buz": {
+    "name": "Buse Buz",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "onur-kardes": {
+    "name": "Onur KARDEŞ",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ege-kipman": {
+    "name": "Ege KİPMAN",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "esin-gedik": {
+    "name": "Esin Gedik",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ersin-unkar": {
+    "name": "Ersin Ünkar",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "erencan-erkaya": {
+    "name": "Erencan Erkaya",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "gokce-yesiltas": {
+    "name": "Gökçe Yeşiltaş",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "bayram-yuksel": {
+    "name": "Bayram Yüksel",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "soner-aksu": {
+    "name": "Soner Aksu",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "m-oguzhan-kulekci": {
+    "name": "M Oguzhan Kulekci",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "turkish-human-genome-project": {
+    "name": "Turkish Human Genome Project",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "mahmut-samil-sagiroglu": {
+    "name": "Mahmut Şamil Sağıroğlu",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "cr-aydin": {
+    "name": "CR Aydın",
+    "advisor": "",
+    "category": "student"
+  },
+  "a-erkan": {
+    "name": "A Erkan",
+    "advisor": "",
+    "category": "student"
+  },
+  "h-takci": {
+    "name": "H Takçı",
+    "advisor": "",
+    "category": "student"
+  },
+  "gulsen-bal": {
+    "name": "Gülşen Bal",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "askin-karakas": {
+    "name": "Aşkın Karakaş",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "fatmagul-suzen": {
+    "name": "Fatmagül Süzen",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "kemal-can-kara": {
+    "name": "Kemal Can Kara",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "meryem-uzun-per": {
+    "name": "Meryem Uzun-Per",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "h-sak": {
+    "name": "H Sak",
+    "advisor": "",
+    "category": "student"
+  },
+  "m-saraclar": {
+    "name": "M Saraçlar",
+    "advisor": "",
+    "category": "student"
+  },
+  "haluk-alper-karaevli": {
+    "name": "Haluk Alper Karaevli",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "filiz-aksoy": {
+    "name": "Filiz Aksoy",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "murat-elifoglu": {
+    "name": "Murat Elıfoğlu",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "adem-efe-gencer": {
+    "name": "Adem Efe Gencer",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "asli-gurer": {
+    "name": "Asli Gürer",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "serkan-erdur": {
+    "name": "Serkan Erdur",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "nimet-tulumen": {
+    "name": "Nimet Tülümen",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "gunnur-sevgi-aktoros-genc": {
+    "name": "Günnur Sevgi Aktoros Genç",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ali-oztas": {
+    "name": "Ali Öztaş",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ali-nohutcu": {
+    "name": "Ali Nohutcu",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "emre-boran": {
+    "name": "Emre Boran",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "arif-sirri-ozcelik": {
+    "name": "Arif Sırrı Özçelik",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "bekir-erguner": {
+    "name": "Bekir Ergüner",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "duran-ustek": {
+    "name": "Duran Üstek",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "l-ozgur": {
+    "name": "L Ozgur",
+    "advisor": "",
+    "category": "student"
+  },
+  "bilge-koroglu": {
+    "name": "Bilge Köroglu",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "onur-agin": {
+    "name": "Onur Agın",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "cagdas-ulas": {
+    "name": "Çagdas Ulas",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "buse-ak": {
+    "name": "Buse Ak",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ozcelik-riza": {
+    "name": "Özçelik Rıza",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ahmet-beka-ozkan": {
+    "name": "Ahmet Beka Özkan",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ozgur-turetken": {
+    "name": "Özgür TÜRETKEN",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "kuyas-bugra-bilge": {
+    "name": "Kuyas Bugra-Bilge",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "cenk-sahinalp": {
+    "name": "Cenk Sahinalp",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "nesrin-ozeren": {
+    "name": "Nesrin Ozeren",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "volkan-halil-bagci": {
+    "name": "Volkan Halil Bağcı",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "umut-orcun-turgut": {
+    "name": "Umut Orçun Turgut",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "c-acar-erkek": {
+    "name": "C Acar Erkek",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "levent-arslan": {
+    "name": "Levent Arslan",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "mustafa-gungor": {
+    "name": "Mustafa Güngör",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "emily-m-bender": {
+    "name": "Emily M Bender",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ihmc-florida": {
+    "name": "IHMC Florida",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "us-bernd-bohnet": {
+    "name": "US Bernd Bohnet",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "francis-bond": {
+    "name": "Francis Bond",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "tu-nanyang": {
+    "name": "TU Nanyang",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "sg-cem-bozsahin": {
+    "name": "SG Cem Bozsahin",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "tr-ankara": {
+    "name": "TR Ankara",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ryan-cotterell": {
+    "name": "Ryan Cotterell",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "william-croft": {
+    "name": "William Croft",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "us-alburquerque": {
+    "name": "US Alburquerque",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "miryam-de-lhoneux": {
+    "name": "Miryam de Lhoneux",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "marie-catherine-de-marneffe": {
+    "name": "Marie-Catherine de Marneffe",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "us-columbus": {
+    "name": "US Columbus",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "jamie-findlay": {
+    "name": "Jamie Findlay",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "daniel-flickinger": {
+    "name": "Daniel Flickinger",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "kim-gerdes": {
+    "name": "Kim Gerdes",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "fr-orsay": {
+    "name": "FR Orsay",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "jan-hajic": {
+    "name": "Jan Hajic",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "dag-haug": {
+    "name": "Dag Haug",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "es-donostia": {
+    "name": "ES Donostia",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "laura-kallmeyer": {
+    "name": "Laura Kallmeyer",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "christo-kirov": {
+    "name": "Christo Kirov",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "maria-koptjevskaja-tamm": {
+    "name": "Maria Koptjevskaja Tamm",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "artur-kulmizev": {
+    "name": "Artur Kulmizev",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "lori-levin": {
+    "name": "Lori Levin",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "natalia-levshina": {
+    "name": "Natalia Levshina",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "nl-psycholinguisticsnijmegen": {
+    "name": "NL Psycholinguistics–Nijmegen",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "teresa-lynn": {
+    "name": "Teresa Lynn",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "stella-markantonatou": {
+    "name": "Stella Markantonatou",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "nurit-melnik": {
+    "name": "Nurit Melnik",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "paola-merlo": {
+    "name": "Paola Merlo",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "yusuke-miyao": {
+    "name": "Yusuke Miyao",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "kadri-muischnek": {
+    "name": "Kadri Muischnek",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "joakim-nivre": {
+    "name": "Joakim Nivre",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "petya-osenova": {
+    "name": "Petya Osenova",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "bg-sofia": {
+    "name": "BG Sofia",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "stephen-pepper": {
+    "name": "Stephen Pepper",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "james-pustejovsky": {
+    "name": "James Pustejovsky",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "us-waltham": {
+    "name": "US Waltham",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "alexandre-rademaker": {
+    "name": "Alexandre Rademaker",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "manfred-sailer": {
+    "name": "Manfred Sailer",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "de-main": {
+    "name": "DE Main",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "emmanuel-schang": {
+    "name": "Emmanuel Schang",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "reut-tsarfaty": {
+    "name": "Reut Tsarfaty",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "francis-m-tyers": {
+    "name": "Francis M Tyers",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "meagan-vigus": {
+    "name": "Meagan Vigus",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "aline-villavicencio": {
+    "name": "Aline Villavicencio",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ekaterina-vylomova": {
+    "name": "Ekaterina Vylomova",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "nianwen-xue": {
+    "name": "Nianwen Xue",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "david-yarowsky": {
+    "name": "David Yarowsky",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "us-baltimore": {
+    "name": "US Baltimore",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "amir-zeldes": {
+    "name": "Amir Zeldes",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "daniel-zeman": {
+    "name": "Daniel Zeman",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "tim-zingler": {
+    "name": "Tim Zingler",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "hasan-meral": {
+    "name": "Hasan MERAL",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "b-usra-marsan": {
+    "name": "B üsra Marsan",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "s-muhammet": {
+    "name": "S Muhammet",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "mehmet-dogan": {
+    "name": "Mehmet Doğan",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "sinem-dalkilic": {
+    "name": "Sinem Dalkılıç",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "giannis-christoforidis": {
+    "name": "Giannis Christoforidis",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "pavlos-kefalas": {
+    "name": "Pavlos Kefalas",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "apostolos-n-papadopoulos": {
+    "name": "Apostolos N Papadopoulos",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "yannis-manolopoulos": {
+    "name": "Yannis Manolopoulos",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "virginio-cantoni": {
+    "name": "Virginio Cantoni",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "mauro-mosconi": {
+    "name": "Mauro Mosconi",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "alessandra-setti": {
+    "name": "Alessandra Setti",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "tomasz-boiski": {
+    "name": "Tomasz Boiński",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "julian-szymaski": {
+    "name": "Julian Szymański",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "tymoteusz-cejrowski": {
+    "name": "Tymoteusz Cejrowski",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "kiril-simov": {
+    "name": "Kiril Simov",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "petia-koprinkova-hristova": {
+    "name": "Petia Koprinkova-Hristova",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "alexander-popov": {
+    "name": "Alexander Popov",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "zeynep-hilal-kilimci": {
+    "name": "Zeynep Hilal Kilimci",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "selim-akyokus": {
+    "name": "Selim Akyokuş",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "huyen-trang-phan": {
+    "name": "Huyen Trang Phan",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ngoc-thanh-nguyen-van-cuong-tran": {
+    "name": "Ngoc-Thanh Nguyen Van Cuong Tran",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "dosam-hwang": {
+    "name": "Dosam Hwang",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "ramazan-esmeli": {
+    "name": "Ramazan Esmeli",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "mohamed-bader": {
+    "name": "Mohamed Bader",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "alaa-mohasseb": {
+    "name": "Alaa Mohasseb",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "stefka-fidanova": {
+    "name": "Stefka Fidanova",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "jean-dezert": {
+    "name": "Jean Dezert",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "albena-tchamova": {
+    "name": "Albena Tchamova",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "yihuai-liang": {
+    "name": "Yihuai Liang",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "jiwan-lee": {
+    "name": "Jiwan Lee",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "bonghee-hong": {
+    "name": "Bonghee Hong",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "woochan-kim": {
+    "name": "Woochan Kim",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "jacek-grekow": {
+    "name": "Jacek Grekow",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "iris-figalist": {
+    "name": "Iris Figalist",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "andreas-biesdorf": {
+    "name": "Andreas Biesdorf",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "christoph-brand": {
+    "name": "Christoph Brand",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "sebastian-feld": {
+    "name": "Sebastian Feld",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "marie-kiermeier": {
+    "name": "Marie Kiermeier",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "cem-gultunca": {
+    "name": "Cem Gültunca",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "aleksei-ustimov": {
+    "name": "Aleksei Ustimov",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "m-borahan-tumer": {
+    "name": "M Borahan Tümer",
+    "advisor": "Tunga Güngör",
+    "category": "student"
+  },
+  "o-tanriover": {
+    "name": "O Tanrıöver",
+    "advisor": "",
+    "category": "student"
+  },
+  "s-bilgen": {
+    "name": "S Bilgen",
+    "advisor": "",
+    "category": "student"
+  },
+  "o-ergul": {
+    "name": "O Ergül",
+    "advisor": "",
+    "category": "student"
+  },
+  "l-gurel": {
+    "name": "L Gürel",
+    "advisor": "",
+    "category": "student"
+  },
+  "g-oikonomou": {
+    "name": "G Oikonomou",
+    "advisor": "",
+    "category": "student"
+  },
+  "t-apostolopoulos": {
+    "name": "T Apostolopoulos",
+    "advisor": "",
+    "category": "student"
+  },
+  "fc-pembe": {
+    "name": "FC Pembe",
+    "advisor": "",
+    "category": "student"
+  },
+  "mk-hashem": {
+    "name": "MK Hashem",
+    "advisor": "",
+    "category": "student"
+  },
+  "bj-oommen": {
+    "name": "BJ Oommen",
+    "advisor": "",
+    "category": "student"
+  },
+  "h-kilic": {
+    "name": "H Kılıç",
+    "advisor": "",
+    "category": "student"
+  },
+  "mt-das": {
+    "name": "MT Das",
+    "advisor": "",
+    "category": "student"
+  },
+  "lc-dulger": {
+    "name": "LC Dülger",
+    "advisor": "",
+    "category": "student"
+  },
+  "h-ajorloo": {
+    "name": "H Ajorloo",
+    "advisor": "",
+    "category": "student"
+  },
+  "mt-manzuri-shalmani": {
+    "name": "MT Manzuri-Shalmani",
+    "advisor": "",
+    "category": "student"
+  },
+  "a-lakdashti": {
+    "name": "A Lakdashti",
+    "advisor": "",
+    "category": "student"
+  },
+  "js-kang": {
+    "name": "JS Kang",
+    "advisor": "",
+    "category": "student"
+  },
+  "y-you": {
+    "name": "Y You",
+    "advisor": "",
+    "category": "student"
+  },
+  "my-sung": {
+    "name": "MY Sung",
+    "advisor": "",
+    "category": "student"
+  },
+  "o-polat": {
+    "name": "O Polat",
+    "advisor": "",
+    "category": "student"
+  },
+  "t-yildirim": {
+    "name": "T Yıldırım",
+    "advisor": "",
+    "category": "student"
+  },
+  "b-ilgen": {
+    "name": "B Ilgen",
+    "advisor": "",
+    "category": "student"
+  },
+  "b-karaoglan": {
+    "name": "B Karaoglan",
+    "advisor": "",
+    "category": "student"
+  },
+  "kim-marriott": {
+    "name": "Kim Marriott",
+    "advisor": "",
+    "category": "student"
+  },
+  "bernd-meyer": {
+    "name": "Bernd Meyer",
+    "advisor": "",
+    "category": "student"
+  },
+  "barbara-caputo": {
+    "name": "Barbara Caputo",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "henning-muller": {
+    "name": "Henning Müller",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "jesus-martinez-gomez": {
+    "name": "Jesus Martinez-Gomez",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "mauricio-villegas": {
+    "name": "Mauricio Villegas",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "burak-acar": {
+    "name": "Burak Acar",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "novi-patricia": {
+    "name": "Novi Patricia",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "neda-marvasti": {
+    "name": "Neda Marvasti",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "roberto-paredes": {
+    "name": "Roberto Paredes",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "miguel-cazorla": {
+    "name": "Miguel Cazorla",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "ismael-garcia-varea": {
+    "name": "Ismael Garcia-Varea",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "vicente-morell": {
+    "name": "Vicente Morell",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "gilbert": {
+    "name": "Gilbert",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "andrew": {
+    "name": "Andrew",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "luca-piras": {
+    "name": "Luca Piras",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "josiah-wang": {
+    "name": "Josiah Wang",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "krystian-mikolajczyk": {
+    "name": "Krystian Mikolajczyk",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "albagseco-de-herrera": {
+    "name": "AlbaG.Seco de Herrera",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "stefano-bromuri": {
+    "name": "Stefano Bromuri",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "mashraful-amin": {
+    "name": "M.Ashraful Amin",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "mahmoodkazi-mohammed": {
+    "name": "MahmoodKazi Mohammed",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "nedab-marvasti": {
+    "name": "NedaB. Marvasti",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "josef-aldana": {
+    "name": "JoséF. Aldana",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "mara-del-mar-roldan-garca": {
+    "name": "María del Mar Roldán García",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "e-begenilmis": {
+    "name": "E Begenilmiş",
+    "advisor": "",
+    "category": "student"
+  },
+  "s-uskudarli": {
+    "name": "S. Uskudarlı",
+    "advisor": "",
+    "category": "student"
+  },
+  "susan-m-uskudarli": {
+    "name": "Susan M Üsküdarlı",
+    "advisor": "",
+    "category": "student"
+  },
+  "tb-dinesh": {
+    "name": "TB Dinesh¹",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "rustu-turkay": {
+    "name": "Rüştü Türkay",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "baris-bakir": {
+    "name": "Barış Bakır",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "zeynep-balal": {
+    "name": "Zeynep Balal",
+    "advisor": "",
+    "category": "student"
+  },
+  "meliksah-turker": {
+    "name": "Meliksah Turker",
+    "advisor": "",
+    "category": "student"
+  },
+  "murat-kalender": {
+    "name": "Murat Kalender",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "jiangbo-dang": {
+    "name": "Jiangbo Dang",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "basak-taraktas": {
+    "name": "Başak Taraktaş",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "berk-esen": {
+    "name": "Berk Esen",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "t-b-dinesh": {
+    "name": "T. B. Dinesh",
+    "advisor": "",
+    "category": "student"
+  },
+  "subramanya-sastry": {
+    "name": "Subramanya Sastry",
+    "advisor": "",
+    "category": "student"
+  },
+  "deepti-aggarwal": {
+    "name": "Deepti Aggarwal",
+    "advisor": "",
+    "category": "student"
+  },
+  "venkatesh-choppella": {
+    "name": "Venkatesh Choppella",
+    "advisor": "",
+    "category": "student"
+  },
+  "neda-b-marvasti": {
+    "name": "Neda B Marvasti",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "jose-f-aldana-montes": {
+    "name": "José F Aldana-Montes",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "n-b-marvasti": {
+    "name": "N B Marvasti",
+    "advisor": "",
+    "category": "student"
+  },
+  "n-kokciyan": {
+    "name": "N Kökciyan",
+    "advisor": "",
+    "category": "student"
+  },
+  "r-turkay": {
+    "name": "R Türkay",
+    "advisor": "",
+    "category": "student"
+  },
+  "a-yazici": {
+    "name": "A Yazıcı",
+    "advisor": "",
+    "category": "student"
+  },
+  "b-acar": {
+    "name": "B Acar",
+    "advisor": "",
+    "category": "student"
+  },
+  "neda-barzegar-marvasti": {
+    "name": "Neda Barzegar Marvasti",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "maria-del-mar-roldan-garcia": {
+    "name": "Maria del Mar Roldan Garcia",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "jose-francisco-aldana-montes": {
+    "name": "José Francisco Aldana Montes",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "ugurcan-arikan": {
+    "name": "Ugurcan Arikan",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "h-burak-celebi": {
+    "name": "H Burak Celebi",
+    "advisor": "",
+    "category": "student"
+  },
+  "ea-degirmencioglu": {
+    "name": "EA Degirmencioglu",
+    "advisor": "",
+    "category": "student"
+  },
+  "ceyhun-burak-akgul": {
+    "name": "Ceyhun Burak Akgül",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "susan-michele-uskudarli": {
+    "name": "Susan Michele Üsküdarlı",
+    "advisor": "",
+    "category": "student"
+  },
+  "erdem-begenilmis": {
+    "name": "Erdem Beğenilmiş",
+    "advisor": "",
+    "category": "student"
+  },
+  "m-fatih-koksal": {
+    "name": "M Fatih Köksal",
+    "advisor": "",
+    "category": "student"
+  },
+  "re-basar": {
+    "name": "RE Başar",
+    "advisor": "",
+    "category": "student"
+  },
+  "sm-uskudarli": {
+    "name": "SM Uskudarli",
+    "advisor": "",
+    "category": "student"
+  },
+  "t-dinesh": {
+    "name": "T Dinesh",
+    "advisor": "",
+    "category": "student"
+  },
+  "hasan-ozturk": {
+    "name": "Hasan Öztürk",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "alperen-degirmenci": {
+    "name": "Alperen Değirmenci",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "kazim-emre-yuksel": {
+    "name": "Kazim Emre Yüksel",
+    "advisor": "",
+    "category": "student"
+  },
+  "daghan-dinc": {
+    "name": "Daghan Dinç",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "ed": {
+    "name": "( Ed.)",
+    "advisor": "",
+    "category": "student"
+  },
+  "kadir-cihan-duran": {
+    "name": "Kadir Cihan Duran",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "kadir-ersoy": {
+    "name": "Kadir Ersoy",
+    "advisor": "",
+    "category": "student"
+  },
+  "ecenur-sezer": {
+    "name": "Ecenur Sezer",
+    "advisor": "",
+    "category": "student"
+  },
+  "fatma-basak-aydemir": {
+    "name": "Fatma Başak Aydemir",
+    "advisor": "",
+    "category": "student"
+  },
+  "v-choppella": {
+    "name": "V Choppella",
+    "advisor": "",
+    "category": "student"
+  },
+  "mine-ogretir": {
+    "name": "Mine Öğretir",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "ali-taylan-cemgil": {
+    "name": "Ali Taylan Cemgil",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "hamza-zeytinoglu": {
+    "name": "Hamza Zeytinoglu",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "bulent-ozel": {
+    "name": "Bulent Ozel",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "arman-boyaci": {
+    "name": "Arman Boyacı",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "a-taylan-cemgil": {
+    "name": "A Taylan Cemgil",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "murat-aksoy": {
+    "name": "Murat Aksoy",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "neslehan-avcu": {
+    "name": "Neslehan Avcu",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "susana-merino-caviedes": {
+    "name": "Susana Merino-Caviedes",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "engin-deniz-diktas": {
+    "name": "Engin Deniz Diktas",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "miguel-angel-martin-fernandez": {
+    "name": "Miguel Angel Martın-Fernández",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "sila-girgin": {
+    "name": "Sıla Girgin",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "ioannis-marras": {
+    "name": "Ioannis Marras",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "emma-munoz-moreno": {
+    "name": "Emma Munoz-Moreno",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "erkin-tekeli": {
+    "name": "Erkin Tekeli",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "roland-bammer": {
+    "name": "Roland Bammer",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "marcos-martin-fernandez": {
+    "name": "Marcos Martin-Fernandez",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "ali-vahit-sahiner": {
+    "name": "Ali Vahit Sahiner",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "ozturk-h": {
+    "name": "Öztürk\\ H",
+    "advisor": "",
+    "category": "student"
+  },
+  "a-degirmenci": {
+    "name": "A Değirmenci",
+    "advisor": "",
+    "category": "student"
+  },
+  "o-gungor": {
+    "name": "O Güngör",
+    "advisor": "",
+    "category": "student"
+  },
+  "k-yazan": {
+    "name": "K Yazan",
+    "advisor": "",
+    "category": "student"
+  },
+  "m-seyhan": {
+    "name": "M. Seyhan",
+    "advisor": "",
+    "category": "student"
+  },
+  "kivanc-yazan": {
+    "name": "Kıvanç Yazan",
+    "advisor": "",
+    "category": "student"
+  },
+  "andrew-gilbert": {
+    "name": "Andrew Gilbert",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "lucas-piras": {
+    "name": "Lucas Piras",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "alba-garca-seco-de-herrera": {
+    "name": "Alba García Seco de Herrera",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "m-ashraful-amin": {
+    "name": "M Ashraful Amin",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "mahmood-kazi-mohammed": {
+    "name": "Mahmood Kazi Mohammed",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "jose-aldana": {
+    "name": "José Aldana",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "m-gokhan-habiboglu": {
+    "name": "M Gokhan Habiboglu",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "onur-calikus": {
+    "name": "Onur Calikus",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "cenk-sezgin": {
+    "name": "Cenk Sezgin",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "sahin-yelkenci": {
+    "name": "Sahin Yelkenci",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "duygu-saide-akman": {
+    "name": "Duygu Saide Akman",
+    "advisor": "Suzan Üsküdarlı",
+    "category": "student"
+  },
+  "a-yildirim": {
+    "name": "A Yıldırım",
+    "advisor": "",
+    "category": "student"
+  },
+  "sm-uskudarh": {
+    "name": "SM Uskudarh",
+    "advisor": "",
+    "category": "student"
+  },
+  "dinesh-t": {
+    "name": "Dinesh T",
+    "advisor": "",
+    "category": "student"
+  }
+}

@@ -1,0 +1,105 @@
+name: Generate People from BibTeX
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate-people:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install bibtexparser
+
+      - name: Run generation script
+        id: generate
+        run: |
+          python scripts/generate_people_from_bib.py
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git status --porcelain | grep -q .; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Compute branch name
+        if: steps.check_changes.outputs.changed == 'true'
+        id: branch_name
+        run: |
+          BRANCH="people-from-bib-${GITHUB_RUN_ID}"
+          echo "name=$BRANCH" >> "$GITHUB_OUTPUT"
+
+      - name: Configure git user
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+
+      - name: Create branch, commit, and push
+        if: steps.check_changes.outputs.changed == 'true'
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          BRANCH_NAME: ${{ steps.branch_name.outputs.name }}
+        run: |
+          git checkout -b "$BRANCH_NAME" "origin/$DEFAULT_BRANCH"
+          git add data/people.generated.json src/content/people
+          git commit -m "Generate people data from BibTeX files"
+          git push origin "$BRANCH_NAME"
+
+      - name: Open pull request
+        if: steps.check_changes.outputs.changed == 'true'
+        uses: actions/github-script@v7
+        env:
+          BRANCH_NAME: ${{ steps.branch_name.outputs.name }}
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const defaultBranch = context.payload.repository.default_branch;
+            const branchName = process.env.BRANCH_NAME;
+
+            const { data: pr } = await github.rest.pulls.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: "Generate people data from BibTeX files",
+              head: branchName,
+              base: defaultBranch,
+              body: [
+                "Automatically generated people data from BibTeX files in `data/bib/*.bib`.",
+                "",
+                "## Generated Files",
+                "- `data/people.generated.json` - Machine-readable JSON with people information",
+                "- `src/content/people/*.md` - Astro markdown files for new people (existing files not overwritten)",
+                "",
+                "## Details",
+                "- Extracts unique authors from all publications",
+                "- Infers advisors based on co-authorship frequency with PIs",
+                "- Sets category to `pi` for faculty, `student` for others",
+                "- Only creates markdown files for people that don't already exist",
+              ].join("\n")
+            });
+
+            core.info(`Created PR #${pr.number}: ${pr.html_url}`);
+
+      - name: No changes – skip PR
+        if: steps.check_changes.outputs.changed != 'true'
+        run: |
+          echo "No changes detected. Nothing to commit or PR."
