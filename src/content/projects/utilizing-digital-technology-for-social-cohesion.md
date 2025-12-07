@@ -2,7 +2,7 @@
 title: "Utilizing Digital Technology for Social Cohesion"
 description: "Utilizing Digital Technology for Social Cohesion, Positive Messaging and Peace by Boosting Collaboration, Exchange and Solidarity. The project is led by the Hrant Dink Foundation (HDV) and is a collaboration between HDV, Sabanci University, and Bogazici University."
 image: "/images/projects/social-cohesion.jpg"
-status: "active"
+status: "completed"
 startYear: 2021
 endYear: 2024
 team: ["Hrant Dink Foundation", "Sabanci University", "Bogazici University"]

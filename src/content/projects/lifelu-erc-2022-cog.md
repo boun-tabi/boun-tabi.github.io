@@ -9,7 +9,7 @@ team: ["Boğaziçi Üniversitesi"]
 links:
   "ERC Project": "https://cordis.europa.eu/project/id/101089287"
 featured: false
-order: 9
+order: 1
 ---
 
 # LifeLU: Understanding the Language of Life
