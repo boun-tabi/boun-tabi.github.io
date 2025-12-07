@@ -1,11 +1,23 @@
 ---
 name: "Ahmet Beka Özkan"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/ahmet-beka-ozkan.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Tunga Güngör."
-email: "ahmet.ozkan@boun.edu.tr"
+bio: "TABILAB alumnus who worked under the supervision of Tunga Güngör."
+email: "ahmet.ozkan@alumni.boun.edu.tr"
 category: "alumni"
-order: 20
+order: 58
 advisor: "Tunga Güngör"
-degree: "MS"
 ---
+
+Ahmet Beka Özkan is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Tunga Güngör.
+
+## Research Interests
+
+- Natural Language Processing
+- Machine Learning
+- Text Analysis
+- Turkish Language Processing
+
+## Advisor
+
+- **Advisor:** Tunga Güngör

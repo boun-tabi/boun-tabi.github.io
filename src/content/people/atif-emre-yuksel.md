@@ -1,16 +1,15 @@
 ---
 name: "Atıf Emre Yüksel"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/atif-emre-yuksel.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Arzucan Özgür."
-email: "atif.yuksel@boun.edu.tr"
+bio: "TABILAB alumnus who worked under the supervision of Arzucan Özgür."
+email: "atif.yuksel@alumni.boun.edu.tr"
 category: "alumni"
-order: 22
+order: 63
 advisor: "Arzucan Özgür"
-degree: "MS"
 ---
 
-Atıf Emre Yüksel is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Arzucan Özgür.
+Atıf Emre Yüksel is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Arzucan Özgür.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Atıf Emre Yüksel is an MS student at the Computer Engineering Department of Bo
 
 ## Advisor
 
-- **Advisor:** Arzucan Özgür 
+- **Advisor:** Arzucan Özgür

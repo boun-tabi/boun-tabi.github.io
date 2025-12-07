@@ -27,4 +27,4 @@ Arif Sırrı Özçelik is a TABILAB alumnus who worked under the supervision of 
 
 ## Advisor
 
-- **Advisor:** Tunga Güngör
+- **Advisor:** Tunga Güngör 

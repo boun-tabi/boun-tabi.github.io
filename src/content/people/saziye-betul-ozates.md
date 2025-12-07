@@ -4,7 +4,7 @@ title: "PhD Student"
 photo: "/images/people/saziye-betul-ozates.jpg"
 bio: "PhD student at Boğaziçi University, working on natural language processing under the supervision of Arzucan Özgür."
 email: "betul.ozates@boun.edu.tr"
-category: "alumni"
+category: "student"
 order: 13
 advisor: "Arzucan Özgür"
 degree: "PhD"

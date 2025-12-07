@@ -1,16 +1,21 @@
 ---
 name: "Mert Tiftikçi"
-title: "PhD Student"
+title: "Alumnus"
 photo: "/images/people/mert-tiftikci.jpg"
-bio: "PhD student at Boğaziçi University, working on natural language processing and bioinformatics under the supervision of Arzucan Özgür. Completed MS in 2019 under the supervision of Arzucan Özgür."
-email: "mert.tiftikci@boun.edu.tr"
+bio: "TABILAB alumnus who worked under the supervision of Arzucan Özgür. Completed MS in 2019 under the supervision of Arzucan Özgür."
+email: "mert.tiftikci@alumni.boun.edu.tr"
 category: "alumni"
-order: 9
+order: 53
 advisor: "Arzucan Özgür"
-degree: "PhD"
+degree: "MS"
+graduationYear: 2019
 ---
 
-Mert Tiftikçi is a PhD student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Arzucan Özgür. He completed his MS degree in 2019 under the supervision of Arzucan Özgür.
+Mert Tiftikçi is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Arzucan Özgür. He completed his MS degree in 2019 under the supervision of Arzucan Özgür.
+
+## Education
+
+- **MS Degree:** in 2019 under the supervision of Arzucan Özgür
 
 ## Research Interests
 
@@ -20,10 +25,6 @@ Mert Tiftikçi is a PhD student at the Computer Engineering Department of Boğaz
 - Text Mining
 - Drug Discovery
 
-## Education
-
-- **MS Degree:** in 2019 under the supervision of Arzucan Özgür
-
 ## Advisor
 
-- **Advisor:** Arzucan Özgür 
+- **Advisor:** Arzucan Özgür

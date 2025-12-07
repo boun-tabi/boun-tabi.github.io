@@ -1,16 +1,15 @@
 ---
 name: "Bedirhan Çaldır"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/bedirhan-caldir.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Arzucan Özgür."
-email: "bedirhan.caldir@boun.edu.tr"
+bio: "TABILAB alumnus who worked under the supervision of Arzucan Özgür."
+email: "bedirhan.caldir@alumni.boun.edu.tr"
 category: "alumni"
-order: 25
+order: 66
 advisor: "Arzucan Özgür"
-degree: "MS"
 ---
 
-Bedirhan Çaldır is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Arzucan Özgür.
+Bedirhan Çaldır is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Arzucan Özgür.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Bedirhan Çaldır is an MS student at the Computer Engineering Department of Bo�
 
 ## Advisor
 
-- **Advisor:** Arzucan Özgür 
+- **Advisor:** Arzucan Özgür

@@ -1,16 +1,15 @@
 ---
 name: "Merve Ünlü"
-title: "PhD Student"
+title: "Alumnus"
 photo: "/images/people/merve-unlu.jpg"
-bio: "PhD student at Boğaziçi University, working on natural language processing and bioinformatics under the supervision of Arzucan Özgür."
-email: "merve.unlu@boun.edu.tr"
-category: "student"
-order: 10
+bio: "TABILAB alumnus who worked under the supervision of Arzucan Özgür."
+email: "merve.unlu@alumni.boun.edu.tr"
+category: "alumni"
+order: 56
 advisor: "Arzucan Özgür"
-degree: "PhD"
 ---
 
-Merve Ünlü is a PhD student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Arzucan Özgür.
+Merve Ünlü is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Arzucan Özgür.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Merve Ünlü is a PhD student at the Computer Engineering Department of Boğazi�
 
 ## Advisor
 
-- **Advisor:** Arzucan Özgür 
+- **Advisor:** Arzucan Özgür

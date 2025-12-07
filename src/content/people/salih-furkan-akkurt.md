@@ -1,16 +1,15 @@
 ---
 name: "Salih Furkan Akkurt"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/salih-furkan-akkurt.jpg"
-bio: "MS student at Boğaziçi University, working on software engineering and natural language processing under the supervision of Suzan Üsküdarlı."
-email: "salih.akkurt@boun.edu.tr"
-category: "student"
-order: 12
+bio: "TABILAB alumnus who worked under the supervision of Suzan Üsküdarlı."
+email: "salih.akkurt@alumni.boun.edu.tr"
+category: "alumni"
+order: 60
 advisor: "Suzan Üsküdarlı"
-degree: "MS"
 ---
 
-Salih Furkan Akkurt is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Suzan Üsküdarlı.
+Salih Furkan Akkurt is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Suzan Üsküdarlı.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Salih Furkan Akkurt is an MS student at the Computer Engineering Department of B
 
 ## Advisor
 
-- **Advisor:** Suzan Üsküdarlı 
+- **Advisor:** Suzan Üsküdarlı

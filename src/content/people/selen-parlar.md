@@ -1,16 +1,15 @@
 ---
 name: "Selen Parlar"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/selen-parlar.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing and bioinformatics under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı."
-email: "selen.parlar@boun.edu.tr"
+bio: "TABILAB alumnus who worked under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı."
+email: "selen.parlar@alumni.boun.edu.tr"
 category: "alumni"
-order: 39
+order: 71
 advisor: "Arzucan Özgür"
-degree: "MS"
 ---
 
-Selen Parlar is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı.
+Selen Parlar is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Selen Parlar is an MS student at the Computer Engineering Department of Boğazi�
 
 ## Advisor
 
-- **Advisor:** Arzucan Özgür and co-advise with Elif Özkırımlı 
+- **Advisor:** Arzucan Özgür and co-advise with Elif Özkırımlı

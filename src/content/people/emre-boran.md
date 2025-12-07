@@ -1,16 +1,15 @@
 ---
 name: "Emre Boran"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/emre-boran.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Tunga Güngör."
-email: "emre.boran@boun.edu.tr"
-category: "student"
-order: 26
+bio: "TABILAB alumnus who worked under the supervision of Tunga Güngör."
+email: "emre.boran@alumni.boun.edu.tr"
+category: "alumni"
+order: 68
 advisor: "Tunga Güngör"
-degree: "MS"
 ---
 
-Emre Boran is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Tunga Güngör.
+Emre Boran is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Tunga Güngör.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Emre Boran is an MS student at the Computer Engineering Department of Boğaziçi
 
 ## Advisor
 
-- **Advisor:** Tunga Güngör 
+- **Advisor:** Tunga Güngör

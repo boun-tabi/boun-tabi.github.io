@@ -1,16 +1,15 @@
 ---
 name: "Şahin Batmaz"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/sahin-batmaz.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Arzucan Özgür."
-email: "sahin.batmaz@boun.edu.tr"
-category: "student"
-order: 40
+bio: "TABILAB alumnus who worked under the supervision of Arzucan Özgür."
+email: "sahin.batmaz@alumni.boun.edu.tr"
+category: "alumni"
+order: 77
 advisor: "Arzucan Özgür"
-degree: "MS"
 ---
 
-Şahin Batmaz is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Arzucan Özgür.
+Şahin Batmaz is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Arzucan Özgür.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ degree: "MS"
 
 ## Advisor
 
-- **Advisor:** Arzucan Özgür 
+- **Advisor:** Arzucan Özgür

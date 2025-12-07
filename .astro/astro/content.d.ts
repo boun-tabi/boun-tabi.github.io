@@ -167,9 +167,9 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 };
 "news": {
-"acl-2023-paper.md": {
-	id: "acl-2023-paper.md";
-  slug: "acl-2023-paper";
+"turna-release.md": {
+	id: "turna-release.md";
+  slug: "turna-release";
   body: string;
   collection: "news";
   data: InferEntrySchema<"news">
@@ -2082,6 +2082,13 @@ declare module 'astro:content' {
   collection: "people";
   data: InferEntrySchema<"people">
 } & { render(): Render[".md"] };
+"alaaddin-eren-namli.md": {
+	id: "alaaddin-eren-namli.md";
+  slug: "alaaddin-eren-namli";
+  body: string;
+  collection: "people";
+  data: InferEntrySchema<"people">
+} & { render(): Render[".md"] };
 "ali-ciltik.md": {
 	id: "ali-ciltik.md";
   slug: "ali-ciltik";
@@ -2194,6 +2201,13 @@ declare module 'astro:content' {
   collection: "people";
   data: InferEntrySchema<"people">
 } & { render(): Render[".md"] };
+"berk-sel.md": {
+	id: "berk-sel.md";
+  slug: "berk-sel";
+  body: string;
+  collection: "people";
+  data: InferEntrySchema<"people">
+} & { render(): Render[".md"] };
 "burak-aydin.md": {
 	id: "burak-aydin.md";
   slug: "burak-aydin";
@@ -2271,6 +2285,13 @@ declare module 'astro:content' {
   collection: "people";
   data: InferEntrySchema<"people">
 } & { render(): Render[".md"] };
+"damla-demirok.md": {
+	id: "damla-demirok.md";
+  slug: "damla-demirok";
+  body: string;
+  collection: "people";
+  data: InferEntrySchema<"people">
+} & { render(): Render[".md"] };
 "dilek-kayahan.md": {
 	id: "dilek-kayahan.md";
   slug: "dilek-kayahan";
@@ -2323,6 +2344,13 @@ declare module 'astro:content' {
 "enes-taylan.md": {
 	id: "enes-taylan.md";
   slug: "enes-taylan";
+  body: string;
+  collection: "people";
+  data: InferEntrySchema<"people">
+} & { render(): Render[".md"] };
+"eren-kotar.md": {
+	id: "eren-kotar.md";
+  slug: "eren-kotar";
   body: string;
   collection: "people";
   data: InferEntrySchema<"people">
@@ -2397,9 +2425,9 @@ declare module 'astro:content' {
   collection: "people";
   data: InferEntrySchema<"people">
 } & { render(): Render[".md"] };
-"gozde-berk-ozcan.md": {
-	id: "gozde-berk-ozcan.md";
-  slug: "gozde-berk-ozcan";
+"gozde-berk.md": {
+	id: "gozde-berk.md";
+  slug: "gozde-berk";
   body: string;
   collection: "people";
   data: InferEntrySchema<"people">
@@ -2488,13 +2516,6 @@ declare module 'astro:content' {
   collection: "people";
   data: InferEntrySchema<"people">
 } & { render(): Render[".md"] };
-"khaneh-bargh.md": {
-	id: "khaneh-bargh.md";
-  slug: "khaneh-bargh";
-  body: string;
-  collection: "people";
-  data: InferEntrySchema<"people">
-} & { render(): Render[".md"] };
 "levent-ozgur.md": {
 	id: "levent-ozgur.md";
   slug: "levent-ozgur";
@@ -2540,13 +2561,6 @@ declare module 'astro:content' {
 "melike-korucuoglu.md": {
 	id: "melike-korucuoglu.md";
   slug: "melike-korucuoglu";
-  body: string;
-  collection: "people";
-  data: InferEntrySchema<"people">
-} & { render(): Render[".md"] };
-"meliksah-turker.md": {
-	id: "meliksah-turker.md";
-  slug: "meliksah-turker";
   body: string;
   collection: "people";
   data: InferEntrySchema<"people">
@@ -2607,6 +2621,13 @@ declare module 'astro:content' {
   collection: "people";
   data: InferEntrySchema<"people">
 } & { render(): Render[".md"] };
+"muhammed-emin-arayici.md": {
+	id: "muhammed-emin-arayici.md";
+  slug: "muhammed-emin-arayici";
+  body: string;
+  collection: "people";
+  data: InferEntrySchema<"people">
+} & { render(): Render[".md"] };
 "muhammed-yavuz-nuzumlali.md": {
 	id: "muhammed-yavuz-nuzumlali.md";
   slug: "muhammed-yavuz-nuzumlali";
@@ -2645,6 +2666,20 @@ declare module 'astro:content' {
 "olgun-dursun.md": {
 	id: "olgun-dursun.md";
   slug: "olgun-dursun";
+  body: string;
+  collection: "people";
+  data: InferEntrySchema<"people">
+} & { render(): Render[".md"] };
+"omer-ozan-mart.md": {
+	id: "omer-ozan-mart.md";
+  slug: "omer-ozan-mart";
+  body: string;
+  collection: "people";
+  data: InferEntrySchema<"people">
+} & { render(): Render[".md"] };
+"omer-taha-ornek.md": {
+	id: "omer-taha-ornek.md";
+  slug: "omer-taha-ornek";
   body: string;
   collection: "people";
   data: InferEntrySchema<"people">
@@ -2803,60 +2838,193 @@ declare module 'astro:content' {
   collection: "people";
   data: InferEntrySchema<"people">
 } & { render(): Render[".md"] };
+"zeynep-yirmibesoglu.md": {
+	id: "zeynep-yirmibesoglu.md";
+  slug: "zeynep-yirmibesoglu";
+  body: string;
+  collection: "people";
+  data: InferEntrySchema<"people">
+} & { render(): Render[".md"] };
 };
 "projects": {
-"boun-treebank.md": {
-	id: "boun-treebank.md";
-  slug: "boun-treebank";
+"adaptive-question-answering.md": {
+	id: "adaptive-question-answering.md";
+  slug: "adaptive-question-answering";
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">
 } & { render(): Render[".md"] };
-"chemical-language-processing-for-target-based-drug-design.md": {
-	id: "chemical-language-processing-for-target-based-drug-design.md";
-  slug: "chemical-language-processing-for-target-based-drug-design";
+"chemical-language-processing.md": {
+	id: "chemical-language-processing.md";
+  slug: "chemical-language-processing";
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">
 } & { render(): Render[".md"] };
-"contextual-text-mining-biomedical-literature.md": {
-	id: "contextual-text-mining-biomedical-literature.md";
-  slug: "contextual-text-mining-biomedical-literature";
+"concept-extraction-turkish.md": {
+	id: "concept-extraction-turkish.md";
+  slug: "concept-extraction-turkish";
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">
 } & { render(): Render[".md"] };
-"deep-learning-based-turkish-dependency-parser.md": {
-	id: "deep-learning-based-turkish-dependency-parser.md";
-  slug: "deep-learning-based-turkish-dependency-parser";
+"concept-mining-turkish.md": {
+	id: "concept-mining-turkish.md";
+  slug: "concept-mining-turkish";
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">
 } & { render(): Render[".md"] };
-"lifelu-erc-2022-cog.md": {
-	id: "lifelu-erc-2022-cog.md";
-  slug: "lifelu-erc-2022-cog";
+"contextual-biomedical-text-mining.md": {
+	id: "contextual-biomedical-text-mining.md";
+  slug: "contextual-biomedical-text-mining";
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">
 } & { render(): Render[".md"] };
-"tulap-platform.md": {
-	id: "tulap-platform.md";
-  slug: "tulap-platform";
+"digital-tech-social-cohesion.md": {
+	id: "digital-tech-social-cohesion.md";
+  slug: "digital-tech-social-cohesion";
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">
 } & { render(): Render[".md"] };
-"turkish-speech-recognition.md": {
-	id: "turkish-speech-recognition.md";
-  slug: "turkish-speech-recognition";
+"english-turkish-nmt-literary.md": {
+	id: "english-turkish-nmt-literary.md";
+  slug: "english-turkish-nmt-literary";
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">
 } & { render(): Render[".md"] };
-"utilizing-digital-technology-for-social-cohesion.md": {
-	id: "utilizing-digital-technology-for-social-cohesion.md";
-  slug: "utilizing-digital-technology-for-social-cohesion";
+"jointly-self-trained-parsers.md": {
+	id: "jointly-self-trained-parsers.md";
+  slug: "jointly-self-trained-parsers";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"lifelu.md": {
+	id: "lifelu.md";
+  slug: "lifelu";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"linguistics-turkish-nlp-platform.md": {
+	id: "linguistics-turkish-nlp-platform.md";
+  slug: "linguistics-turkish-nlp-platform";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"literary-machine-translation.md": {
+	id: "literary-machine-translation.md";
+  slug: "literary-machine-translation";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"lithme.md": {
+	id: "lithme.md";
+  slug: "lithme";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"morphology-speech-recognition-bap.md": {
+	id: "morphology-speech-recognition-bap.md";
+  slug: "morphology-speech-recognition-bap";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"morphology-speech-recognition-tubitak.md": {
+	id: "morphology-speech-recognition-tubitak.md";
+  slug: "morphology-speech-recognition-tubitak";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"morphotactic-language-modeling.md": {
+	id: "morphotactic-language-modeling.md";
+  slug: "morphotactic-language-modeling";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"multimodal-nmt-corpus.md": {
+	id: "multimodal-nmt-corpus.md";
+  slug: "multimodal-nmt-corpus";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"ner-hashtag-segmentation.md": {
+	id: "ner-hashtag-segmentation.md";
+  slug: "ner-hashtag-segmentation";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"nlp-text-classification.md": {
+	id: "nlp-text-classification.md";
+  slug: "nlp-text-classification";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"protein-ligand-database.md": {
+	id: "protein-ligand-database.md";
+  slug: "protein-ligand-database";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"statistical-analysis-turkish.md": {
+	id: "statistical-analysis-turkish.md";
+  slug: "statistical-analysis-turkish";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"turkish-dependency-parser.md": {
+	id: "turkish-dependency-parser.md";
+  slug: "turkish-dependency-parser";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"turkish-handwriting-recognition.md": {
+	id: "turkish-handwriting-recognition.md";
+  slug: "turkish-handwriting-recognition";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"turkish-nlp-resources.md": {
+	id: "turkish-nlp-resources.md";
+  slug: "turkish-nlp-resources";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"turkish-spam-filtering.md": {
+	id: "turkish-spam-filtering.md";
+  slug: "turkish-spam-filtering";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"unidive.md": {
+	id: "unidive.md";
+  slug: "unidive";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"web-summarization.md": {
+	id: "web-summarization.md";
+  slug: "web-summarization";
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">

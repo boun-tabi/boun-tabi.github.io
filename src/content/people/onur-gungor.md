@@ -2,13 +2,14 @@
 name: "Onur Güngör"
 title: "Faculty Member"
 photo: "/images/people/onur-gungor.jpg"
-bio: "Part time faculty member at Boğaziçi University, working on natural language processing"
-email: "onur.gungor@boun.edu.tr"
+bio: "Faculty member at Boğaziçi University Computer Engineering Department, specializing in natural language processing."
+email: "onurgu@boun.edu.tr"
 category: "pi"
-order: 5
+order: 4
+office: "BM 36"
 ---
 
-Onur Güngör is a part-time faculty member  at the Computer Engineering Department of Boğaziçi University.
+Onur Güngör is a faculty member at the Computer Engineering Department of Boğaziçi University. He completed his MS degree in 2009 under the supervision of Tunga Güngör.
 
 ## Research Interests
 
@@ -21,6 +22,7 @@ Onur Güngör is a part-time faculty member  at the Computer Engineering Departm
 
 - **MS Degree:** in 2009 under the supervision of Tunga Güngör
 
-## Advisor
+## Contact Information
 
-- **Advisor:** Tunga Güngör 
+- **Office:** BM 36
+- **Email:** onurgu@boun.edu.tr

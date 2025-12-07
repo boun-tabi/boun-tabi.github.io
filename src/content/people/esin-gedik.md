@@ -1,16 +1,15 @@
 ---
 name: "Esin Gedik"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/esin-gedik.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Tunga Güngör."
-email: "esin.gedik@boun.edu.tr"
-category: "student"
-order: 33
+bio: "TABILAB alumnus who worked under the supervision of Tunga Güngör."
+email: "esin.gedik@alumni.boun.edu.tr"
+category: "alumni"
+order: 72
 advisor: "Tunga Güngör"
-degree: "MS"
 ---
 
-Esin Gedik is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Tunga Güngör.
+Esin Gedik is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Tunga Güngör.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Esin Gedik is an MS student at the Computer Engineering Department of Boğaziçi
 
 ## Advisor
 
-- **Advisor:** Tunga Güngör 
+- **Advisor:** Tunga Güngör

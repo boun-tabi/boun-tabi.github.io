@@ -1,16 +1,15 @@
 ---
 name: "Ahmet Selim Karaduman"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/ahmet-selim-karaduman.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Tunga Güngör."
-email: "ahmet.karaduman@boun.edu.tr"
-category: "student"
-order: 21
+bio: "TABILAB alumnus who worked under the supervision of Tunga Güngör."
+email: "ahmet.karaduman@alumni.boun.edu.tr"
+category: "alumni"
+order: 62
 advisor: "Tunga Güngör"
-degree: "MS"
 ---
 
-Ahmet Selim Karaduman is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Tunga Güngör.
+Ahmet Selim Karaduman is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Tunga Güngör.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Ahmet Selim Karaduman is an MS student at the Computer Engineering Department of
 
 ## Advisor
 
-- **Advisor:** Tunga Güngör 
+- **Advisor:** Tunga Güngör

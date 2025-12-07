@@ -1,16 +1,15 @@
 ---
 name: "Erencan Erkaya"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/erencan-erkaya.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Tunga Güngör."
-email: "erencan.erkaya@boun.edu.tr"
-category: "student"
-order: 27
+bio: "TABILAB alumnus who worked under the supervision of Tunga Güngör."
+email: "erencan.erkaya@alumni.boun.edu.tr"
+category: "alumni"
+order: 69
 advisor: "Tunga Güngör"
-degree: "MS"
 ---
 
-Erencan Erkaya is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Tunga Güngör.
+Erencan Erkaya is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Tunga Güngör.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Erencan Erkaya is an MS student at the Computer Engineering Department of Boğaz
 
 ## Advisor
 
-- **Advisor:** Tunga Güngör 
+- **Advisor:** Tunga Güngör
