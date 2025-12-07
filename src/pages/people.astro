@@ -4,16 +4,22 @@ import { getCollection } from 'astro:content';
 import { marked } from 'marked';
 
 // Get all people entries and sort them by order
-const allPeople = await getCollection('people');
+const allPeople = (await getCollection('people'))
+  .filter(person => ['pi', 'student', 'alumni'].includes(person.data.category));
 
 // Group people by category
 const principalInvestigators = allPeople
   .filter(person => person.data.category === 'pi')
   .sort((a, b) => a.data.order - b.data.order);
 
-const currentStudents = allPeople
-  .filter(person => person.data.category === 'student')
+const phdStudents = allPeople
+  .filter(person => person.data.category === 'student' && person.data.title === 'PhD Student')
   .sort((a, b) => a.data.order - b.data.order);
+
+const msStudents = allPeople
+  .filter(person => person.data.category === 'student' && person.data.title === 'MS Student')
+  .sort((a, b) => a.data.order - b.data.order);
+
 
 const alumni = allPeople
   .filter(person => person.data.category === 'alumni')
@@ -36,6 +42,11 @@ function getImagePath(path) {
     return import.meta.env.BASE_URL + path.substring(1);
   }
   return path;
+}
+
+function isValidEmail(email) {
+  if (!email) return false;
+  return /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email);
 }
 
 const placeholderImage = import.meta.env.BASE_URL + 'images/placeholder-person.jpg';
@@ -67,7 +78,7 @@ const placeholderImage = import.meta.env.BASE_URL + 'images/placeholder-person.j
                     Website
                   </a>
                 )}
-                {pi.data.email && (
+                {pi.data.email && isValidEmail(pi.data.email) && (
                   <a href={`mailto:${pi.data.email}`} class="text-primary-light hover:underline">
                     Email
                   </a>
@@ -90,23 +101,24 @@ const placeholderImage = import.meta.env.BASE_URL + 'images/placeholder-person.j
     </section>
     
     <!-- Current Students -->
+    <!--
     <section class="mb-16">
       <h2 class="text-3xl font-bold text-primary mb-8">Current Students</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {currentStudents.map(student => (
           <div class="bg-white rounded-lg shadow-md overflow-hidden">
-            <!--<img 
+            <img 
               src={getImagePath(student.data.photo)} 
               alt={student.data.name} 
               class="w-full h-48 object-cover"
               onerror={`this.src='${import.meta.env.BASE_URL}images/placeholder-person.jpg'; this.onerror=null;`}
-            />-->
+            />
             <div class="p-6">
               <h3 class="text-xl font-bold mb-1">{student.data.name}</h3>
               <p class="text-gray-600 mb-2">{student.data.title}</p>
-              <!--<p class="text-gray-700 mb-4">{student.data.bio}</p>-->
+              <p class="text-gray-700 mb-4">{student.data.bio}</p>
               <div class="flex flex-wrap gap-3">
-                {student.data.email && (
+                {student.data.email && isValidEmail(student.data.email) && (
                   <a href={`mailto:${student.data.email}`} class="text-primary-light hover:underline">
                     Email
                   </a>
@@ -122,6 +134,37 @@ const placeholderImage = import.meta.env.BASE_URL + 'images/placeholder-person.j
         ))}
       </div>
     </section>
+   -->
+    <!-- PhD Students -->
+  <section class="mb-16">
+    <h2 class="text-3xl font-bold text-primary mb-8">PhD Students</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {phdStudents.map(student => (
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-1">{student.data.name}</h3>
+            <p class="text-gray-600 mb-2">{student.data.title}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- MS Students -->
+  <section class="mb-16">
+    <h2 class="text-3xl font-bold text-primary mb-8">MS Students</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {msStudents.map(student => (
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-1">{student.data.name}</h3>
+            <p class="text-gray-600 mb-2">{student.data.title}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
     
     <!-- Alumni -->
     <section>
@@ -145,4 +188,4 @@ const placeholderImage = import.meta.env.BASE_URL + 'images/placeholder-person.j
       </div>
     </section>
   </div>
-</MainLayout> 
+</MainLayout>

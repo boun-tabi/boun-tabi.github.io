@@ -23,4 +23,4 @@ Arda Çelebi is a TABILAB alumnus who completed his PhD degree in 2020 and MS de
 - Natural Language Processing
 - Machine Learning
 - Text Mining
-- Bioinformatics 
+- Bioinformatics

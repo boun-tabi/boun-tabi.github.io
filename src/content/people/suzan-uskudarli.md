@@ -4,7 +4,7 @@ title: "Faculty Member"
 photo: "/images/people/suzan-uskudarli.jpg"
 bio: "Professor of Computer Engineering at Boğaziçi University, specializing in software engineering and natural language processing."
 email: "suzan.uskudarli@boun.edu.tr"
-website: "https://www.cmpe.boun.edu.tr/~uskudarli/"
+website: "https://uskudarli.gitlab.io/uskudarli-academic/"
 category: "pi"
 order: 3
 office: "ETA 35"

@@ -4,7 +4,7 @@ title: "PhD Student"
 photo: "/images/people/murat-elifoglu.jpg"
 bio: "PhD student at Boğaziçi University, working on natural language processing under the supervision of Tunga Güngör. Completed MS in 2018 supervised by Meltem Özturan and Tunga Güngör."
 email: "murat.elifoglu@boun.edu.tr"
-category: "student"
+category: "alumni"
 order: 11
 advisor: "Tunga Güngör"
 degree: "PhD"

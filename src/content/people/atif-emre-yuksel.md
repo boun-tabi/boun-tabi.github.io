@@ -4,7 +4,7 @@ title: "MS Student"
 photo: "/images/people/atif-emre-yuksel.jpg"
 bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Arzucan Özgür."
 email: "atif.yuksel@boun.edu.tr"
-category: "student"
+category: "alumni"
 order: 22
 advisor: "Arzucan Özgür"
 degree: "MS"

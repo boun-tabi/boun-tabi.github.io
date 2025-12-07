@@ -1,24 +1,12 @@
 ---
 name: "Abdullatif Köksal"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/abdullatif-koksal.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Arzucan Özgür."
+bio: "Completed his MS degree under the supervision of Arzucan Özgür."
 email: "abdullatif.koksal@boun.edu.tr"
-category: "student"
+category: "alumni"
 order: 10
-advisor: "Arzucan Özgür"
 degree: "MS"
+graduationYear: 2010
+currentPosition: "Research Scientist at Google DeepMind"
 ---
-
-Abdullatif Köksal is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Arzucan Özgür.
-
-## Research Interests
-
-- Natural Language Processing
-- Machine Learning
-- Cross-lingual NLP
-- Text Classification
-
-## Advisor
-
-- **Advisor:** Arzucan Özgür 

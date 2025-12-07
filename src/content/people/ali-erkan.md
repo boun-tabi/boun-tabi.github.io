@@ -4,7 +4,7 @@ title: "PhD Student"
 photo: "/images/people/ali-erkan.jpg"
 bio: "PhD student at Boğaziçi University, working on natural language processing under the supervision of Tunga Güngör."
 email: "ali.erkan@boun.edu.tr"
-category: "student"
+category: "alumni"
 order: 1
 advisor: "Tunga Güngör"
 degree: "PhD"

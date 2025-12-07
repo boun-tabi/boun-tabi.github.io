@@ -22,4 +22,4 @@ Canan Pembe is a TABILAB alumnus who completed her PhD degree in 2010 under the 
 - Natural Language Processing
 - Machine Learning
 - Text Mining
-- Information Retrieval 
+- Information Retrieval

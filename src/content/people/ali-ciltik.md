@@ -22,4 +22,4 @@ Ali Çiltik is a TABILAB alumnus who completed his MS degree in 2006 under the s
 - Natural Language Processing
 - Machine Learning
 - Text Analysis
-- Software Engineering 
+- Software Engineering

@@ -1,13 +1,13 @@
 ---
 name: "Gökçe Uludoğan"
-title: "MS Student"
+title: "PhD Student"
 photo: "/images/people/gokce-uludogan.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing and bioinformatics under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı."
+bio: "PhD student at Boğaziçi University, working on natural language processing and bioinformatics under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı."
 email: "gokce.uludogan@boun.edu.tr"
 category: "student"
-order: 29
+order: 10
 advisor: "Arzucan Özgür"
-degree: "MS"
+degree: "PhD"
 ---
 
 Gökçe Uludoğan is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı.

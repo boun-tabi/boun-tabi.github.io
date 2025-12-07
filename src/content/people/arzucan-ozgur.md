@@ -4,7 +4,7 @@ title: "Faculty Member"
 photo: "/images/people/arzucan-ozgur.jpg"
 bio: "Professor of Computer Engineering at Boğaziçi University, specializing in natural language processing and bioinformatics."
 email: "arzucan.ozgur@boun.edu.tr"
-website: "https://www.cmpe.boun.edu.tr/~ozgur/"
+website: "https://tabilab.cmpe.bogazici.edu.tr/arzucan-ozgur/"
 category: "pi"
 order: 1
 office: "BM 18"

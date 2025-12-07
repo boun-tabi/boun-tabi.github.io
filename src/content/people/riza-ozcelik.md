@@ -4,7 +4,7 @@ title: "MS Student"
 photo: "/images/people/riza-ozcelik.jpg"
 bio: "MS student at Boğaziçi University, working on natural language processing and bioinformatics under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı."
 email: "riza.ozcelik@boun.edu.tr"
-category: "student"
+category: "alumni"
 order: 38
 advisor: "Arzucan Özgür"
 degree: "MS"

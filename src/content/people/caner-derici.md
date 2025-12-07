@@ -22,4 +22,4 @@ Caner Derici is a TABILAB alumnus who completed his MS degree in 2014 under the 
 - Natural Language Processing
 - Machine Learning
 - Software Engineering
-- Text Analysis 
+- Text Analysis

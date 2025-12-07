@@ -1,16 +1,14 @@
 ---
 name: "Onur Güngör"
-title: "PhD Student"
+title: "Faculty Member"
 photo: "/images/people/onur-gungor.jpg"
-bio: "PhD student at Boğaziçi University, working on natural language processing under the supervision of Tunga Güngör. Completed MS in 2009 under the supervision of Tunga Güngör."
+bio: "Part time faculty member at Boğaziçi University, working on natural language processing"
 email: "onur.gungor@boun.edu.tr"
-category: "student"
+category: "pi"
 order: 5
-advisor: "Tunga Güngör"
-degree: "PhD"
 ---
 
-Onur Güngör is a PhD student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Tunga Güngör. He completed his MS degree in 2009 under the supervision of Tunga Güngör.
+Onur Güngör is a part-time faculty member  at the Computer Engineering Department of Boğaziçi University.
 
 ## Research Interests
 

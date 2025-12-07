@@ -4,7 +4,7 @@ title: "MS Student"
 photo: "/images/people/berfu-buyukoz.jpg"
 bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Arzucan Özgür."
 email: "berfu.buyukoz@boun.edu.tr"
-category: "student"
+category: "alumni"
 order: 11
 advisor: "Arzucan Özgür"
 degree: "MS"

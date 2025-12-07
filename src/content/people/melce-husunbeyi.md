@@ -4,7 +4,7 @@ title: "MS Student"
 photo: "/images/people/melce-husunbeyi.jpg"
 bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Arzucan Özgür."
 email: "melce.husunbeyi@boun.edu.tr"
-category: "student"
+category: "alumni"
 order: 30
 advisor: "Arzucan Özgür"
 degree: "MS"

@@ -4,7 +4,7 @@ title: "MS Student"
 photo: "/images/people/hamdi-erkut.jpg"
 bio: "MS student at Boğaziçi University, working on natural language processing and bioinformatics under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı."
 email: "hamdi.erkut@boun.edu.tr"
-category: "student"
+category: "alumni"
 order: 35
 advisor: "Arzucan Özgür"
 degree: "MS"

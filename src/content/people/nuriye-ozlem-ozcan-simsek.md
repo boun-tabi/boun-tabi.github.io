@@ -4,7 +4,7 @@ title: "PhD Student"
 photo: "/images/people/nuriye-ozlem-ozcan-simsek.jpg"
 bio: "PhD student at Boğaziçi University, working on natural language processing and bioinformatics under the supervision of Arzucan Özgür and co-advised by Fikret Gürgen."
 email: "nuriye.ozcan@boun.edu.tr"
-category: "student"
+category: "alumni"
 order: 12
 advisor: "Arzucan Özgür"
 degree: "PhD"
