@@ -29,14 +29,14 @@ function formatDate(date) {
   <section class="bg-gradient-to-r from-primary to-primary-dark text-white py-20">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto text-center">
-          <h1 class="text-5xl font-bold mb-4">TABILAB</h1>
+        <h1 class="text-5xl font-bold mb-4">TABILAB</h1>
         <p class="text-2xl mb-6">Text Analytics and Bioinformatics Lab</p>
 
-          <p class="text-xl mb-10">
-            We develop machine learning methods for understanding both human language and biological systems.
-          </p>
+        <p class="text-xl mb-10">
+          We develop machine learning methods for understanding both human language and biological systems.
+        </p>
 
-          <div class="flex flex-wrap justify-center gap-4">
+        <div class="flex flex-wrap justify-center gap-4">
           <a
             href="/projects"
             class="bg-white text-primary font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition-colors"
@@ -57,34 +57,59 @@ function formatDate(date) {
   <!-- About Section -->
   <section class="py-16 bg-white">
     <div class="container mx-auto px-4">
-      <div class="max-w-4xl mx-auto leading-relaxed">
-        <h2 class="text-3xl font-bold text-primary mb-6 text-center">Welcome to TABILab</h2>
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-primary mb-8 text-center">
+          Welcome to TABILab
+        </h2>
 
-        <p class="text-lg text-gray-800 mb-4">
-          TABILab is a research group developing machine learning methods for both language and biological data.
-          Our projects span natural language processing and bioinformatics.
+        <p class="text-lg text-gray-800 text-center max-w-3xl mx-auto mb-10 leading-relaxed">
+          TABILab is a research group developing machine learning methods for both language and biological
+          data. Our projects span natural language processing and bioinformatics.
         </p>
 
-        <p class="text-lg text-gray-800 mb-3">
-          <span class="font-semibold">Natural Language Processing (NLP):</span>
-          We study linguistic structure, information extraction, and language modeling, with a particular focus on
-          Turkish and other low-resource languages.
-        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* NLP column */}
+          <div class="flex items-start gap-4">
+            <div class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-primary/10">
+              <span class="text-2xl" aria-hidden="true">💬</span>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-primary mb-2">
+                Natural Language Processing (NLP)
+              </h3>
+              <p class="text-gray-800 leading-relaxed">
+                We study linguistic structure, information extraction, and language modeling,
+                with a particular focus on Turkish and other low-resource languages.
+              </p>
+            </div>
+          </div>
 
-        <p class="text-lg text-gray-800 mb-3">
-          <span class="font-semibold">Bioinformatics:</span>
-          We build computational representations of proteins, genes, and compounds to study interactions, annotate
-          function, and support molecular design, exploring new ways to understand the “language of life” embedded
-          in biological sequences.
-        </p>
+          {/* Bioinformatics column */}
+          <div class="flex items-start gap-4">
+            <div class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-primary/10">
+              <span class="text-2xl" aria-hidden="true">🧬</span>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-primary mb-2">
+                Bioinformatics
+              </h3>
+              <p class="text-gray-800 leading-relaxed">
+                We build computational representations of proteins, genes, and compounds to study
+                interactions, annotate function, and support molecular design, exploring new ways
+                to understand the “language of life” embedded in biological sequences.
+              </p>
+            </div>
+          </div>
+        </div>
 
-        <p class="text-lg text-gray-800">
-          Our work is grounded in interdisciplinary collaboration and high-quality datasets that enable robust,
-          theory-informed models across both domains.
+        <p class="text-lg text-gray-800 text-center mt-10 leading-relaxed">
+          Our work is grounded in interdisciplinary collaboration and high-quality datasets that enable
+          robust, theory-informed models across both domains.
         </p>
       </div>
     </div>
   </section>
+
 
   <!-- Featured Projects 
   <section class="py-16 bg-gray-50">
