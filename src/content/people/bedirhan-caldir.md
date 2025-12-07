@@ -4,7 +4,7 @@ title: "MS Student"
 photo: "/images/people/bedirhan-caldir.jpg"
 bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Arzucan Özgür."
 email: "bedirhan.caldir@boun.edu.tr"
-category: "student"
+category: "alumni"
 order: 25
 advisor: "Arzucan Özgür"
 degree: "MS"
