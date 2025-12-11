@@ -3,6 +3,9 @@ import MainLayout from '../layouts/MainLayout.astro';
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
 
+// Get the base URL from Astro config
+const base = import.meta.env.BASE_URL;
+
 // Get all papers and sort by year (descending)
 const papers = await getCollection('papers');
 papers.sort((a, b) => b.data.year - a.data.year);
@@ -18,7 +21,7 @@ const papersByYear = papers.reduce((acc, paper) => {
 }, {});
 
 // Get years in descending order
-const years = Object.keys(papersByYear).sort((a, b) => b - a);
+const years = Object.keys(papersByYear).sort((a, b) => parseInt(b) - parseInt(a));
 
 // Function to render markdown
 function renderMarkdown(content) {
@@ -37,7 +40,7 @@ function renderMarkdown(content) {
           {papersByYear[year].map(paper => (
             <div class="bg-white p-6 rounded-lg shadow-md">
               <h3 class="text-xl font-semibold text-primary mb-2">
-                <a href={`/papers/${paper.slug}`} class="hover:underline">
+                <a href={`${base}papers/${paper.slug}`} class="hover:underline">
                   {paper.data.title}
                 </a>
               </h3>
@@ -72,7 +75,7 @@ function renderMarkdown(content) {
                 )}
                 
                 <a 
-                  href={`/papers/${paper.slug}`}
+                  href={`${base}papers/${paper.slug}`}
                   class="inline-flex items-center text-primary-light hover:underline"
                 >
                   <span>Read More</span>

@@ -3,6 +3,9 @@ import MainLayout from '../../layouts/MainLayout.astro';
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
 
+// Get the base URL from Astro config
+const base = import.meta.env.BASE_URL;
+
 // Generate static paths for all papers
 export async function getStaticPaths() {
   const papers = await getCollection('papers');
@@ -22,7 +25,7 @@ const content = marked.parse(paper.body);
 <MainLayout title={`${paper.data.title} - TABILAB`}>
   <div class="container mx-auto px-4 py-12">
     <div class="max-w-4xl mx-auto">
-      <a href="/papers" class="text-primary-light hover:underline mb-6 inline-block">
+      <a href={`${base}papers`} class="text-primary-light hover:underline mb-6 inline-block">
         &larr; Back to Papers
       </a>
       
