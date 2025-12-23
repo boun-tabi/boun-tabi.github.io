@@ -3001,13 +3001,6 @@ declare module 'astro:content' {
   collection: "projects";
   data: InferEntrySchema<"projects">
 } & { render(): Render[".md"] };
-"turkish-nlp-resources.md": {
-	id: "turkish-nlp-resources.md";
-  slug: "turkish-nlp-resources";
-  body: string;
-  collection: "projects";
-  data: InferEntrySchema<"projects">
-} & { render(): Render[".md"] };
 "turkish-spam-filtering.md": {
 	id: "turkish-spam-filtering.md";
   slug: "turkish-spam-filtering";
