@@ -4,7 +4,7 @@ title: "Faculty Member"
 photo: "/images/people/tunga-gungor.jpg"
 bio: "Professor of Computer Engineering at Boğaziçi University, specializing in natural language processing and speech recognition."
 email: "gungort@boun.edu.tr"
-website: "https://www.cmpe.boun.edu.tr/~gungort/"
+website: "https://boun-tabi.github.io/tunga-gungor/"
 category: "pi"
 order: 2
 office: "BM 34"

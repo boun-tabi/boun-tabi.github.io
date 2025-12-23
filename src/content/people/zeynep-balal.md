@@ -2,8 +2,8 @@
 name: "Zeynep Balal"
 title: "PhD Student"
 photo: "/images/people/zeynep-balal.jpg"
-bio: "PhD student at Boğaziçi University, working on natural language processing under the supervision of Tunga Güngör."
-email: "zeynep.balal@boun.edu.tr"
+bio: "PhD student at Boğaziçi University, working on natural language processing."
+email: "zeynep.yirmibesoglu@std.bogazici.edu.tr"
 category: "student"
 order: 14
 advisor: "Tunga Güngör"
