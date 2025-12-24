@@ -1,7 +1,7 @@
 ---
 name: "Balkız Öztürk Başaran"
 title: "Faculty Member"
-photo: "/images/people/balkiz-ozturk-basaran.jpg"
+photo: "/images/people/balkiz-ozturk-basaran.png"
 bio: "Professor of Linguistics at Boğaziçi University, specializing in syntax, semantics, and Turkish linguistics."
 email: "balkiz.ozturk@boun.edu.tr"
 website: "https://linguistics.boun.edu.tr/balkiz-ozturk-basaran"

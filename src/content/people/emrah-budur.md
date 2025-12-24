@@ -1,16 +1,21 @@
 ---
 name: "Emrah Budur"
-title: "PhD Student"
+title: "Alumnus"
 photo: "/images/people/emrah-budur.jpg"
-bio: "PhD student at Boğaziçi University, working on natural language processing under the supervision of Tunga Güngör. Completed MS in 2011 under the supervision of Haluk Bingöl."
-email: "emrah.budur@boun.edu.tr"
+bio: "TABILAB alumnus who worked under the supervision of Tunga Güngör. Completed MS in 2011 under the supervision of Haluk Bingöl."
+email: "emrah.budur@alumni.boun.edu.tr"
 category: "alumni"
-order: 3
+order: 52
 advisor: "Tunga Güngör"
-degree: "PhD"
+degree: "MS"
+graduationYear: 2011
 ---
 
-Emrah Budur is a PhD student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Tunga Güngör. He completed his MS degree in 2011 under the supervision of Haluk Bingöl.
+Emrah Budur is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Tunga Güngör. He completed his MS degree in 2011 under the supervision of Haluk Bingöl.
+
+## Education
+
+- **MS Degree:** in 2011 under the supervision of Haluk Bingöl
 
 ## Research Interests
 
@@ -19,10 +24,6 @@ Emrah Budur is a PhD student at the Computer Engineering Department of Boğaziç
 - Text Analysis
 - Computational Linguistics
 
-## Education
-
-- **MS Degree:** in 2011 under the supervision of Haluk Bingöl
-
 ## Advisor
 
-- **Advisor:** Tunga Güngör 
+- **Advisor:** Tunga Güngör

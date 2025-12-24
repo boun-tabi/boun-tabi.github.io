@@ -4,10 +4,10 @@ title: "Faculty Member"
 photo: "/images/people/suzan-uskudarli.jpg"
 bio: "Professor of Computer Engineering at Boğaziçi University, specializing in software engineering and natural language processing."
 email: "suzan.uskudarli@boun.edu.tr"
-website: "https://uskudarli.gitlab.io/uskudarli-academic/"
+website: "https://cmpe.bogazici.edu.tr/u/suzan.uskudarli"
 category: "pi"
 order: 3
-office: "ETA 35"
+office: "BM 35"
 phone: "+90 (212) 359 7682"
 ---
 
@@ -23,7 +23,7 @@ Suzan Üsküdarlı is a faculty member at the Computer Engineering Department of
 
 ## Contact Information
 
-- **Office:** ETA 35
+- **Office:** BM 35
 - **Phone:** +90 (212) 359 7682
 - **Email:** suzan.uskudarli@boun.edu.tr
-- **Webpage:** https://www.cmpe.boun.edu.tr/~uskudarli/ 
+- **Webpage:** https://cmpe.bogazici.edu.tr/u/suzan.uskudarli 

@@ -1,16 +1,15 @@
 ---
 name: "Buse Ak"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/buse-ak.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Tunga Güngör."
-email: "buse.ak@boun.edu.tr"
-category: "student"
-order: 24
+bio: "TABILAB alumnus who worked under the supervision of Tunga Güngör."
+email: "buse.ak@alumni.boun.edu.tr"
+category: "alumni"
+order: 65
 advisor: "Tunga Güngör"
-degree: "MS"
 ---
 
-Buse Ak is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Tunga Güngör.
+Buse Ak is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Tunga Güngör.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Buse Ak is an MS student at the Computer Engineering Department of Boğaziçi Un
 
 ## Advisor
 
-- **Advisor:** Tunga Güngör 
+- **Advisor:** Tunga Güngör

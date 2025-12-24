@@ -1,16 +1,15 @@
 ---
 name: "Rıza Özçelik"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/riza-ozcelik.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing and bioinformatics under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı."
-email: "riza.ozcelik@boun.edu.tr"
+bio: "TABILAB alumnus who worked under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı."
+email: "riza.ozcelik@alumni.boun.edu.tr"
 category: "alumni"
-order: 38
+order: 59
 advisor: "Arzucan Özgür"
-degree: "MS"
 ---
 
-Rıza Özçelik is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı.
+Rıza Özçelik is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Rıza Özçelik is an MS student at the Computer Engineering Department of Boğa
 
 ## Advisor
 
-- **Advisor:** Arzucan Özgür and co-advise with Elif Özkırımlı 
+- **Advisor:** Arzucan Özgür and co-advise with Elif Özkırımlı

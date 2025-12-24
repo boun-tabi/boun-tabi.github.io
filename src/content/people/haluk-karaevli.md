@@ -1,16 +1,15 @@
 ---
 name: "Haluk Karaevli"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/haluk-karaevli.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Tunga Güngör."
-email: "haluk.karaevli@boun.edu.tr"
+bio: "TABILAB alumnus who worked under the supervision of Tunga Güngör."
+email: "haluk.karaevli@alumni.boun.edu.tr"
 category: "alumni"
-order: 34
+order: 73
 advisor: "Tunga Güngör"
-degree: "MS"
 ---
 
-Haluk Karaevli is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Tunga Güngör.
+Haluk Karaevli is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Tunga Güngör.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Haluk Karaevli is an MS student at the Computer Engineering Department of Boğaz
 
 ## Advisor
 
-- **Advisor:** Tunga Güngör 
+- **Advisor:** Tunga Güngör

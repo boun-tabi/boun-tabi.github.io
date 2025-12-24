@@ -1,16 +1,21 @@
 ---
 name: "Murat Elifoğlu"
-title: "PhD Student"
+title: "Alumnus"
 photo: "/images/people/murat-elifoglu.jpg"
-bio: "PhD student at Boğaziçi University, working on natural language processing under the supervision of Tunga Güngör. Completed MS in 2018 supervised by Meltem Özturan and Tunga Güngör."
-email: "murat.elifoglu@boun.edu.tr"
+bio: "TABILAB alumnus who worked under the supervision of Tunga Güngör. Completed MS in 2018 supervised by Meltem Özturan and Tunga Güngör."
+email: "murat.elifoglu@alumni.boun.edu.tr"
 category: "alumni"
-order: 11
+order: 57
 advisor: "Tunga Güngör"
-degree: "PhD"
+degree: "MS"
+graduationYear: 2018
 ---
 
-Murat Elifoğlu is a PhD student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Tunga Güngör. He completed his MS degree in 2018, supervised by Meltem Özturan and Tunga Güngör.
+Murat Elifoğlu is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Tunga Güngör. He completed his MS degree in 2018, supervised by Meltem Özturan and Tunga Güngör.
+
+## Education
+
+- **MS Degree:** in 2018. Supervised by Meltem Özturan and Tunga Güngör
 
 ## Research Interests
 
@@ -19,10 +24,6 @@ Murat Elifoğlu is a PhD student at the Computer Engineering Department of Boğa
 - Recommendation Systems
 - Turkish Language Processing
 
-## Education
-
-- **MS Degree:** in 2018. Supervised by Meltem Özturan and Tunga Güngör
-
 ## Advisor
 
-- **Advisor:** Tunga Güngör 
+- **Advisor:** Tunga Güngör

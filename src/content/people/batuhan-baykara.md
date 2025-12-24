@@ -1,16 +1,15 @@
 ---
 name: "Batuhan Baykara"
-title: "PhD Student"
+title: "Alumnus"
 photo: "/images/people/batuhan-baykara.jpg"
-bio: "PhD student at Boğaziçi University, working on natural language processing under the supervision of Tunga Güngör."
-email: "batuhan.baykara@boun.edu.tr"
-category: "student"
-order: 2
+bio: "TABILAB alumnus who worked under the supervision of Tunga Güngör."
+email: "batuhan.baykara@alumni.boun.edu.tr"
+category: "alumni"
+order: 51
 advisor: "Tunga Güngör"
-degree: "PhD"
 ---
 
-Batuhan Baykara is a PhD student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Tunga Güngör.
+Batuhan Baykara is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Tunga Güngör.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Batuhan Baykara is a PhD student at the Computer Engineering Department of Boğa
 
 ## Advisor
 
-- **Advisor:** Tunga Güngör 
+- **Advisor:** Tunga Güngör

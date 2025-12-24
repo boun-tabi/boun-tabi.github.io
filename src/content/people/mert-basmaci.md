@@ -1,16 +1,15 @@
 ---
 name: "Mert Basmacı"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/mert-basmaci.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Arzucan Özgür."
-email: "mert.basmaci@boun.edu.tr"
-category: "student"
-order: 31
+bio: "TABILAB alumnus who worked under the supervision of Arzucan Özgür."
+email: "mert.basmaci@alumni.boun.edu.tr"
+category: "alumni"
+order: 76
 advisor: "Arzucan Özgür"
-degree: "MS"
 ---
 
-Mert Basmacı is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Arzucan Özgür.
+Mert Basmacı is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Arzucan Özgür.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Mert Basmacı is an MS student at the Computer Engineering Department of Boğazi
 
 ## Advisor
 
-- **Advisor:** Arzucan Özgür 
+- **Advisor:** Arzucan Özgür

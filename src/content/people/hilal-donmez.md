@@ -1,16 +1,15 @@
 ---
 name: "Hilal Dönmez"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/hilal-donmez.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing and bioinformatics under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı."
-email: "hilal.donmez@boun.edu.tr"
+bio: "TABILAB alumnus who worked under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı."
+email: "hilal.donmez@alumni.boun.edu.tr"
 category: "alumni"
-order: 36
+order: 70
 advisor: "Arzucan Özgür"
-degree: "MS"
 ---
 
-Hilal Dönmez is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı.
+Hilal Dönmez is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı.
 
 ## Research Interests
 

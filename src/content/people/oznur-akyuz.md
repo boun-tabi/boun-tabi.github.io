@@ -1,16 +1,15 @@
 ---
 name: "Öznur Akyüz"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/oznur-akyuz.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Tunga Güngör."
-email: "oznur.akyuz@boun.edu.tr"
-category: "student"
-order: 37
+bio: "TABILAB alumnus who worked under the supervision of Tunga Güngör."
+email: "oznur.akyuz@alumni.boun.edu.tr"
+category: "alumni"
+order: 78
 advisor: "Tunga Güngör"
-degree: "MS"
 ---
 
-Öznur Akyüz is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Tunga Güngör.
+Öznur Akyüz is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Tunga Güngör.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ degree: "MS"
 
 ## Advisor
 
-- **Advisor:** Tunga Güngör 
+- **Advisor:** Tunga Güngör

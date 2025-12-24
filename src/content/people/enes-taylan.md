@@ -1,16 +1,15 @@
 ---
 name: "Enes Taylan"
-title: "PhD Student"
+title: "Alumnus"
 photo: "/images/people/enes-taylan.jpg"
-bio: "PhD student at Boğaziçi University, working on natural language processing and bioinformatics under the supervision of Arzucan Özgür."
-email: "enes.taylan@boun.edu.tr"
+bio: "TABILAB alumnus who worked under the supervision of Arzucan Özgür."
+email: "enes.taylan@alumni.boun.edu.tr"
 category: "alumni"
-order: 4
+order: 55
 advisor: "Arzucan Özgür"
-degree: "PhD"
 ---
 
-Enes Taylan is a PhD student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Arzucan Özgür.
+Enes Taylan is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Arzucan Özgür.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Enes Taylan is a PhD student at the Computer Engineering Department of Boğaziç
 
 ## Advisor
 
-- **Advisor:** Arzucan Özgür 
+- **Advisor:** Arzucan Özgür

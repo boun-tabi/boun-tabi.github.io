@@ -22,4 +22,4 @@ Acar Erkek is a TABILAB alumnus who completed his MS degree in 2010 under the su
 - Natural Language Processing
 - Machine Learning
 - Text Analysis
-- Software Engineering
+- Software Engineering 

@@ -1,16 +1,15 @@
 ---
 name: "Gamze Ege Kaya"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/gamze-ege-kaya.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing and bioinformatics under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı."
-email: "gamze.kaya@boun.edu.tr"
+bio: "TABILAB alumnus who worked under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı."
+email: "gamze.kaya@alumni.boun.edu.tr"
 category: "alumni"
-order: 28
+order: 61
 advisor: "Arzucan Özgür"
-degree: "MS"
 ---
 
-Gamze Ege Kaya is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı.
+Gamze Ege Kaya is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Gamze Ege Kaya is an MS student at the Computer Engineering Department of Boğaz
 
 ## Advisor
 
-- **Advisor:** Arzucan Özgür and co-advise with Elif Özkırımlı 
+- **Advisor:** Arzucan Özgür and co-advise with Elif Özkırımlı

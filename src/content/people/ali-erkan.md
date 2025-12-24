@@ -1,16 +1,15 @@
 ---
 name: "Ali Erkan"
-title: "PhD Student"
+title: "Alumnus"
 photo: "/images/people/ali-erkan.jpg"
-bio: "PhD student at Boğaziçi University, working on natural language processing under the supervision of Tunga Güngör."
-email: "ali.erkan@boun.edu.tr"
+bio: "TABILAB alumnus who worked under the supervision of Tunga Güngör."
+email: "ali.erkan@alumni.boun.edu.tr"
 category: "alumni"
-order: 1
+order: 54
 advisor: "Tunga Güngör"
-degree: "PhD"
 ---
 
-Ali Erkan is a PhD student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Tunga Güngör.
+Ali Erkan is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Tunga Güngör.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Ali Erkan is a PhD student at the Computer Engineering Department of Boğaziçi 
 
 ## Advisor
 
-- **Advisor:** Tunga Güngör 
+- **Advisor:** Tunga Güngör

@@ -1,16 +1,15 @@
 ---
 name: "Melce Hüsünbeyi"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/melce-husunbeyi.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Arzucan Özgür."
-email: "melce.husunbeyi@boun.edu.tr"
+bio: "TABILAB alumnus who worked under the supervision of Arzucan Özgür."
+email: "melce.husunbeyi@alumni.boun.edu.tr"
 category: "alumni"
-order: 30
+order: 75
 advisor: "Arzucan Özgür"
-degree: "MS"
 ---
 
-Melce Hüsünbeyi is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Arzucan Özgür.
+Melce Hüsünbeyi is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Arzucan Özgür.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Melce Hüsünbeyi is an MS student at the Computer Engineering Department of Bo�
 
 ## Advisor
 
-- **Advisor:** Arzucan Özgür 
+- **Advisor:** Arzucan Özgür

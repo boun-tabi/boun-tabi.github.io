@@ -22,4 +22,4 @@ Anıl Çalışkol is a TABILAB alumnus who completed his MS degree in 2019 under
 - Natural Language Processing
 - Machine Learning
 - Data Science
-- Text Mining
+- Text Mining 

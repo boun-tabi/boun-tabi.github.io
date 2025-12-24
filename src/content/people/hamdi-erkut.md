@@ -1,16 +1,15 @@
 ---
 name: "Hamdi Erkut"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/hamdi-erkut.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing and bioinformatics under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı."
-email: "hamdi.erkut@boun.edu.tr"
+bio: "TABILAB alumnus who worked under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı."
+email: "hamdi.erkut@alumni.boun.edu.tr"
 category: "alumni"
-order: 35
+order: 74
 advisor: "Arzucan Özgür"
-degree: "MS"
 ---
 
-Hamdi Erkut is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı.
+Hamdi Erkut is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Arzucan Özgür and co-advised by Elif Özkırımlı.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Hamdi Erkut is an MS student at the Computer Engineering Department of Boğaziç
 
 ## Advisor
 
-- **Advisor:** Arzucan Özgür and co-advise with Elif Özkırımlı 
+- **Advisor:** Arzucan Özgür and co-advise with Elif Özkırımlı

@@ -1,16 +1,15 @@
 ---
 name: "Azad Yaşar"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/azad-yasar.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Tunga Güngör."
-email: "azad.yasar@boun.edu.tr"
-category: "student"
-order: 23
+bio: "TABILAB alumnus who worked under the supervision of Tunga Güngör."
+email: "azad.yasar@alumni.boun.edu.tr"
+category: "alumni"
+order: 64
 advisor: "Tunga Güngör"
-degree: "MS"
 ---
 
-Azad Yaşar is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Tunga Güngör.
+Azad Yaşar is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Tunga Güngör.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Azad Yaşar is an MS student at the Computer Engineering Department of Boğaziç
 
 ## Advisor
 
-- **Advisor:** Tunga Güngör 
+- **Advisor:** Tunga Güngör

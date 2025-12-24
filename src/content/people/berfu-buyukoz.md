@@ -1,16 +1,15 @@
 ---
 name: "Berfu Büyüköz"
-title: "MS Student"
+title: "Alumnus"
 photo: "/images/people/berfu-buyukoz.jpg"
-bio: "MS student at Boğaziçi University, working on natural language processing under the supervision of Arzucan Özgür."
-email: "berfu.buyukoz@boun.edu.tr"
+bio: "TABILAB alumnus who worked under the supervision of Arzucan Özgür."
+email: "berfu.buyukoz@alumni.boun.edu.tr"
 category: "alumni"
-order: 11
+order: 67
 advisor: "Arzucan Özgür"
-degree: "MS"
 ---
 
-Berfu Büyüköz is an MS student at the Computer Engineering Department of Boğaziçi University, working under the supervision of Arzucan Özgür.
+Berfu Büyüköz is a TABILAB alumnus who worked at the Computer Engineering Department of Boğaziçi University under the supervision of Arzucan Özgür.
 
 ## Research Interests
 
@@ -21,4 +20,4 @@ Berfu Büyüköz is an MS student at the Computer Engineering Department of Boğ
 
 ## Advisor
 
-- **Advisor:** Arzucan Özgür 
+- **Advisor:** Arzucan Özgür
