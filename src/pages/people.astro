@@ -20,6 +20,7 @@ const msStudents = allPeople
   .filter(person => person.data.category === 'student' && person.data.title === 'MS Student')
   .sort((a, b) => a.data.order - b.data.order);
 
+
 const alumni = allPeople
   .filter(person => person.data.category === 'alumni')
   .sort((a, b) => {
@@ -43,6 +44,11 @@ function getImagePath(path) {
   return path;
 }
 
+function isValidEmail(email) {
+  if (!email) return false;
+  return /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email);
+}
+
 const placeholderImage = import.meta.env.BASE_URL + 'images/placeholder-person.jpg';
 ---
 
@@ -50,7 +56,7 @@ const placeholderImage = import.meta.env.BASE_URL + 'images/placeholder-person.j
   <div class="container mx-auto px-4 py-12">
     <h1 class="text-4xl font-bold text-primary mb-12 text-center">Our Team</h1>
     
-    <!-- Principal Investigators -->
+      <!-- Principal Investigators -->
     <section class="mb-16">
       <h2 class="text-3xl font-bold text-primary mb-8">Faculty Members</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -94,73 +100,71 @@ const placeholderImage = import.meta.env.BASE_URL + 'images/placeholder-person.j
       </div>
     </section>
     
+    <!-- Current Students -->
+    <!--
+    <section class="mb-16">
+      <h2 class="text-3xl font-bold text-primary mb-8">Current Students</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {currentStudents.map(student => (
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img 
+              src={getImagePath(student.data.photo)} 
+              alt={student.data.name} 
+              class="w-full h-48 object-cover"
+              onerror={`this.src='${import.meta.env.BASE_URL}images/placeholder-person.jpg'; this.onerror=null;`}
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-1">{student.data.name}</h3>
+              <p class="text-gray-600 mb-2">{student.data.title}</p>
+              <p class="text-gray-700 mb-4">{student.data.bio}</p>
+              <div class="flex flex-wrap gap-3">
+                {student.data.email && isValidEmail(student.data.email) && (
+                  <a href={`mailto:${student.data.email}`} class="text-primary-light hover:underline">
+                    Email
+                  </a>
+                )}
+                {student.data.github && (
+                  <a href={student.data.github} target="_blank" rel="noopener noreferrer" class="text-primary-light hover:underline">
+                    GitHub
+                  </a>
+                )}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+   -->
     <!-- PhD Students -->
-    <section class="mb-16">
-      <h2 class="text-3xl font-bold text-primary mb-8">PhD Students</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {phdStudents.map(student => (
-          <div class="bg-white rounded-lg shadow-md overflow-hidden">
-            <img
-              src={getImagePath(student.data.photo)}
-              alt={student.data.name}
-              class="w-full aspect-square object-cover"
-              onerror={`this.src='${import.meta.env.BASE_URL}images/placeholder-person.jpg'; this.onerror=null;`}
-            />
-            <div class="p-6">
-              <h3 class="text-xl font-bold mb-1">{student.data.name}</h3>
-              <p class="text-gray-600 mb-2">{student.data.title}</p>
-              <p class="text-gray-700 mb-4">{student.data.bio}</p>
-              <div class="flex flex-wrap gap-3">
-                {student.data.email && (
-                  <a href={`mailto:${student.data.email}`} class="text-primary-light hover:underline">
-                    Email
-                  </a>
-                )}
-                {student.data.github && (
-                  <a href={student.data.github} target="_blank" rel="noopener noreferrer" class="text-primary-light hover:underline">
-                    GitHub
-                  </a>
-                )}
-              </div>
-            </div>
+  <section class="mb-16">
+    <h2 class="text-3xl font-bold text-primary mb-8">PhD Students</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {phdStudents.map(student => (
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-1">{student.data.name}</h3>
+            <p class="text-gray-600 mb-2">{student.data.title}</p>
           </div>
-        ))}
-      </div>
-    </section>
+        </div>
+      ))}
+    </div>
+  </section>
 
-    <!-- MS Students -->
-    <section class="mb-16">
-      <h2 class="text-3xl font-bold text-primary mb-8">MS Students</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {msStudents.map(student => (
-          <div class="bg-white rounded-lg shadow-md overflow-hidden">
-            <img
-              src={getImagePath(student.data.photo)}
-              alt={student.data.name}
-              class="w-full aspect-square object-cover"
-              onerror={`this.src='${import.meta.env.BASE_URL}images/placeholder-person.jpg'; this.onerror=null;`}
-            />
-            <div class="p-6">
-              <h3 class="text-xl font-bold mb-1">{student.data.name}</h3>
-              <p class="text-gray-600 mb-2">{student.data.title}</p>
-              <p class="text-gray-700 mb-4">{student.data.bio}</p>
-              <div class="flex flex-wrap gap-3">
-                {student.data.email && (
-                  <a href={`mailto:${student.data.email}`} class="text-primary-light hover:underline">
-                    Email
-                  </a>
-                )}
-                {student.data.github && (
-                  <a href={student.data.github} target="_blank" rel="noopener noreferrer" class="text-primary-light hover:underline">
-                    GitHub
-                  </a>
-                )}
-              </div>
-            </div>
+  <!-- MS Students -->
+  <section class="mb-16">
+    <h2 class="text-3xl font-bold text-primary mb-8">MS Students</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {msStudents.map(student => (
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-1">{student.data.name}</h3>
+            <p class="text-gray-600 mb-2">{student.data.title}</p>
           </div>
-        ))}
-      </div>
-    </section>
+        </div>
+      ))}
+    </div>
+  </section>
+
     
     <!-- Alumni -->
     <section>
@@ -168,12 +172,12 @@ const placeholderImage = import.meta.env.BASE_URL + 'images/placeholder-person.j
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {alumni.map(alum => (
           <div class="bg-white rounded-lg shadow-md overflow-hidden">
-            <img
-              src={getImagePath(alum.data.photo)}
-              alt={alum.data.name}
-              class="w-full aspect-square object-cover"
+            <!--<img 
+              src={getImagePath(alum.data.photo)} 
+              alt={alum.data.name} 
+              class="w-full h-40 object-cover"
               onerror={`this.src='${import.meta.env.BASE_URL}images/placeholder-person.jpg'; this.onerror=null;`}
-            />
+            />-->
             <div class="p-4">
               <h3 class="text-lg font-bold mb-1">{alum.data.name}</h3>
               <p class="text-gray-600 mb-1">{alum.data.degree}</p>
@@ -184,4 +188,4 @@ const placeholderImage = import.meta.env.BASE_URL + 'images/placeholder-person.j
       </div>
     </section>
   </div>
-</MainLayout> 
+</MainLayout>

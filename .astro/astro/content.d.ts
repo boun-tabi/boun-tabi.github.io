@@ -2593,6 +2593,13 @@ declare module 'astro:content' {
   collection: "people";
   data: any
 } & { render(): Render[".md"] };
+"meliksah-turker.md": {
+	id: "meliksah-turker.md";
+  slug: "meliksah-turker";
+  body: string;
+  collection: "people";
+  data: any
+} & { render(): Render[".md"] };
 "melis-ozgur-cetinkaya-demir.md": {
 	id: "melis-ozgur-cetinkaya-demir.md";
   slug: "melis-ozgur-cetinkaya-demir";
