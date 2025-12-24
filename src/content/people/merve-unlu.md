@@ -1,10 +1,10 @@
 ---
 name: "Merve Ünlü"
-title: "Alumnus"
+title: "PhD Student"
 photo: "/images/people/merve-unlu.jpg"
 bio: "TABILAB alumnus who worked under the supervision of Arzucan Özgür."
 email: "merve.unlu@alumni.boun.edu.tr"
-category: "PhD Student"
+category: "student"
 order: 56
 advisor: "Arzucan Özgür"
 ---
