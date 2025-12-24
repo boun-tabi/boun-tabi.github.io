@@ -166,6 +166,22 @@ declare module 'astro:content' {
   data: InferEntrySchema<"courses">
 } & { render(): Render[".md"] };
 };
+"highlights": {
+"tulap.md": {
+	id: "tulap.md";
+  slug: "tulap";
+  body: string;
+  collection: "highlights";
+  data: InferEntrySchema<"highlights">
+} & { render(): Render[".md"] };
+"turna.md": {
+	id: "turna.md";
+  slug: "turna";
+  body: string;
+  collection: "highlights";
+  data: InferEntrySchema<"highlights">
+} & { render(): Render[".md"] };
+};
 "news": {
 "turna-release.md": {
 	id: "turna-release.md";
@@ -3014,6 +3030,15 @@ declare module 'astro:content' {
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+};
+"resources": {
+"tulap.md": {
+	id: "tulap.md";
+  slug: "tulap";
+  body: string;
+  collection: "resources";
+  data: InferEntrySchema<"resources">
 } & { render(): Render[".md"] };
 };
 "theses": {
