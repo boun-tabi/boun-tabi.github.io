@@ -2089,6 +2089,13 @@ declare module 'astro:content' {
   collection: "people";
   data: any
 } & { render(): Render[".md"] };
+"alaaddin-eren-namli.md": {
+	id: "alaaddin-eren-namli.md";
+  slug: "alaaddin-eren-namli";
+  body: string;
+  collection: "people";
+  data: InferEntrySchema<"people">
+} & { render(): Render[".md"] };
 "ali-ciltik.md": {
 	id: "ali-ciltik.md";
   slug: "ali-ciltik";
@@ -2208,6 +2215,13 @@ declare module 'astro:content' {
   collection: "people";
   data: any
 } & { render(): Render[".md"] };
+"berk-sel.md": {
+	id: "berk-sel.md";
+  slug: "berk-sel";
+  body: string;
+  collection: "people";
+  data: InferEntrySchema<"people">
+} & { render(): Render[".md"] };
 "burak-aydin.md": {
 	id: "burak-aydin.md";
   slug: "burak-aydin";
@@ -2292,6 +2306,13 @@ declare module 'astro:content' {
   collection: "people";
   data: any
 } & { render(): Render[".md"] };
+"damla-demirok.md": {
+	id: "damla-demirok.md";
+  slug: "damla-demirok";
+  body: string;
+  collection: "people";
+  data: InferEntrySchema<"people">
+} & { render(): Render[".md"] };
 "dilek-kayahan.md": {
 	id: "dilek-kayahan.md";
   slug: "dilek-kayahan";
@@ -2354,6 +2375,13 @@ declare module 'astro:content' {
   body: string;
   collection: "people";
   data: any
+} & { render(): Render[".md"] };
+"eren-kotar.md": {
+	id: "eren-kotar.md";
+  slug: "eren-kotar";
+  body: string;
+  collection: "people";
+  data: InferEntrySchema<"people">
 } & { render(): Render[".md"] };
 "erencan-erkaya.md": {
 	id: "erencan-erkaya.md";
@@ -2565,6 +2593,13 @@ declare module 'astro:content' {
   collection: "people";
   data: any
 } & { render(): Render[".md"] };
+"meliksah-turker.md": {
+	id: "meliksah-turker.md";
+  slug: "meliksah-turker";
+  body: string;
+  collection: "people";
+  data: any
+} & { render(): Render[".md"] };
 "melis-ozgur-cetinkaya-demir.md": {
 	id: "melis-ozgur-cetinkaya-demir.md";
   slug: "melis-ozgur-cetinkaya-demir";
@@ -2628,6 +2663,13 @@ declare module 'astro:content' {
   collection: "people";
   data: any
 } & { render(): Render[".md"] };
+"muhammed-emin-arayici.md": {
+	id: "muhammed-emin-arayici.md";
+  slug: "muhammed-emin-arayici";
+  body: string;
+  collection: "people";
+  data: InferEntrySchema<"people">
+} & { render(): Render[".md"] };
 "muhammed-yavuz-nuzumlali.md": {
 	id: "muhammed-yavuz-nuzumlali.md";
   slug: "muhammed-yavuz-nuzumlali";
@@ -2683,6 +2725,20 @@ declare module 'astro:content' {
   body: string;
   collection: "people";
   data: any
+} & { render(): Render[".md"] };
+"omer-ozan-mart.md": {
+	id: "omer-ozan-mart.md";
+  slug: "omer-ozan-mart";
+  body: string;
+  collection: "people";
+  data: InferEntrySchema<"people">
+} & { render(): Render[".md"] };
+"omer-taha-ornek.md": {
+	id: "omer-taha-ornek.md";
+  slug: "omer-taha-ornek";
+  body: string;
+  collection: "people";
+  data: InferEntrySchema<"people">
 } & { render(): Render[".md"] };
 "onder-eker.md": {
 	id: "onder-eker.md";
