@@ -18,6 +18,19 @@ const news = await getCollection('news');
 news.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 const latestNews = news.slice(0, 3);
 
+// Get highlights
+const highlights = await getCollection('highlights');
+highlights.sort((a, b) => (a.data.order || 999) - (b.data.order || 999));
+
+// Helper function to get proper image path with base URL
+function getImagePath(path: string) {
+  if (path.startsWith('http')) return path;
+  if (path.startsWith('/')) {
+    return import.meta.env.BASE_URL + path.substring(1);
+  }
+  return path;
+}
+
 // Format date function
 function formatDate(date) {
   return format(new Date(date), 'MMMM d, yyyy');
@@ -142,6 +155,31 @@ function formatDate(date) {
           Our work is grounded in interdisciplinary collaboration and high-quality datasets that enable
           robust, theory-informed models across both domains.
         </p>
+
+        <!-- Highlights -->
+        <h3 class="text-2xl font-bold text-primary mt-12 mb-8 text-center">Highlights</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+          {highlights.map(item => (
+            <a
+              href={item.data.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+            >
+              <div class="bg-gray-100 h-40 flex items-center justify-center p-4">
+                <img
+                  src={getImagePath(item.data.image)}
+                  alt={item.data.title}
+                  class="max-h-full max-w-full object-contain"
+                />
+              </div>
+              <div class="p-4">
+                <h4 class="text-lg font-semibold text-primary mb-1">{item.data.title}</h4>
+                <p class="text-gray-700 text-sm">{item.data.description}</p>
+              </div>
+            </a>
+          ))}
+        </div>
       </div>
     </div>
   </section>
