@@ -7,8 +7,8 @@ abstract: ""
 featured: false
 bibtex: |
   @article{Demir2014_improving_,
-    author = {Hakan Demir and Arzucan Özgür},
-    title = {Improving Named Entity Recognition for Morphologically Rich Languages using Word Embeddings},
-    year = {2014}
+  author = {Hakan Demir and Arzucan Özgür},
+  title = {Improving Named Entity Recognition for Morphologically Rich Languages using Word Embeddings},
+  year = {2014}
   }
 ---
