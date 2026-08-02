@@ -1,6 +1,6 @@
 ---
 title: "Semi-Supervised Psychometric Scoring of Document Collections"
-authors: "Burak Suyunu, Gonul Ayci, Mine Ö\\ugretir, Ali Taylan Cemgil, Suzan Uskudarli, Hamza Zeytinoglu, Bulent Ozel, Arman Boyacı"
+authors: "Burak Suyunu, Gonul Ayci, Mine Öğretir, Ali Taylan Cemgil, Suzan Uskudarli, Hamza Zeytinoglu, Bulent Ozel, Arman Boyacı"
 venue: "International Conference on Data Mining Workshops ({ICDMW})"
 year: 2018
 abstract: "We describe a generic computational approach that can be used in developing methods for psychometric profiling. Our approach is based on semi-supervised analysis of document collections using topic modeling. The method depends on a supervisor providing a set of seed documents, grouped by abstract themes, such as Schwartz values or personality traits; and possibly a separate background document corpus. Instead of casting the problem into a standard classification framework, we interpret the group labels as a guide for finding distinguishing features. During training, we train each group of documents associated with a theme separately by using nonnegative matrix factorization to obtain theme specific topic distributions. In the analysis, we decompose a new document using the model learned during training to arrive at the theme scores. We demonstrate our approach on two psychometric profiling theories (Schwartz and Big Five) and evaluate our Schwartz scores with leave-one-out cross-validation method and compare Big Five scores to independent surveys, which are much more costly to carry out."

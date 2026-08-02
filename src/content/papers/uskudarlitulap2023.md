@@ -1,5 +1,5 @@
 ---
-title: "{TULAP} - An Accessible and Sustainable Platform for {T}urkish Natural Language Processing Resources"
+title: "TULAP - An Accessible and Sustainable Platform for Turkish Natural Language Processing Resources"
 authors: "Susan Uskudarli, Muhammet Şen, Furkan Akkurt, Merve Gürbüz, Onur Gungor, Arzucan Özgür, Tunga Güngör"
 venue: "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations"
 year: 2023

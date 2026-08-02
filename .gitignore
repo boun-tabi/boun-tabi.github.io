@@ -1,6 +1,6 @@
 # Dependencies
 node_modules/
-
+.venv/
 # Build outputs
 dist/
 .astro/

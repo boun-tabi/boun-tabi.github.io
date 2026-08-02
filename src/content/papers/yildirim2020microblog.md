@@ -1,5 +1,5 @@
 ---
-title: "Microblog topic identification using {Linked Open Data}"
+title: "Microblog topic identification using Linked Open Data"
 authors: "Ahmet Yıldırım, Suzan Uskudarli"
 venue: "Plos one"
 year: 2020

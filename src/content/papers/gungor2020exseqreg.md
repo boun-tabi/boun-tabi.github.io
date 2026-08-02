@@ -1,5 +1,5 @@
 ---
-title: "{EXSEQREG}: Explaining sequence-based NLP tasks with regions with a case study using morphological features for named entity recognition"
+title: "EXSEQREG: Explaining sequence-based NLP tasks with regions with a case study using morphological features for named entity recognition"
 authors: "Onur Güngör, Tunga Güngör, Suzan Uskudarli"
 venue: "Plos one"
 year: 2020

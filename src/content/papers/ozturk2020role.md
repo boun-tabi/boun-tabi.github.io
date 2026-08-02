@@ -1,6 +1,6 @@
 ---
 title: "The Role of Contextual Word Embeddings in Correcting the 'de/da' Clitic Errors in Turkish"
-authors: "Hasan Öztürk, Alperen De\\ugirmenci, Onur Güngör, Suzan Uskudarli"
+authors: "Hasan Öztürk, Alperen Değirmenci, Onur Güngör, Suzan Uskudarli"
 venue: "28th Signal Processing and Communications Applications Conference ({SIU})"
 year: 2020
 abstract: "One of the most common spelling errors in Turkish is regarding the clitic `de/da'. People often misspell the `de/da' either by treating it as a suffix inappropriately when it should not, or by spelling it seperately when it should be a suffix. Since Turkish is a morphologically rich agglutinative language, detecting and identifying such errors are difficult. As such, many widely used spell correction tools do not handle such mistakes well. In this work, we show that a sequence tagger model that employs BERT model which produces word embeddings that consider the context of a word obtains higher performance compared to using non-contextual word embeddings instead. Training and evaluation tasks were performed with a dataset that was derived from a Turkish corpus using a special process in addition to a manually curated one. The contextual word embeddings obtained during this task are publicly shared with the research community."

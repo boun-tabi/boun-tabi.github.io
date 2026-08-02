@@ -1,6 +1,6 @@
 ---
 title: "Organized Behavior Classification of Tweet Sets using Supervised Learning Methods"
-authors: "Erdem Be\\ugenilmiş, Suzan Uskudarli"
+authors: "Erdem Beğenilmiş, Suzan Uskudarli"
 venue: "8th International Conference on Web Intelligence, Mining and Semantics ({WIMS})"
 year: 2018
 abstract: ""
