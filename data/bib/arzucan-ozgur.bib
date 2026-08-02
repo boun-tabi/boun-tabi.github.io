@@ -185,10 +185,12 @@ journal = {Akademik Bilişim},
 year = {2013}
 }
 
-@article{Seker2025_hatecat_tr,
-author = {Hasan Kerem Seker and Gökçe Uludogan and Pelin Önal and Arzucan Özgür},
-title = {HATECAT-TR: A Hate Speech Span Detection and Categorization Dataset for Turkish},
-year = {2025}
+@inproceedings{seker2025hatecat,
+  title={HATECAT-TR: A Hate Speech Span Detection and Categorization Dataset for Turkish.},
+  author={Seker, Hasan Kerem and Uludogan, G{\"o}k{\c{c}}e and {\"O}nal, Pelin and {\"O}zg{\"u}r, Arzucan},
+  booktitle={EMNLP (Findings)},
+  pages={25568--25579},
+  year={2025}
 }
 
 @article{Şimşek2025_gnnmutatio,
@@ -211,11 +213,13 @@ pages = {2025.04. 07.647599},
 publisher = {Cold Spring Harbor Laboratory}
 }
 
-@article{Menevse2025_the_bu_mef,
-author = {Merve Unlu Menevse and Ebru Arisoy and Arzucan Ozgur},
-title = {The BU-MEF System for the Speak & Improve Challenge 2025: Spoken Language Assessment Using Speech and Textual Representations},
-year = {2025},
-pages = {143-147}
+@inproceedings{Menevse2025_the_bu_mef,
+  author = {Menevse, Merve Unlu and Arisoy, Ebru and Ozgur, Arzucan},
+  title = {The BU-MEF System for the Speak & Improve Challenge 2025: Spoken Language Assessment Using Speech and Textual Representations},
+  booktitle = {Proceedings of the 10th Workshop on Speech and Language Technology in Education (SLaTE)},
+  pages = {143--147},
+  year = {2025},
+  doi = {10.21437/SLaTE.2025-29}
 }
 
 @article{Arisoy2025_evaluating,
@@ -225,12 +229,18 @@ year = {2025},
 pages = {1773-1777}
 }
 
-@article{Arısoy2024_dealing_wi,
-author = {Ebru Arısoy and Arzucan Özgür and Merve Ünlü Menevşe and Yusufcan Manav},
-title = {Dealing With Data Scarcity in Spoken Question Answering},
-journal = {2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation, LREC-COLING 2024-Main Conference Proceedings--Joint 30th International Conference on Computational Linguistics and 14th International Conference on Language Resources and Evaluation, LREC-COLING 2024--20 May 2024 through 25 May 2024--Hybrid, Torino--199620},
-year = {2024},
-publisher = {European Language Resources Association (ELRA)}
+@inproceedings{unlu-menevse-etal-2024-dealing,
+  title = {Dealing with Data Scarcity in Spoken Question Answering},
+  author = {{\"U}nl{\"u} Menev{\c{s}}e, Merve and Manav, Yusufcan and Arisoy, Ebru and {\"O}zg{\"u}r, Arzucan},
+  editor = {Calzolari, Nicoletta and Kan, Min-Yen and Hoste, Veronique and Lenci, Alessandro and Sakti, Sakriani and Xue, Nianwen},
+  booktitle = {Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)},
+  month = {may},
+  year = {2024},
+  address = {Torino, Italia},
+  publisher = {ELRA and ICCL},
+  url = {https://aclanthology.org/2024.lrec-main.397/},
+  pages = {4449--4455},
+  abstract = {This paper focuses on dealing with data scarcity in spoken question answering (QA) using automatic question-answer generation and a carefully selected fine-tuning strategy that leverages limited annotated data (paragraphs and question-answer pairs). Spoken QA is a challenging task due to using spoken documents, i.e., erroneous automatic speech recognition (ASR) transcriptions, and the scarcity of spoken QA data. We propose a framework for utilizing limited annotated data effectively to improve spoken QA performance. To deal with data scarcity, we train a question-answer generation model with annotated data and then produce large amounts of question-answer pairs from unannotated data (paragraphs). Our experiments demonstrate that incorporating limited annotated data and the automatically generated data through a carefully selected fine-tuning strategy leads to 5.5{\%} relative F1 gain over the model trained only with annotated data. Moreover, the proposed framework is also effective in high ASR errors.}
 }
 
 @article{Huang2021_pidna_at_b,
@@ -345,4 +355,33 @@ year = {None}
   volume = {2025},
   pages = {1071},
   url = {https://pmc.ncbi.nlm.nih.gov/articles/PMC12919462/}
+}
+@inproceedings{uludogan-etal-2024-overview,
+  title = {Overview of the Hate Speech Detection in {T}urkish and {A}rabic Tweets ({HSD}-2{L}ang) Shared Task at {CASE} 2024},
+  author = {Uludo{\u{g}}an, G{\"o}k{\c{c}}e and Dehghan, Somaiyeh and Arin, Inanc and Erol, Elif and Yanikoglu, Berrin and {\"O}zg{\"u}r, Arzucan},
+  editor = {H{\"u}rriyeto{\u{g}}lu, Ali and Tanev, Hristo and Thapa, Surendrabikram and Uludo{\u{g}}an, G{\"o}k{\c{c}}e},
+  booktitle = {Proceedings of the 7th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE 2024)},
+  month = {mar},
+  year = {2024},
+  address = {St. Julians, Malta},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2024.case-1.32/},
+  doi = {10.18653/v1/2024.case-1.32},
+  pages = {229--233},
+  abstract = {This paper offers an overview of Hate Speech Detection in Turkish and Arabic Tweets (HSD-2Lang) Shared Task at CASE workshop to be held jointly with EACL 2024. The task was divided into two subtasks: Subtask A, targeting hate speech detection in various Turkish contexts, and Subtask B, addressing hate speech detection in Arabic with limited data. The shared task attracted significant attention with 33 teams that registered and 10 teams that participated in at least one task. In this paper, we provide the details of the tasks and the approaches adopted by the participant along with an analysis of the results obtained from this shared task.}
+}
+
+@inproceedings{uludogan-etal-2024-detecting,
+  title = {Detecting Hate Speech in {T}urkish Print Media: A Corpus and A Hybrid Approach with Target-oriented Linguistic Knowledge},
+  author = {Uludo{\u{g}}an, G{\"o}k{\c{c}}e and Y{\"u}ksel, At{\i}f Emre and Tun{\c{c}}er, {\"U}mit and I{\c{s}}{\i}k, Burak and Korkmaz, Yasemin and Akar, Didar and {\"O}zg{\"u}r, Arzucan},
+  editor = {H{\"u}rriyeto{\u{g}}lu, Ali and Tanev, Hristo and Thapa, Surendrabikram and Uludo{\u{g}}an, G{\"o}k{\c{c}}e},
+  booktitle = {Proceedings of the 7th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE 2024)},
+  month = {mar},
+  year = {2024},
+  address = {St. Julians, Malta},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2024.case-1.29/},
+  doi = {10.18653/v1/2024.case-1.29},
+  pages = {205--214},
+  abstract = {The use of hate speech targeting ethnicity, nationalities, religious identities, and specific groups has been on the rise in the news media. However, most existing automatic hate speech detection models focus on identifying hate speech, often neglecting the target group-specific language that is common in news articles. To address this problem, we first compile a hate speech dataset, TurkishHatePrintCorpus, derived from Turkish news articles and annotate it specifically for the language related to the targeted group. We then introduce the HateTargetBERT model, which integrates the target-centric linguistic features extracted in this study into the BERT model, and demonstrate its effectiveness in detecting hate speech while allowing the model's classification decision to be explained. We have made the dataset and source code publicly available at https://github.com/boun-tabi/HateTargetBERT-TR.}
 }

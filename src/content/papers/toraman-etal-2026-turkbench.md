@@ -1,5 +1,5 @@
 ---
-title: "TurkBench: A Benchmark for Evaluating {T}urkish Large Language Models"
+title: "TurkBench: A Benchmark for Evaluating Turkish Large Language Models"
 authors: "Cagri Toraman, Ahmet Kaan Sever, Ayşe Aysu Cengiz, Elif Ecem Arslan, Görkem Sevinç, Sarp Kantar, Mete Mert Birdal, Yusuf Faruk Güldemir, Ali Buğra Kanburoğlu, Sezen Felekoğlu, Birsen Şahin Kütük, Büşra Tufan, Elif Genç, Serkan Coşkun, Gupse Ekin Demir, Muhammed Emin Arayıcı, Olgun Dursun, Onur Gungor, Susan Üsküdarlı, Abdullah Topraksoy, Esra Darıcı"
 venue: "Proceedings of the Second Workshop on Natural Language Processing for Turkic Languages (SIGTURK 2026)"
 year: 2026
