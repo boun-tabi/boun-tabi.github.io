@@ -220,13 +220,6 @@ declare module 'astro:content' {
   collection: "papers";
   data: InferEntrySchema<"papers">
 } & { render(): Render[".md"] };
-"akkurt2022_boat_v2_a_.md": {
-	id: "akkurt2022_boat_v2_a_.md";
-  slug: "akkurt2022_boat_v2_a_";
-  body: string;
-  collection: "papers";
-  data: InferEntrySchema<"papers">
-} & { render(): Render[".md"] };
 "akman2010_analyzing_.md": {
 	id: "akman2010_analyzing_.md";
   slug: "akman2010_analyzing_";
@@ -1431,13 +1424,6 @@ declare module 'astro:content' {
   collection: "papers";
   data: InferEntrySchema<"papers">
 } & { render(): Render[".md"] };
-"skdarl2023_tulap_an_a.md": {
-	id: "skdarl2023_tulap_an_a.md";
-  slug: "skdarl2023_tulap_an_a";
-  body: string;
-  collection: "papers";
-  data: InferEntrySchema<"papers">
-} & { render(): Render[".md"] };
 "skdarli1992_a_generic_.md": {
 	id: "skdarli1992_a_generic_.md";
   slug: "skdarli1992_a_generic_";
@@ -1651,13 +1637,6 @@ declare module 'astro:content' {
 "turker2025tabibert.md": {
 	id: "turker2025tabibert.md";
   slug: "turker2025tabibert";
-  body: string;
-  collection: "papers";
-  data: InferEntrySchema<"papers">
-} & { render(): Render[".md"] };
-"turkish-nlp-transfer-learning.md": {
-	id: "turkish-nlp-transfer-learning.md";
-  slug: "turkish-nlp-transfer-learning";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
