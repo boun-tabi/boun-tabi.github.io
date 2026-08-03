@@ -54,12 +54,12 @@ function getImagePath(path) {
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {news.map(item => (
         <div class="news-item bg-white rounded-lg shadow-md overflow-hidden" data-tags={JSON.stringify(item.data.tags || [])}>
-          <div class="relative h-48 overflow-hidden">
+          <div class="relative h-48 overflow-hidden bg-gray-100 flex items-center justify-center p-4">
             {item.data.image ? (
               <img 
                 src={getImagePath(item.data.image)} 
                 alt={item.data.title}
-                class="w-full h-full object-cover"
+                class="max-w-full max-h-full object-contain"
               />
             ) : (
               <div class="w-full h-full bg-gray-200 flex items-center justify-center">
@@ -128,4 +128,4 @@ function getImagePath(path) {
       });
     });
   });
-</script> 
+</script>
