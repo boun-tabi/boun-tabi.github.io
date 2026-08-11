@@ -192,23 +192,30 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 };
 "papers": {
+"ahin2025_stylistic_.md": {
+	id: "ahin2025_stylistic_.md";
+  slug: "ahin2025_stylistic_";
+  body: string;
+  collection: "papers";
+  data: InferEntrySchema<"papers">
+} & { render(): Render[".md"] };
+"akca2026_star_go_im.md": {
+	id: "akca2026_star_go_im.md";
+  slug: "akca2026_star_go_im";
+  body: string;
+  collection: "papers";
+  data: InferEntrySchema<"papers">
+} & { render(): Render[".md"] };
+"akkurt-etal-2024-evaluating.md": {
+	id: "akkurt-etal-2024-evaluating.md";
+  slug: "akkurt-etal-2024-evaluating";
+  body: string;
+  collection: "papers";
+  data: InferEntrySchema<"papers">
+} & { render(): Render[".md"] };
 "akkurt2022_bo_azi_i_u.md": {
 	id: "akkurt2022_bo_azi_i_u.md";
   slug: "akkurt2022_bo_azi_i_u";
-  body: string;
-  collection: "papers";
-  data: InferEntrySchema<"papers">
-} & { render(): Render[".md"] };
-"akkurt2022_boat_v2_a_.md": {
-	id: "akkurt2022_boat_v2_a_.md";
-  slug: "akkurt2022_boat_v2_a_";
-  body: string;
-  collection: "papers";
-  data: InferEntrySchema<"papers">
-} & { render(): Render[".md"] };
-"akkurt2024_evaluating.md": {
-	id: "akkurt2024_evaluating.md";
-  slug: "akkurt2024_evaluating";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
@@ -262,9 +269,9 @@ declare module 'astro:content' {
   collection: "papers";
   data: InferEntrySchema<"papers">
 } & { render(): Render[".md"] };
-"arisoy2025_evaluating.md": {
-	id: "arisoy2025_evaluating.md";
-  slug: "arisoy2025_evaluating";
+"arisoy25_interspeech.md": {
+	id: "arisoy25_interspeech.md";
+  slug: "arisoy25_interspeech";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
@@ -279,13 +286,6 @@ declare module 'astro:content' {
 "arn_siu2023_ns.md": {
 	id: "arn_siu2023_ns.md";
   slug: "arn_siu2023_ns";
-  body: string;
-  collection: "papers";
-  data: InferEntrySchema<"papers">
-} & { render(): Render[".md"] };
-"arsoy2024_dealing_wi.md": {
-	id: "arsoy2024_dealing_wi.md";
-  slug: "arsoy2024_dealing_wi";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
@@ -374,6 +374,20 @@ declare module 'astro:content' {
   collection: "papers";
   data: InferEntrySchema<"papers">
 } & { render(): Render[".md"] };
+"baysan-gungor-2025-tr.md": {
+	id: "baysan-gungor-2025-tr.md";
+  slug: "baysan-gungor-2025-tr";
+  body: string;
+  collection: "papers";
+  data: InferEntrySchema<"papers">
+} & { render(): Render[".md"] };
+"baysan2025_llm_as_a_j.md": {
+	id: "baysan2025_llm_as_a_j.md";
+  slug: "baysan2025_llm_as_a_j";
+  body: string;
+  collection: "papers";
+  data: InferEntrySchema<"papers">
+} & { render(): Render[".md"] };
 "bayta2023_pattern_re.md": {
 	id: "bayta2023_pattern_re.md";
   slug: "bayta2023_pattern_re";
@@ -423,6 +437,13 @@ declare module 'astro:content' {
   collection: "papers";
   data: InferEntrySchema<"papers">
 } & { render(): Render[".md"] };
+"berk2025_image_to_t.md": {
+	id: "berk2025_image_to_t.md";
+  slug: "berk2025_image_to_t";
+  body: string;
+  collection: "papers";
+  data: InferEntrySchema<"papers">
+} & { render(): Render[".md"] };
 "bingol2010_an_operato.md": {
 	id: "bingol2010_an_operato.md";
   slug: "bingol2010_an_operato";
@@ -440,6 +461,13 @@ declare module 'astro:content' {
 "boatv2altnlp.md": {
 	id: "boatv2altnlp.md";
   slug: "boatv2altnlp";
+  body: string;
+  collection: "papers";
+  data: InferEntrySchema<"papers">
+} & { render(): Render[".md"] };
+"budur2025_conversati.md": {
+	id: "budur2025_conversati.md";
+  slug: "budur2025_conversati";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
@@ -524,6 +552,13 @@ declare module 'astro:content' {
 "del2018towards.md": {
 	id: "del2018towards.md";
   slug: "del2018towards";
+  body: string;
+  collection: "papers";
+  data: InferEntrySchema<"papers">
+} & { render(): Render[".md"] };
+"demir-etal-2026-timeres.md": {
+	id: "demir-etal-2026-timeres.md";
+  slug: "demir-etal-2026-timeres";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
@@ -713,6 +748,13 @@ declare module 'astro:content' {
 "erkan2007_semi_super.md": {
 	id: "erkan2007_semi_super.md";
   slug: "erkan2007_semi_super";
+  body: string;
+  collection: "papers";
+  data: InferEntrySchema<"papers">
+} & { render(): Render[".md"] };
+"erkan2025_an_aspect_.md": {
+	id: "erkan2025_an_aspect_.md";
+  slug: "erkan2025_an_aspect_";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
@@ -1074,6 +1116,13 @@ declare module 'astro:content' {
   collection: "papers";
   data: InferEntrySchema<"papers">
 } & { render(): Render[".md"] };
+"koban2026_congen_tar.md": {
+	id: "koban2026_congen_tar.md";
+  slug: "koban2026_congen_tar";
+  body: string;
+  collection: "papers";
+  data: InferEntrySchema<"papers">
+} & { render(): Render[".md"] };
 "kokciyan2012_user_gener.md": {
 	id: "kokciyan2012_user_gener.md";
   slug: "kokciyan2012_user_gener";
@@ -1105,13 +1154,6 @@ declare module 'astro:content' {
 "leitner2008_introducin.md": {
 	id: "leitner2008_introducin.md";
   slug: "leitner2008_introducin";
-  body: string;
-  collection: "papers";
-  data: InferEntrySchema<"papers">
-} & { render(): Render[".md"] };
-"lrecolingtreebankeevalllm.md": {
-	id: "lrecolingtreebankeevalllm.md";
-  slug: "lrecolingtreebankeevalllm";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
@@ -1182,13 +1224,6 @@ declare module 'astro:content' {
 "meneve2022_a_framewor.md": {
 	id: "meneve2022_a_framewor.md";
   slug: "meneve2022_a_framewor";
-  body: string;
-  collection: "papers";
-  data: InferEntrySchema<"papers">
-} & { render(): Render[".md"] };
-"meneve2024_dealing_wi.md": {
-	id: "meneve2024_dealing_wi.md";
-  slug: "meneve2024_dealing_wi";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
@@ -1326,6 +1361,13 @@ declare module 'astro:content' {
   collection: "papers";
   data: InferEntrySchema<"papers">
 } & { render(): Render[".md"] };
+"rehana2026_leveraging.md": {
+	id: "rehana2026_leveraging.md";
+  slug: "rehana2026_leveraging";
+  body: string;
+  collection: "papers";
+  data: InferEntrySchema<"papers">
+} & { render(): Render[".md"] };
 "rew2023.md": {
 	id: "rew2023.md";
   slug: "rew2023";
@@ -1354,9 +1396,9 @@ declare module 'astro:content' {
   collection: "papers";
   data: InferEntrySchema<"papers">
 } & { render(): Render[".md"] };
-"seker2025_hatecat_tr.md": {
-	id: "seker2025_hatecat_tr.md";
-  slug: "seker2025_hatecat_tr";
+"seker2025hatecat.md": {
+	id: "seker2025hatecat.md";
+  slug: "seker2025hatecat";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
@@ -1378,13 +1420,6 @@ declare module 'astro:content' {
 "skdarl1997_algebraic_.md": {
 	id: "skdarl1997_algebraic_.md";
   slug: "skdarl1997_algebraic_";
-  body: string;
-  collection: "papers";
-  data: InferEntrySchema<"papers">
-} & { render(): Render[".md"] };
-"skdarl2023_tulap_an_a.md": {
-	id: "skdarl2023_tulap_an_a.md";
-  slug: "skdarl2023_tulap_an_a";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
@@ -1438,9 +1473,9 @@ declare module 'astro:content' {
   collection: "papers";
   data: InferEntrySchema<"papers">
 } & { render(): Render[".md"] };
-"suyunu2025_evobpe_evo.md": {
-	id: "suyunu2025_evobpe_evo.md";
-  slug: "suyunu2025_evobpe_evo";
+"suyunu2025_puma_disco.md": {
+	id: "suyunu2025_puma_disco.md";
+  slug: "suyunu2025_puma_disco";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
@@ -1469,13 +1504,6 @@ declare module 'astro:content' {
 "taraktas2024_do_activis.md": {
 	id: "taraktas2024_do_activis.md";
   slug: "taraktas2024_do_activis";
-  body: string;
-  collection: "papers";
-  data: InferEntrySchema<"papers">
-} & { render(): Render[".md"] };
-"taraktas2025_hashtag_ac.md": {
-	id: "taraktas2025_hashtag_ac.md";
-  slug: "taraktas2025_hashtag_ac";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
@@ -1515,9 +1543,9 @@ declare module 'astro:content' {
   collection: "papers";
   data: InferEntrySchema<"papers">
 } & { render(): Render[".md"] };
-"test2024example.md": {
-	id: "test2024example.md";
-  slug: "test2024example";
+"tepe2026transcripts.md": {
+	id: "tepe2026transcripts.md";
+  slug: "tepe2026transcripts";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
@@ -1546,6 +1574,13 @@ declare module 'astro:content' {
 "tiftikci_team_condl.md": {
 	id: "tiftikci_team_condl.md";
   slug: "tiftikci_team_condl";
+  body: string;
+  collection: "papers";
+  data: InferEntrySchema<"papers">
+} & { render(): Render[".md"] };
+"toraman-etal-2026-turkbench.md": {
+	id: "toraman-etal-2026-turkbench.md";
+  slug: "toraman-etal-2026-turkbench";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
@@ -1599,9 +1634,9 @@ declare module 'astro:content' {
   collection: "papers";
   data: InferEntrySchema<"papers">
 } & { render(): Render[".md"] };
-"turkish-nlp-transfer-learning.md": {
-	id: "turkish-nlp-transfer-learning.md";
-  slug: "turkish-nlp-transfer-learning";
+"turker2025tabibert.md": {
+	id: "turker2025tabibert.md";
+  slug: "turker2025tabibert";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
@@ -1620,23 +1655,23 @@ declare module 'astro:content' {
   collection: "papers";
   data: InferEntrySchema<"papers">
 } & { render(): Render[".md"] };
-"uludoan2024_detecting_.md": {
-	id: "uludoan2024_detecting_.md";
-  slug: "uludoan2024_detecting_";
+"uludogan-etal-2024-detecting.md": {
+	id: "uludogan-etal-2024-detecting.md";
+  slug: "uludogan-etal-2024-detecting";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
 } & { render(): Render[".md"] };
-"uludoan2024_overview_o.md": {
-	id: "uludoan2024_overview_o.md";
-  slug: "uludoan2024_overview_o";
+"uludogan-etal-2024-overview.md": {
+	id: "uludogan-etal-2024-overview.md";
+  slug: "uludogan-etal-2024-overview";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
 } & { render(): Render[".md"] };
-"uludoan2024_turna_a_tu.md": {
-	id: "uludoan2024_turna_a_tu.md";
-  slug: "uludoan2024_turna_a_tu";
+"uludogan2026_puffin_pro.md": {
+	id: "uludogan2026_puffin_pro.md";
+  slug: "uludogan2026_puffin_pro";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
@@ -1644,6 +1679,13 @@ declare module 'astro:content' {
 "uludoganturna2024.md": {
 	id: "uludoganturna2024.md";
   slug: "uludoganturna2024";
+  body: string;
+  collection: "papers";
+  data: InferEntrySchema<"papers">
+} & { render(): Render[".md"] };
+"unlu-menevse-etal-2024-dealing.md": {
+	id: "unlu-menevse-etal-2024-dealing.md";
+  slug: "unlu-menevse-etal-2024-dealing";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">
@@ -1721,6 +1763,13 @@ declare module 'astro:content' {
 "villegas2015_general_ov.md": {
 	id: "villegas2015_general_ov.md";
   slug: "villegas2015_general_ov";
+  body: string;
+  collection: "papers";
+  data: InferEntrySchema<"papers">
+} & { render(): Render[".md"] };
+"yagci2025_automatic_labeling.md": {
+	id: "yagci2025_automatic_labeling.md";
+  slug: "yagci2025_automatic_labeling";
   body: string;
   collection: "papers";
   data: InferEntrySchema<"papers">

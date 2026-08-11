@@ -7,9 +7,9 @@ abstract: ""
 featured: false
 bibtex: |
   @article{Büyüköz2020_analyzing_,
-    author = {Berfu Büyüköz and Ali Hürriyetoğlu and Arzucan Özgür},
-    title = {Analyzing ELMo and DistilBERT on socio-political news classification},
-    year = {2020},
-    pages = {9-18}
+  author = {Berfu Büyüköz and Ali Hürriyetoğlu and Arzucan Özgür},
+  title = {Analyzing ELMo and DistilBERT on socio-political news classification},
+  year = {2020},
+  pages = {9-18}
   }
 ---

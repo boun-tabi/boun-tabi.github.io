@@ -149,12 +149,6 @@ year = {2022},
 pages = {4659-4666}
 }
 
-@article{Suyunu2025_evobpe_evo,
-author = {Burak Suyunu and Özdeniz Dolu and Arzucan Özgür},
-title = {evobpe: Evolutionary protein sequence tokenization},
-journal = {arXiv preprint arXiv:2503.08838},
-year = {2025}
-}
 
 @article{Barsbey2023_a_computat,
 author = {Melih Barsbey and Rıza Özçelik and Alperen Bağ and Berk Atil and Arzucan Özgür and Elif Ozkirimli},
@@ -191,10 +185,12 @@ journal = {Akademik Bilişim},
 year = {2013}
 }
 
-@article{Seker2025_hatecat_tr,
-author = {Hasan Kerem Seker and Gökçe Uludogan and Pelin Önal and Arzucan Özgür},
-title = {HATECAT-TR: A Hate Speech Span Detection and Categorization Dataset for Turkish},
-year = {2025}
+@inproceedings{seker2025hatecat,
+  title={HATECAT-TR: A Hate Speech Span Detection and Categorization Dataset for Turkish.},
+  author={Seker, Hasan Kerem and Uludogan, G{\"o}k{\c{c}}e and {\"O}nal, Pelin and {\"O}zg{\"u}r, Arzucan},
+  booktitle={EMNLP (Findings)},
+  pages={25568--25579},
+  year={2025}
 }
 
 @article{Şimşek2025_gnnmutatio,
@@ -217,26 +213,39 @@ pages = {2025.04. 07.647599},
 publisher = {Cold Spring Harbor Laboratory}
 }
 
-@article{Menevse2025_the_bu_mef,
-author = {Merve Unlu Menevse and Ebru Arisoy and Arzucan Ozgur},
-title = {The BU-MEF System for the Speak & Improve Challenge 2025: Spoken Language Assessment Using Speech and Textual Representations},
-year = {2025},
-pages = {143-147}
+@inproceedings{Menevse2025_the_bu_mef,
+  author = {Menevse, Merve Unlu and Arisoy, Ebru and Ozgur, Arzucan},
+  title = {The BU-MEF System for the Speak & Improve Challenge 2025: Spoken Language Assessment Using Speech and Textual Representations},
+  booktitle = {Proceedings of the 10th Workshop on Speech and Language Technology in Education (SLaTE)},
+  pages = {143--147},
+  year = {2025},
+  doi = {10.21437/SLaTE.2025-29}
 }
 
-@article{Arisoy2025_evaluating,
-author = {Ebru Arisoy and Merve Unlu Menevse and Yusufcan Manav and Arzucan Ozgur},
-title = {Evaluating Large Language Models in Data Generation for Low-Resource Scenarios: A Case Study on Question Answering},
-year = {2025},
-pages = {1773-1777}
+@inproceedings{arisoy25_interspeech,
+  title = {Evaluating Large Language Models in Data Generation for Low-Resource Scenarios: A Case Study on Question Answering},
+  author = {Ebru Arisoy and Merve {Unlu Menevse} and Yusufcan Manav and Arzucan Ozgur},
+  year = {2025},
+  booktitle = {Interspeech 2025},
+  pages = {1773--1777},
+  doi = {10.21437/Interspeech.2025-1965},
+  issn = {2958-1796},
+  url = {https://www.isca-archive.org/interspeech_2025/arisoy25_interspeech.html},
+  abstract = {Large Language Models (LLMs) are powerful tools for generating synthetic data, offering a promising solution to data scarcity in low-resource scenarios. This study evaluates the effectiveness of LLMs in generating question-answer pairs to enhance the performance of question answering (QA) models trained with limited annotated data. While synthetic data generation has been widely explored for text-based QA, its impact on spoken QA remains underexplored. We specifically investigate the role of LLM-generated data in improving spoken QA models, showing performance gains across both text-based and spoken QA tasks. Experimental results on subsets of the SQuAD, Spoken SQuAD, and a Turkish spoken QA dataset demonstrate significant relative F1 score improvements of 7.8{\%}, 7.0{\%}, and 2.7{\%}, respectively, over models trained solely on restricted human-annotated data. Furthermore, our findings highlight the robustness of LLM-generated data in spoken QA settings, even in the presence of noise.}
 }
 
-@article{Arısoy2024_dealing_wi,
-author = {Ebru Arısoy and Arzucan Özgür and Merve Ünlü Menevşe and Yusufcan Manav},
-title = {Dealing With Data Scarcity in Spoken Question Answering},
-journal = {2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation, LREC-COLING 2024-Main Conference Proceedings--Joint 30th International Conference on Computational Linguistics and 14th International Conference on Language Resources and Evaluation, LREC-COLING 2024--20 May 2024 through 25 May 2024--Hybrid, Torino--199620},
-year = {2024},
-publisher = {European Language Resources Association (ELRA)}
+@inproceedings{unlu-menevse-etal-2024-dealing,
+  title = {Dealing with Data Scarcity in Spoken Question Answering},
+  author = {{\"U}nl{\"u} Menev{\c{s}}e, Merve and Manav, Yusufcan and Arisoy, Ebru and {\"O}zg{\"u}r, Arzucan},
+  editor = {Calzolari, Nicoletta and Kan, Min-Yen and Hoste, Veronique and Lenci, Alessandro and Sakti, Sakriani and Xue, Nianwen},
+  booktitle = {Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)},
+  month = {may},
+  year = {2024},
+  address = {Torino, Italia},
+  publisher = {ELRA and ICCL},
+  url = {https://aclanthology.org/2024.lrec-main.397/},
+  pages = {4449--4455},
+  abstract = {This paper focuses on dealing with data scarcity in spoken question answering (QA) using automatic question-answer generation and a carefully selected fine-tuning strategy that leverages limited annotated data (paragraphs and question-answer pairs). Spoken QA is a challenging task due to using spoken documents, i.e., erroneous automatic speech recognition (ASR) transcriptions, and the scarcity of spoken QA data. We propose a framework for utilizing limited annotated data effectively to improve spoken QA performance. To deal with data scarcity, we train a question-answer generation model with annotated data and then produce large amounts of question-answer pairs from unannotated data (paragraphs). Our experiments demonstrate that incorporating limited annotated data and the automatically generated data through a carefully selected fine-tuning strategy leads to 5.5{\%} relative F1 gain over the model trained only with annotated data. Moreover, the proposed framework is also effective in high ASR errors.}
 }
 
 @article{Huang2021_pidna_at_b,
@@ -264,4 +273,120 @@ year = {2012}
 author = {Inanç Arın and Zeynep Isık and Seçilay Kutal and Somaiyeh Dehghan and Arzucan Özgür and Berrin Yanıkoglu},
 title = {SIU2023-NST-Nefret Söylemi Tespit Yarısması SIU2023-NST-Hate Speech Detection Contest},
 year = {None}
+}
+@article{Oncu2025_alteration,
+  author = {Atacan Deniz Oncu and Arzucan Ozgur and Kutlu O Ulgen},
+  title = {Alterations in Gut Microbiota–Brain Axis in Major Depressive Disorder as Identified by Machine Learning},
+  journal = {OMICS: A Journal of Integrative Biology},
+  year = {2025},
+  volume = {29},
+  number = {7},
+  pages = {309-319},
+  publisher = {SAGE Publications},
+  url = {https://journals.sagepub.com/doi/abs/10.1089/omi.2025.0084}
+}
+
+@article{Zheng2025_vo_the_vac,
+  author = {Jie Zheng and Asiyah Yu Lin and Anthony Huffman and Anna Maria Masci and Rebecca Racz and Guanming Wu and Kallan Roan and Edison Ong and Sirarat Sarntivijai and Joy Hu and Eliyas Asfaw and Hayleigh Kahn and Xingxian Li and Xumeng Zhang and Nilufer Kosar and Jianfu Li and Warren Manuel and Rashmie Abeysinghe and Hasin Rehana and Benu Bansal and Yuanyi Pan and Jinjing Guo and Virginia He and Justin Song and Andrey I Seleznev and Katelyn Hur and Anna He and Alexander Davydov and Qi Yang and Randi Vita and Bjoern Peters and Alan Ruttenberg and Alexander D Diehl and Charles Tapley Hoyt and Paola Roncaglia and Rachael P Huntley and Richard H Scheuermann and Melanie Courtot and Thomas Todd and Samantha Sayers and Fang Chen and Xinna Li and Feng-Yu Yeh and Zuoshuang Xiang and Arzucan Ozgur and Patricia L Whetzel and Mark A Musen and Christopher J Mungall and Wolfgang W Leitner and Licong Cui and Lesley A Colby and Harry LT Mobley and Brian D Athey and Gilbert S Omenn and Lindsay G Cowell and Cui Tao and Junguk Hur and Barry Smith and Yongqun He},
+  title = {VO: The Vaccine Ontology},
+  journal = {bioRxiv},
+  year = {2025}
+}
+
+@article{Suyunu2025_puma_disco,
+  author = {Burak Suyunu and Özdeniz Dolu and Ibukunoluwa Abigail Olaosebikan and Hacer Karatas Bristow and Arzucan Özgür},
+  title = {PUMA: Discovery of Protein Units via Mutation-Aware Merging},
+  journal = {arXiv preprint arXiv:2503.08838},
+  year = {2025},
+  url = {https://arxiv.org/abs/2503.08838}
+}
+
+@article{Rehana2025_cancer_vac,
+  author = {Hasin Rehana and Jie Zheng and Leo Yeh and Benu Bansal and Nur Bengisu Çam and Christianah Jemiyo and Brett McGregor and Arzucan Özgür and Yongqun He and Junguk Hur},
+  title = {Cancer Vaccine Adjuvant Name Recognition from Biomedical Literature using Large Language Models},
+  journal = {ArXiv},
+  year = {2025},
+  pages = {arXiv: 2502.09659 v1},
+  url = {https://pmc.ncbi.nlm.nih.gov/articles/PMC11975310/}
+}
+
+@article{Yagci2025_automatic_labeling,
+  author = {Hasan Ersan Yağcı and Aygül Dikmen and Cansu Gürel and Ömer Burak Akgün and Ilgın Şafak and Nailcan Kara and Özge Özcan Metinkaya and Arzucan Özgür},
+  title = {Automatic Labeling of Bank Transfer Categories Using a Hybrid Retrieval Augmented Generation Architecture},
+  journal = {2025 IEEE International Conference on Big Data (BigData)},
+  year = {2025},
+  pages = {7246-7252},
+  publisher = {IEEE},
+  url = {https://ieeexplore.ieee.org/abstract/document/11401843/}
+}
+
+@article{Akca2026_star_go_im,
+  author = {Mehmet Efe Akca and Gökçe Uludoğan and Arzucan Özgür and İnci M Baytaş},
+  title = {STAR-GO: Improving Protein Function Prediction by Learning to Hierarchically Integrate Ontology-Informed Semantic Embeddings},
+  journal = {Bioinformatics},
+  year = {2026},
+  pages = {btag146},
+  publisher = {Oxford University Press}
+}
+
+@article{Uludogan2026_puffin_pro,
+  author = {Gökçe Uludoğan and Buse Giledereli and Elif Ozkirimli and Arzucan Özgür},
+  title = {PUFFIN: protein unit discovery with functional supervision},
+  journal = {Bioinformatics},
+  year = {2026},
+  volume = {42},
+  number = {Supplement_1},
+  pages = {btag265},
+  publisher = {Oxford University Press},
+  url = {https://academic.oup.com/bioinformatics/article-abstract/42/Supplement_1/btag265/8726308}
+}
+
+@article{Koban2026_congen_tar,
+  author = {Can Koban and Gökçe Uludoğan and Elif Ozkirimli and Arzucan Özgür},
+  title = {ConGen: Targeted Molecule Generation Through Contrastive Learning and Latent Optimization},
+  journal = {Molecular Informatics},
+  year = {2026},
+  volume = {45},
+  number = {5},
+  pages = {e70038},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/minf.70038}
+}
+
+@article{Rehana2026_leveraging,
+  author = {Hasin Rehana and Jie Zheng and Feng-Yu Yeh and Benu Bansal and Nur Bengisu Çam and Christianah Jemiyo and Brett McGregor and Arzucan Özgür and Yongqun He and Junguk Hur},
+  title = {Leveraging Large Language Models for Cancer Vaccine Adjuvant Name Extraction from Biomedical Literature},
+  journal = {AMIA Annual Symposium Proceedings},
+  year = {2026},
+  volume = {2025},
+  pages = {1071},
+  url = {https://pmc.ncbi.nlm.nih.gov/articles/PMC12919462/}
+}
+@inproceedings{uludogan-etal-2024-overview,
+  title = {Overview of the Hate Speech Detection in {T}urkish and {A}rabic Tweets ({HSD}-2{L}ang) Shared Task at {CASE} 2024},
+  author = {Uludo{\u{g}}an, G{\"o}k{\c{c}}e and Dehghan, Somaiyeh and Arin, Inanc and Erol, Elif and Yanikoglu, Berrin and {\"O}zg{\"u}r, Arzucan},
+  editor = {H{\"u}rriyeto{\u{g}}lu, Ali and Tanev, Hristo and Thapa, Surendrabikram and Uludo{\u{g}}an, G{\"o}k{\c{c}}e},
+  booktitle = {Proceedings of the 7th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE 2024)},
+  month = {mar},
+  year = {2024},
+  address = {St. Julians, Malta},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2024.case-1.32/},
+  doi = {10.18653/v1/2024.case-1.32},
+  pages = {229--233},
+  abstract = {This paper offers an overview of Hate Speech Detection in Turkish and Arabic Tweets (HSD-2Lang) Shared Task at CASE workshop to be held jointly with EACL 2024. The task was divided into two subtasks: Subtask A, targeting hate speech detection in various Turkish contexts, and Subtask B, addressing hate speech detection in Arabic with limited data. The shared task attracted significant attention with 33 teams that registered and 10 teams that participated in at least one task. In this paper, we provide the details of the tasks and the approaches adopted by the participant along with an analysis of the results obtained from this shared task.}
+}
+
+@inproceedings{uludogan-etal-2024-detecting,
+  title = {Detecting Hate Speech in {T}urkish Print Media: A Corpus and A Hybrid Approach with Target-oriented Linguistic Knowledge},
+  author = {Uludo{\u{g}}an, G{\"o}k{\c{c}}e and Y{\"u}ksel, At{\i}f Emre and Tun{\c{c}}er, {\"U}mit and I{\c{s}}{\i}k, Burak and Korkmaz, Yasemin and Akar, Didar and {\"O}zg{\"u}r, Arzucan},
+  editor = {H{\"u}rriyeto{\u{g}}lu, Ali and Tanev, Hristo and Thapa, Surendrabikram and Uludo{\u{g}}an, G{\"o}k{\c{c}}e},
+  booktitle = {Proceedings of the 7th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE 2024)},
+  month = {mar},
+  year = {2024},
+  address = {St. Julians, Malta},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2024.case-1.29/},
+  doi = {10.18653/v1/2024.case-1.29},
+  pages = {205--214},
+  abstract = {The use of hate speech targeting ethnicity, nationalities, religious identities, and specific groups has been on the rise in the news media. However, most existing automatic hate speech detection models focus on identifying hate speech, often neglecting the target group-specific language that is common in news articles. To address this problem, we first compile a hate speech dataset, TurkishHatePrintCorpus, derived from Turkish news articles and annotate it specifically for the language related to the targeted group. We then introduce the HateTargetBERT model, which integrates the target-centric linguistic features extracted in this study into the BERT model, and demonstrate its effectiveness in detecting hate speech while allowing the model's classification decision to be explained. We have made the dataset and source code publicly available at https://github.com/boun-tabi/HateTargetBERT-TR.}
 }

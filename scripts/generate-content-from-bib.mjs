@@ -102,6 +102,10 @@ function formatAuthors(authorString) {
     
     author = author.replace(/\{\\c\{c\}\}/g, 'ç');
     author = author.replace(/\\c\{c\}/g, 'ç');
+
+    // Turkish g with breve
+    author = author.replace(/\\u\{G\}/g, 'Ğ');
+    author = author.replace(/\\u\{g\}/g, 'ğ');
     
     // Turkish dotless i and capital İ
     author = author.replace(/\{\\i\}/g, 'ı');
@@ -133,6 +137,21 @@ function extractTags(keywords) {
     .split(/[,;]\s*/)
     .map(tag => tag.trim())
     .filter(tag => tag.length > 0);
+}
+
+/**
+ * Convert simple LaTeX escapes that should be readable in generated prose.
+ */
+function formatProse(text) {
+  if (!text) return '';
+
+  return text
+    .replace(/\{\\%\}/g, '%')
+    .replace(/\\%/g, '%');
+}
+
+function formatTitle(text) {
+  return formatProse(text).replace(/[{}]/g, '');
 }
 
 /**
@@ -184,11 +203,11 @@ function generatePaperFrontmatter(entry, originalContent) {
   const tags = entry.entryTags || {};
   
   const frontmatter = {
-    title: tags.title || '',
+    title: formatTitle(tags.title || ''),
     authors: formatAuthors(tags.author || ''),
     year: parseInt(tags.year) || 0,
     venue: tags.journal || tags.booktitle || tags.publisher || '',
-    abstract: tags.abstract || '',
+    abstract: formatProse(tags.abstract || ''),
     featured: tags.featured === 'true' || tags.featured === '{true}' || false,
     tags: extractTags(tags.keywords || ''),
     bibtex: formatBibtex(entry, originalContent)

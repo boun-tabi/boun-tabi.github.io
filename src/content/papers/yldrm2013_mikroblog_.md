@@ -7,9 +7,9 @@ abstract: ""
 featured: false
 bibtex: |
   @article{Yıldırım2013_mikroblog_,
-    author = {Ahmet Yıldırım and Suzan Üsküdarlı and Arzucan Özgür},
-    title = {Mikroblog İleti Kümelerinde Konu Algılama Yönteminin İncelenmesi},
-    journal = {Akademik Bilişim},
-    year = {2013}
+  author = {Ahmet Yıldırım and Suzan Üsküdarlı and Arzucan Özgür},
+  title = {Mikroblog İleti Kümelerinde Konu Algılama Yönteminin İncelenmesi},
+  journal = {Akademik Bilişim},
+  year = {2013}
   }
 ---

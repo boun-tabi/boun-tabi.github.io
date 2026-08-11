@@ -7,8 +7,8 @@ abstract: ""
 featured: false
 bibtex: |
   @article{Ayci2023_explain_to,
-    author = {Gonul Ayci and Pinar Yolum and Arzucan Özgür and Murat Sensoy},
-    title = {Explain to Me: Towards Understanding Privacy Decisions.},
-    year = {2023}
+  author = {Gonul Ayci and Pinar Yolum and Arzucan Özgür and Murat Sensoy},
+  title = {Explain to Me: Towards Understanding Privacy Decisions.},
+  year = {2023}
   }
 ---

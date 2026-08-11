@@ -8,6 +8,7 @@ Usage:
 
 import argparse
 import re
+from typing import Optional
 from scholarly import scholarly
 
 
@@ -225,7 +226,12 @@ def make_bibtex(pub_full: dict, idx: int, pub: dict) -> tuple[str, bool, list[st
     return bibtex_str, is_valid, reasons
 
 
-def export_bibtex(scholar_id: str, out_path: str) -> None:
+def export_bibtex(
+    scholar_id: str,
+    out_path: str,
+    year_from: Optional[int] = None,
+    year_to: Optional[int] = None,
+) -> None:
     author = scholarly.search_author_id(scholar_id)
     # Limit fill to publications + bib for speed and completeness
     author = scholarly.fill(author, sections=["publications"])
@@ -234,6 +240,31 @@ def export_bibtex(scholar_id: str, out_path: str) -> None:
     if not pubs:
         print("No publications found on this profile.")
         return
+
+    if year_from is not None or year_to is not None:
+        filtered_pubs = []
+        for pub in pubs:
+            raw_year = first_nonempty(
+                pub.get("bib", {}).get("pub_year") if pub.get("bib") else None,
+                pub.get("bib", {}).get("year") if pub.get("bib") else None,
+                pub.get("pub_year"),
+                pub.get("year"),
+            )
+            try:
+                year = int(raw_year)
+            except (TypeError, ValueError):
+                continue
+            if year_from is not None and year < year_from:
+                continue
+            if year_to is not None and year > year_to:
+                continue
+            filtered_pubs.append(pub)
+
+        pubs = filtered_pubs
+        print(
+            f"Selected {len(pubs)} publication(s) in year range "
+            f"{year_from or '*'}-{year_to or '*'}"
+        )
 
     with open(out_path, "w", encoding="utf-8") as f:
         for i, pub in enumerate(pubs, start=1):
@@ -282,8 +313,25 @@ def main():
         default="scholar_pubs.bib",
         help="Output .bib file (default: scholar_pubs.bib)",
     )
+    parser.add_argument(
+        "--year-from",
+        type=int,
+        help="Only export publications from this year onward.",
+    )
+    parser.add_argument(
+        "--year-to",
+        type=int,
+        help="Only export publications up to this year.",
+    )
     args = parser.parse_args()
-    export_bibtex(args.scholar_id, args.out)
+    if args.year_from and args.year_to and args.year_from > args.year_to:
+        parser.error("--year-from must not be later than --year-to")
+    export_bibtex(
+        args.scholar_id,
+        args.out,
+        year_from=args.year_from,
+        year_to=args.year_to,
+    )
 
 
 if __name__ == "__main__":

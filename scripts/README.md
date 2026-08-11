@@ -14,7 +14,7 @@ npm run generate:content
 
 ### What it does
 
-1. Recursively scans the `data/` directory for `.bib` files
+1. Recursively scans the `data/bib/` directory for `.bib` files
 2. Parses BibTeX entries using the `bibtex-parse-js` library
 3. Generates/updates Markdown files in `src/content/papers/` with proper frontmatter
 4. Converts LaTeX special characters to Unicode (especially Turkish characters)
@@ -54,7 +54,7 @@ npm run generate:content
 
 ### Example
 
-**Input** (`data/publications.bib`):
+**Input** (`data/bib/publications.bib`):
 ```bibtex
 @article{example2024,
   title={Example Paper},
@@ -82,6 +82,23 @@ bibtex: |
   }
 ---
 ```
+
+## export_scholar_bibtex.py
+
+Exports publications from a Google Scholar profile. Restrict refreshes to a
+year range to avoid filling every publication in a large profile:
+
+```bash
+python scripts/export_scholar_bibtex.py \
+  --scholar-id 8Kn4-EsAAAAJ \
+  --year-from 2025 \
+  --year-to 2026 \
+  --out /tmp/arzucan-ozgur-2025-2026.bib
+```
+
+The script comments out records that fail its metadata validation. Review and
+clean those records before merging them into `data/bib/*.bib`, then run
+`npm run generate:content` to update the site pages.
 
 ### Error Handling
 

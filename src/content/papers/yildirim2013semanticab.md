@@ -1,5 +1,5 @@
 ---
-title: "M{\\\"u}nazaralar{\\i}n Twitter'da Etkisinin Ara\\c{s}t{\\i}r{\\i}lmas{\\i}"
+title: "M\\\"unazaralar\\in Twitter'da Etkisinin Ara\\cst\\ir\\ilmas\\i"
 authors: "Ahmet Yıldırım, Suzan Uskudarli"
 venue: "Akademik Bili\\c{s}im 2013"
 year: 2013

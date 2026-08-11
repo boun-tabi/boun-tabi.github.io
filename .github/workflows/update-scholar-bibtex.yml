@@ -34,12 +34,12 @@ jobs:
       - name: Load scholar IDs from JSON and generate .bib files
         id: generate
         run: |
-          echo "Reading data/googlescholar.json"
-          cat data/googlescholar.json
+          echo "Reading data/google_scholar.json"
+          cat data/google_scholar.json
           echo
 
           # Read JSON → loop over keys and values using jq
-          for row in $(jq -r 'to_entries[] | @base64' data/googlescholar.json); do
+          for row in $(jq -r 'to_entries[] | @base64' data/google_scholar.json); do
             _jq() { echo "${row}" | base64 --decode | jq -r "${1}"; }
 
             key=$(_jq '.key')
