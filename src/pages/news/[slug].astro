@@ -21,6 +21,17 @@ function formatDate(date) {
   return format(new Date(date), 'MMMM d, yyyy');
 }
 
+// Resolve local images correctly when the site is deployed under a base path.
+function getImagePath(path: string) {
+  if (path.startsWith('http')) return path;
+  if (path.startsWith('/')) {
+    return import.meta.env.BASE_URL + path.substring(1);
+  }
+  return path;
+}
+
+const placeholderImage = import.meta.env.BASE_URL + 'images/placeholder.jpg';
+
 // Render the markdown content
 const content = marked.parse(entry.body);
 ---
@@ -36,10 +47,10 @@ const content = marked.parse(entry.body);
         <div class="mb-8">
           {entry.data.image && (
             <img 
-              src={entry.data.image} 
+              src={getImagePath(entry.data.image)}
               alt={entry.data.title}
               class="w-full h-auto rounded-lg shadow-md mb-6"
-              onerror="this.src='/boun-tabi-dev/images/placeholder.jpg'"
+              onerror={`this.src='${placeholderImage}'; this.onerror=null;`}
             />
           )}
           
@@ -61,4 +72,4 @@ const content = marked.parse(entry.body);
       </article>
     </div>
   </div>
-</MainLayout> 
+</MainLayout>
